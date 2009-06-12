@@ -12,7 +12,6 @@ usr/lib/xscreensaver/cubenetic
 usr/lib/xscreensaver/dangerball
 usr/lib/xscreensaver/extrusion
 usr/lib/xscreensaver/fliptext
-usr/lib/xscreensaver/glforestfire
 usr/lib/xscreensaver/glhanoi
 usr/lib/xscreensaver/glplanet
 usr/lib/xscreensaver/juggler3d
@@ -43,7 +42,6 @@ usr/share/man/man6/cubenetic.6x
 usr/share/man/man6/dangerball.6x
 usr/share/man/man6/extrusion.6x
 usr/share/man/man6/fliptext.6x
-usr/share/man/man6/glforestfire.6x
 usr/share/man/man6/glhanoi.6x
 usr/share/man/man6/glplanet.6x
 usr/share/man/man6/juggler3d.6x
@@ -74,7 +72,6 @@ usr/share/xscreensaver/config/cubenetic.xml
 usr/share/xscreensaver/config/dangerball.xml
 usr/share/xscreensaver/config/extrusion.xml
 usr/share/xscreensaver/config/fliptext.xml
-usr/share/xscreensaver/config/glforestfire.xml
 usr/share/xscreensaver/config/glhanoi.xml
 usr/share/xscreensaver/config/glplanet.xml
 usr/share/xscreensaver/config/juggler3d.xml
@@ -105,7 +102,6 @@ usr/share/applications/screensavers/cubenetic.desktop
 usr/share/applications/screensavers/dangerball.desktop
 usr/share/applications/screensavers/extrusion.desktop
 usr/share/applications/screensavers/fliptext.desktop
-usr/share/applications/screensavers/glforestfire.desktop
 usr/share/applications/screensavers/glhanoi.desktop
 usr/share/applications/screensavers/glplanet.desktop
 usr/share/applications/screensavers/juggler3d.desktop

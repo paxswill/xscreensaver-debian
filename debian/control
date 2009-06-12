@@ -65,18 +65,18 @@ Description: data files to be shared among screensaver frontends
  .
  This is the set of non-GL screensavers not shipped by default:
  ant, anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
- blitspin, bouboule, boxfit, braid, bsod, bubbles, bumps, ccurve, celtic,
- cloudlife, compass, coral, critical, crystal, cynosure, decayscreen,
+ blitspin, bouboule, boxfit, braid, bsod, bumps, ccurve, celtic,
+ cloudlife, compass, coral, crystal, cynosure, decayscreen,
  deluxe, demon, discrete, drift, epicycle, eruption, euler2d, fadeplot,
- fireworkx, flag, flame, flow, fluidballs, fontglide, forest, goop, 
+ fireworkx, flame, flow, fluidballs, fontglide, goop,
  grav, greynetic, halftone, halo, helix, hopalong, hyperball,
- hypercube, ifs, imsmap, interaggregate, interference, intermomentary, jigsqw, 
- juggle, julia, memscroller, mismunch, moire, moire2, mountain, munch, 
- nerverot, noseguy, pacman, pedal, penetrate, petry, phosphor, piecewise, 
- polyominoes, pong, pyro, qiz, rd-bomb, rocks, rorschach, rotor, rotzoomer, 
- sierpinski, slip, speedmine, sphere, spiral, spotlight, squiral, starfish, 
- strange, substrate, t3d, thornbird, triangle, truchet, twang, vermiculate, 
- vidwhacker, vines, wander, webcollage, whirlwindwarp, whirlygig, worm, 
+ hypercube, ifs, imsmap, interaggregate, interference, intermomentary, jigsqw,
+ juggle, julia, memscroller, mismunch, moire, moire2, mountain, munch,
+ nerverot, noseguy, pacman, pedal, penetrate, petry, phosphor, piecewise,
+ polyominoes, pong, pyro, qiz, rd-bomb, rocks, rorschach, rotzoomer,
+ sierpinski, slip, speedmine, spotlight, squiral, starfish,
+ strange, substrate, thornbird, triangle, truchet, twang, vermiculate,
+ vidwhacker, wander, webcollage, whirlwindwarp,
  wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm, xspirograph, zoom.
  .
  WARNING: This package includes the 'webcollage' screen saver, which
@@ -131,7 +131,7 @@ Description: GL(Mesa) screen hacks for xscreensaver
  This is the set of GL screensavers not shipped by default with
  xscreensaver-gl: antmaze, atlantis, blocktube, boing, bouncingcow, boxed,
  cage, carousel, crackberg, cube21, cubenetic, dangerball, extrusion,
- fliptext, glforestfire, glhanoi, glplanet, juggler3d, klein, lament, menger,
+ fliptext, glhanoi, glplanet, juggler3d, klein, lament, menger,
  noof, pinion, providence, rubik, sballs, sproingies, staris, starwars,
  tangram, timetunnel.
  .

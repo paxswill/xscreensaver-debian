@@ -7,6 +7,10 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
   * drop 12_hacks_Makefile.in-typo.patch (applied upstream)
   * drop two unused patches (52_ and 60_)
   * fix location of Norwegian Bokmål locale (no -> nb)
+  * do not ship (removed upstream):
+      bubbles, critical, flag, forest, glforestfire, lmorph, laser,
+      lightning, lisa, lissie, rotor, sphere, spiral, t3d, vines,
+      whirlygig, worm, mismunch
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 13 Jun 2009 00:23:53 +0200
 
