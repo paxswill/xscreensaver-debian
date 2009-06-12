@@ -1,7 +1,7 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2008-08-20 18:31:19.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2008-08-20 18:34:04.000000000 +0200
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2009-06-13 00:58:51.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2009-06-13 00:59:17.000000000 +0200
 @@ -56,11 +56,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
@@ -16,7 +16,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !*textURL:		http://twitter.com/statuses/public_timeline.atom
  
  *overlayTextForeground:	#FFFF00
-@@ -93,9 +93,13 @@
+@@ -94,9 +94,13 @@
  !
  !   Gnome 2.4, 2.6: (yelp can't display man pages, as of 2.6.3)
  !
@@ -33,7 +33,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !
  !   Gnome 2.2:
  !
-@@ -110,14 +114,19 @@
+@@ -111,14 +115,19 @@
  !
  !   non-Gnome systems:
  !
@@ -57,7 +57,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  ! To show the time only:
  ! *dateFormat:		%I:%M %p
  ! For 24 hour time:
-@@ -128,7 +137,9 @@
+@@ -129,7 +138,9 @@
  ! (That button does not appear on the dialog if this program does not exist.)
  ! For Gnome: probably "gdmflexiserver -ls".  KDE, probably "kdmctl reserve".
  !
@@ -68,7 +68,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  ! Turning on "installColormap" on 8-bit systems interacts erratically with
-@@ -262,7 +273,6 @@
+@@ -248,7 +259,6 @@
  				xspirograph -root			    \n\
  @GL_KLUDGE@ GL: 				circuit -root				    \n\
  @GL_KLUDGE@ GL: 				dangerball -root			    \n\
@@ -76,15 +76,15 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  @GL_KLUDGE@ GL: 				engine -root				    \n\
  @GL_KLUDGE@ GL: 				flipscreen3d -root			    \n\
  @GL_KLUDGE@ GL: 				gltext -root				    \n\
-@@ -283,7 +293,6 @@
+@@ -268,7 +278,6 @@
  @GL_KLUDGE@ GL: 				endgame -root				    \n\
  				euler2d -root				    \n\
  				fluidballs -root			    \n\
 -@GL_KLUDGE@ GL: 				flurry -root				    \n\
  - GL: 				glblur -root				    \n\
- - GL: 				glforestfire -root			    \n\
  @GL_KLUDGE@ GL: 				glsnake -root				    \n\
-@@ -414,10 +423,11 @@
+ 				halftone -root				    \n\
+@@ -398,10 +407,11 @@
  *Dialog.shadowThickness:	2
  
  *passwd.heading.label:		XScreenSaver %s
