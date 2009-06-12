@@ -1,8 +1,12 @@
 xscreensaver (5.08-1) UNRELEASED; urgency=low
 
+  [ Jose Luis Rivas ]
   * New Upstream Version
 
- -- Jose Luis Rivas <ghostbar38@gmail.com>  Tue, 03 Feb 2009 15:32:02 -0430
+  [ Tormod Volden ]
+  * drop 12_hacks_Makefile.in-typo.patch (applied upstream)
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sat, 13 Jun 2009 00:23:53 +0200
 
 xscreensaver (5.07-1) unstable; urgency=low
 
