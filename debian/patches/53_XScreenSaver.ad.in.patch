@@ -1,9 +1,3 @@
-# This patch does not apply cleanly any longer.
-# Some changes are deliberate changes, but much of the diff
-# is just due to being out of sync with the original at one point.
-# Most essential changes are included in the 53_ patch instead
-# so we might throw away this file one day.
-
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
 --- xscreensaver.orig/driver/XScreenSaver.ad.in	2008-08-20 18:31:19.000000000 +0200
