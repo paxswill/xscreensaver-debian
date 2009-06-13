@@ -1,0 +1,26 @@
+Index: xscreensaver/hacks/Makefile.in
+===================================================================
+--- xscreensaver.orig/hacks/Makefile.in	2009-06-13 03:51:36.000000000 +0200
++++ xscreensaver/hacks/Makefile.in	2009-06-13 04:08:20.000000000 +0200
+@@ -254,7 +254,7 @@
+ 
+ 
+ default: all
+-all: $(EXES) $(RETIRED_EXES)
++all: $(EXES)
+ 
+ install:   install-program   install-scripts install-xml install-man
+ uninstall: uninstall-program uninstall-xml uninstall-man
+Index: xscreensaver/hacks/glx/Makefile.in
+===================================================================
+--- xscreensaver.orig/hacks/glx/Makefile.in	2009-06-13 04:08:38.000000000 +0200
++++ xscreensaver/hacks/glx/Makefile.in	2009-06-13 04:09:06.000000000 +0200
+@@ -217,7 +217,7 @@
+ 
+ 
+ default: all
+-all: $(EXES) $(RETIRED_EXES)
++all: $(EXES)
+ 
+ install:   install-program    install-xml   install-man
+ uninstall: uninstall-program  uninstall-xml uninstall-man
