@@ -19,6 +19,7 @@ usr/lib/xscreensaver/klein
 usr/lib/xscreensaver/lament
 usr/lib/xscreensaver/menger
 usr/lib/xscreensaver/noof
+usr/lib/xscreensaver/photopile
 usr/lib/xscreensaver/pinion
 usr/lib/xscreensaver/providence
 usr/lib/xscreensaver/rubik
@@ -49,6 +50,7 @@ usr/share/man/man6/klein.6x
 usr/share/man/man6/lament.6x
 usr/share/man/man6/menger.6x
 usr/share/man/man6/noof.6x
+usr/share/man/man6/photopile.6x
 usr/share/man/man6/pinion.6x
 usr/share/man/man6/providence.6x
 usr/share/man/man6/rubik.6x
@@ -79,6 +81,7 @@ usr/share/xscreensaver/config/klein.xml
 usr/share/xscreensaver/config/lament.xml
 usr/share/xscreensaver/config/menger.xml
 usr/share/xscreensaver/config/noof.xml
+usr/share/xscreensaver/config/photopile.xml
 usr/share/xscreensaver/config/pinion.xml
 usr/share/xscreensaver/config/providence.xml
 usr/share/xscreensaver/config/rubik.xml
@@ -109,6 +112,7 @@ usr/share/applications/screensavers/klein.desktop
 usr/share/applications/screensavers/lament.desktop
 usr/share/applications/screensavers/menger.desktop
 usr/share/applications/screensavers/noof.desktop
+usr/share/applications/screensavers/photopile.desktop
 usr/share/applications/screensavers/pinion.desktop
 usr/share/applications/screensavers/providence.desktop
 usr/share/applications/screensavers/rubik.desktop
