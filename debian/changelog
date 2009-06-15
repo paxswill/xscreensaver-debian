@@ -2,6 +2,7 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
 
   [ Jose Luis Rivas ]
   * New Upstream Version
+  * debian/copyright: major update
 
   [ Tormod Volden ]
   * ship the new "photopile" hack
