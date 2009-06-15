@@ -16,6 +16,7 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
     hacks/glx/Makefile.in so that retired hacks are not built
   * debian/control: update FSF address
   * update to standards version 3.8.1 and debhelper compat 7
+  * fix typo in package description (Closes: #504424)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 13 Jun 2009 00:23:53 +0200
 

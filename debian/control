@@ -46,7 +46,7 @@ Description: data files to be shared among screensaver frontends
  deco, distort, fiberlamp, fuzzyflakes, galaxy, metaballs, penrose, 
  ripples, shadebobs, slidescreen, sonar, swirl.
  .
- Mode display modes can be found in xscreensaver-data-extra, xscreensaver-gl
+ More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
  and xscreensaver-gl-extra packages.
 
 Package: xscreensaver-data-extra
@@ -111,7 +111,7 @@ Description: GL(Mesa) screen hacks for xscreensaver
  superquadrics, topblock, voronoi.
  More GL screensavers can be found in the xscreensaver-gl-extra package.
  .
- Mode display modes can be found in the xscreensaver-data,
+ More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
 
 Package: xscreensaver-gl-extra
