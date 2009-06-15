@@ -14,6 +14,7 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
       whirlygig, worm, mismunch
   * 10_upstream_skip_retired_hacks.patch: fix hacks/Makefile.in and
     hacks/glx/Makefile.in so that retired hacks are not built
+  * debian/control: update FSF address
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 13 Jun 2009 00:23:53 +0200
 
