@@ -43,8 +43,8 @@ Description: data files to be shared among screensaver frontends
  is used by both xscreensaver and gnome-screensaver.
  .
  This is the selected set of non-GL screensavers shipped by default:
- deco, distort, fiberlamp, fuzzyflakes, galaxy, metaballs, penrose, 
- ripples, shadebobs, slidescreen, sonar, swirl.
+ abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy, m6502,
+ metaballs, penrose, ripples, shadebobs, slidescreen, sonar, swirl, xlyap.
  .
  More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
  and xscreensaver-gl-extra packages.
