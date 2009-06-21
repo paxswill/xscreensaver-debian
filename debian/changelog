@@ -21,6 +21,8 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
   * add missing hacks to package description (Closes: #481749)
   * debian/control: Breaks gnome-screensaver < 2.26 since we are
     using full paths in the desktop files
+  * split debian/patches/20_hacks_Makefile.patch into new
+    20_hacks_man_section.patch and 20_hacks_maze_xpm_libs.patch
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 13 Jun 2009 00:23:53 +0200
 

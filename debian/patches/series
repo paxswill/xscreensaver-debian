@@ -1,5 +1,6 @@
 10_upstream_skip_retired_hacks.patch
-20_hacks_Makefile.patch
+20_hacks_man_section.patch
+20_hacks_maze_xpm_libs.patch
 21_driver_xscreensaver-getimage-video
 22_hacks_barcode.patch
 23_hacks_glx_glsnake.patch
