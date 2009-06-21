@@ -23,6 +23,8 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
     using full paths in the desktop files
   * split debian/patches/20_hacks_Makefile.patch into new
     20_hacks_man_section.patch and 20_hacks_maze_xpm_libs.patch
+  * debian/patches/20_skip_install-pam.patch:
+    do not run install-pam since we use dh_installpam
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 13 Jun 2009 00:23:53 +0200
 
