@@ -14,8 +14,8 @@
 
 53_XScreenSaver.ad.in.patch
 
-63_blinkbox-man.patch
-64_topblock-man.patch
-65_eruption-man.patch
-66_truchet-man.patch
-67_metaballs-man.patch
+63_upstream_blinkbox-man.patch
+64_upstream_topblock-man.patch
+65_upstream_eruption-man.patch
+66_upstream_truchet-man.patch
+67_upstream_metaballs-man.patch
