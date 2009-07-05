@@ -28,6 +28,9 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
   * 11_upstream_phosphor_segfault_win_size.patch:
     phospor hack segfaults on window resize (Closes: #505379)
 
+  [ James Vega ]
+  * debian/rules: fix sequential build invokations
+
  -- Tormod Volden <debian.tormod@gmail.com>  Mon, 29 Jun 2009 23:59:50 +0200
 
 xscreensaver (5.07-1) unstable; urgency=low
