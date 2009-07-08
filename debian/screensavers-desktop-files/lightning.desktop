@@ -1,6 +1,0 @@
-
-[Desktop Entry]
-Name=Lightning
-Exec=/usr/lib/xscreensaver/lightning -root
-TryExec=/usr/lib/xscreensaver/lightning
-Comment=Crackling fractal lightning bolts. Written by Keith Romberg.

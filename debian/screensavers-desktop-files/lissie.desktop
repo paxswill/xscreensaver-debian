@@ -1,6 +1,0 @@
-
-[Desktop Entry]
-Name=Lissie
-Exec=/usr/lib/xscreensaver/lissie -root
-TryExec=/usr/lib/xscreensaver/lissie
-Comment=Lissajous loops. This one draws the progress of circular shapes along a path. http://en.wikipedia.org/wiki/Lissajous_curve Written by Alexander Jolk.

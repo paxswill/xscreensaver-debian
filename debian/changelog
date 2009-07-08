@@ -16,7 +16,7 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
   * 10_upstream_skip_retired_hacks.patch: fix hacks/Makefile.in and
     hacks/glx/Makefile.in so that retired hacks are not built
   * debian/control: update FSF address
-  * update to standards version 3.8.1 and debhelper compat 7
+  * update to standards version 3.8.2 and debhelper compat 7
   * fix typo in package description (Closes: #504424)
   * add missing hacks to package description (Closes: #481749)
   * debian/control: Breaks gnome-screensaver < 2.26 since we are

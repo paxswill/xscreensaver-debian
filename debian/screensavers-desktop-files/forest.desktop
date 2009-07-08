@@ -1,6 +1,0 @@
-
-[Desktop Entry]
-Name=Forest
-Exec=/usr/lib/xscreensaver/forest -root
-TryExec=/usr/lib/xscreensaver/forest
-Comment=Fractal trees. Written by Peter Baumung.

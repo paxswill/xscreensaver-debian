@@ -1,6 +1,0 @@
-
-[Desktop Entry]
-Name=Spiral
-Exec=/usr/lib/xscreensaver/spiral -root
-TryExec=/usr/lib/xscreensaver/spiral
-Comment=Moving circular moire patterns. Written by Peter Schmitzberger.
