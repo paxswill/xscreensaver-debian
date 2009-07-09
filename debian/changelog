@@ -32,6 +32,8 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
   * debian/copyright: major update (not 100% yet)
   * Moved jigsaw from xscreensaver-data-extra.files to 
   xscreensaver-gl-extra.files since now is a glx hack.
+  * Screensavers that uses images now rotates according to EXIF data 
+  since this new upstream version (Closes: #314553).
 
  -- Tormod Volden <debian.tormod@gmail.com>  Mon, 29 Jun 2009 23:59:50 +0200
 
