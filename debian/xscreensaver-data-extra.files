@@ -46,7 +46,6 @@ usr/lib/xscreensaver/imsmap
 usr/lib/xscreensaver/interaggregate
 usr/lib/xscreensaver/interference
 usr/lib/xscreensaver/intermomentary
-usr/lib/xscreensaver/jigsaw
 usr/lib/xscreensaver/juggle
 usr/lib/xscreensaver/julia
 usr/lib/xscreensaver/kaleidescope
@@ -150,7 +149,6 @@ usr/share/man/man6/imsmap.6x
 usr/share/man/man6/interaggregate.6x
 usr/share/man/man6/interference.6x
 usr/share/man/man6/intermomentary.6x
-usr/share/man/man6/jigsaw.6x
 usr/share/man/man6/juggle.6x
 usr/share/man/man6/julia.6x
 usr/share/man/man6/kaleidescope.6x
@@ -254,7 +252,6 @@ usr/share/xscreensaver/config/imsmap.xml
 usr/share/xscreensaver/config/interaggregate.xml
 usr/share/xscreensaver/config/interference.xml
 usr/share/xscreensaver/config/intermomentary.xml
-usr/share/xscreensaver/config/jigsaw.xml
 usr/share/xscreensaver/config/juggle.xml
 usr/share/xscreensaver/config/julia.xml
 usr/share/xscreensaver/config/kaleidescope.xml
@@ -356,7 +353,6 @@ usr/share/applications/screensavers/imsmap.desktop
 usr/share/applications/screensavers/interaggregate.desktop
 usr/share/applications/screensavers/interference.desktop
 usr/share/applications/screensavers/intermomentary.desktop
-usr/share/applications/screensavers/jigsaw.desktop
 usr/share/applications/screensavers/juggle.desktop
 usr/share/applications/screensavers/julia.desktop
 usr/share/applications/screensavers/kaleidescope.desktop
