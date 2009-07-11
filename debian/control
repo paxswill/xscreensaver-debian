@@ -34,7 +34,7 @@ Depends: ${shlibs:Depends}
 Suggests: xscreensaver
 Conflicts: xscreensaver (<< 5.04-3), kscreensaver-xsavers (<< 4:3.5.9-1)
 Replaces: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.15.4-0ubuntu1)
-Breaks: gnome-screensaver (<< 2.26)
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: data files to be shared among screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -56,7 +56,7 @@ Depends: ${shlibs:Depends}, xscreensaver-data (>= 5.04-3), dictionaries-common, 
 Enhances: xscreensaver, gnome-screensaver
 Conflicts: xscreensaver (<< 5.04-3), kscreensaver-xsavers (<< 4:3.5.9-1)
 Replaces: xscreensaver (<< 5.04-3)
-Breaks: gnome-screensaver (<< 2.26)
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: data files to be shared among screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -95,7 +95,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: xscreensaver
 Conflicts: xscreensaver (<< 5.04-3)
-Breaks: gnome-screensaver (<< 2.26)
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: GL(Mesa) screen hacks for xscreensaver
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -123,7 +123,7 @@ Depends: ${shlibs:Depends}, xscreensaver-gl (>= 5.04-3)
 Enhances: xscreensaver, gnome-screensaver
 Conflicts: xscreensaver (<< 5.04-3)
 Replaces: xscreensaver-gl (<< 5.04-3)
-Breaks: gnome-screensaver (<< 2.26)
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: GL(Mesa) screen hacks for xscreensaver
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
