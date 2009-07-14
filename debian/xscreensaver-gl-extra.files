@@ -138,3 +138,6 @@ usr/lib/xscreensaver/jigsaw
 usr/share/man/man6/jigsaw.6x
 usr/share/xscreensaver/config/jigsaw.xml
 usr/share/applications/screensavers/jigsaw.desktop
+usr/lib/xscreensaver/flurry
+usr/share/xscreensaver/config/flurry.xml
+usr/share/applications/screensavers/flurry.desktop
