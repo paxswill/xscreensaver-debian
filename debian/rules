@@ -106,6 +106,7 @@ binary-arch:	build
 	   debian/tmp/usr/share/man/man1/xscreensaver-gl-helper.1
 	# Change man header section from 6 to 1
 	sed -i '1s/6x/1/' debian/tmp/usr/share/man/man1/xscreensaver-gl-helper.1
+	sh debian/split-hacks.sh
 	dh_movefiles -a
 	dh_install -a
 	# Lists anything that was installed but not packaged
