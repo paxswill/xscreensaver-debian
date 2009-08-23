@@ -1,6 +1,8 @@
-
+#
+# Sent upstream (jwz) 2009-08-23
 # Source: https://bugzilla.redhat.com/show_bug.cgi?id=481146
 # Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=505379
+# Author: John Sullivan
 
 Index: xscreensaver/hacks/phosphor.c
 ===================================================================
