@@ -1,0 +1,13 @@
+Index: xscreensaver/driver/mlstring.c
+===================================================================
+--- xscreensaver.orig/driver/mlstring.c	2009-08-23 22:36:18.000000000 +0200
++++ xscreensaver/driver/mlstring.c	2009-08-23 22:37:30.000000000 +0200
+@@ -153,6 +153,8 @@
+ 	  
+ 	  if (wrap_at == -1) /* No space found, hard wrap */
+ 	    wrap_at = line_length;
++	  else
++	    wrap_at++; /* Leave space at the end of the line */
+ 
+ 	  newml = calloc(1, sizeof(*newml));
+ 	  if (!newml) /* OOM, don't bother trying to wrap */

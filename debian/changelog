@@ -26,6 +26,8 @@ xscreensaver (5.08-1~pre2) unstable; urgency=low
   * debian/split-hacks.{sh,config}: configure which hacks go
     in which packages instead of manually editing *.files
     (Closes: #539937)
+  * 70_upstream_fix_local_screenlock_bypass.patch:
+    fix security issue, patch by David Fries (Closes: #539699)
 
   [ James Vega ]
   * debian/rules: fix sequential build invokations

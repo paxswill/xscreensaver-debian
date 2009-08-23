@@ -20,3 +20,6 @@
 65_upstream_eruption-man.patch
 66_upstream_truchet-man.patch
 67_upstream_metaballs-man.patch
+
+# security fixes
+70_upstream_fix_local_screenlock_bypass.patch
