@@ -1,0 +1,13 @@
+Index: xscreensaver/po/de.po
+===================================================================
+--- xscreensaver.orig/po/de.po	2009-09-02 20:33:00.974463417 +0200
++++ xscreensaver/po/de.po	2009-09-02 20:33:30.258463265 +0200
+@@ -68,7 +68,7 @@
+ 
+ #: driver/demo-Gtk-widgets.c:228 driver/xscreensaver-demo.glade2.h:87
+ msgid "_Kill Daemon"
+-msgstr "Dämon _abwügen"
++msgstr "Dämon _abwürgen"
+ 
+ #: driver/demo-Gtk-widgets.c:237
+ msgid "Tell the running XScreenSaver daemon to exit."
