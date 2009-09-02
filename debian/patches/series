@@ -1,5 +1,6 @@
 10_upstream_skip_retired_hacks.patch
 11_upstream_phosphor_segfault_win_size.patch
+12_upstream_fix_typo_in_de.po.patch
 20_hacks_man_section.patch
 20_hacks_maze_xpm_libs.patch
 20_skip_install-pam.patch
@@ -10,8 +11,6 @@
 # These two go together
 30_hacks_xanalogtv.patch
 31_utils_images_logo-50-bad-xpm.patch
-
-40_fix_typo_in_de.po.patch
 
 50_driver_screensaver-properties-desktop.patch
 

@@ -42,6 +42,10 @@ xscreensaver (5.08-1~pre2) unstable; urgency=low
   * Reinstated flurry on xscreensaver-gl-extra since crashes were not
   reproducible (Closes: #495633)
 
+  [ Georg Hofmann ]
+  * 12_upstream_fix_typo_in_de.po.patch:
+    Fix typo in German translation file ("abwürgen")
+
  -- Jose Luis Rivas <ghostbar38@gmail.com>  Tue, 14 Jul 2009 14:50:09 -0430
 
 xscreensaver (5.07-1) unstable; urgency=low
