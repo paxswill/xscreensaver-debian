@@ -55,6 +55,10 @@ build-stamp:
 		--with-configdir=/usr/share/xscreensaver/config \
 		--mandir=/usr/share/man --with-login-manager \
 		--with-proc-interrupts
+	# Workaround until autoconf 2.64 compatibility is fixed
+	make -C driver XScreenSaver_ad.h
+	make -C hacks m6502.h
+	make -C hacks/glx molecules.h
 	$(MAKE) 
 	touch build-stamp
 
