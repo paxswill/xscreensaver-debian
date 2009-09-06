@@ -1,48 +1,48 @@
-xscreensaver (5.08-1~pre2) unstable; urgency=low
+xscreensaver (5.08-1) UNRELEASED; urgency=low
 
   [ Tormod Volden ]
-  * ship the new "photopile" hack
-  * drop 12_hacks_Makefile.in-typo.patch (applied upstream)
-  * drop two unused patches (52_ and 60_)
-  * fix location of Norwegian Bokmål locale (no -> nb)
-  * do not ship these hacks any longer (retired upstream):
+  * Ship the new "photopile" hack
+  * Drop 12_hacks_Makefile.in-typo.patch (applied upstream)
+  * Delete two unused patches (52_ and 60_) from source
+  * Fix location of Norwegian Bokmål locale (no -> nb)
+  * Do not ship these hacks any longer (retired upstream):
       bubbles, critical, flag, forest, glforestfire, lmorph, laser,
       lightning, lisa, lissie, rotor, sphere, spiral, t3d, vines,
       whirlygig, worm, mismunch
-  * 10_upstream_skip_retired_hacks.patch: fix hacks/Makefile.in and
+  * 10_upstream_skip_retired_hacks.patch: Fix hacks/Makefile.in and
     hacks/glx/Makefile.in so that retired hacks are not built
-  * debian/control: update FSF address
-  * update to standards version 3.8.2 and debhelper compat 7
-  * fix typo in package description (Closes: #504424)
-  * add missing hacks to package description (Closes: #481749)
+  * debian/control: Update FSF address
+  * Update to standards version 3.8.2 and debhelper compat 7
+  * Fix typo in package description (Closes: #504424)
+  * Add missing hacks to package description (Closes: #481749)
   * debian/control: Breaks gnome-screensaver < 2.26 since we are
     using full paths in the desktop files
-  * split debian/patches/20_hacks_Makefile.patch into new
+  * Split debian/patches/20_hacks_Makefile.patch into new
     20_hacks_man_section.patch and 20_hacks_maze_xpm_libs.patch
   * debian/patches/20_skip_install-pam.patch:
-    do not run install-pam since we use dh_installpam
+    Do not run install-pam since we use dh_installpam
   * 11_upstream_phosphor_segfault_win_size.patch:
     phospor hack segfaults on window resize (Closes: #505379)
-  * debian/split-hacks.{sh,config}: configure which hacks go
+  * debian/split-hacks.{sh,config}: Configure which hacks go
     in which packages instead of manually editing *.files
     (Closes: #539937)
   * 70_upstream_fix_local_screenlock_bypass.patch:
-    fix security issue, patch by David Fries (Closes: #539699)
-  * refresh 50_driver_screensaver-properties-desktop.patch so that
+    Fix security issue, patch by David Fries (Closes: #539699)
+  * Refresh 50_driver_screensaver-properties-desktop.patch so that
     we do not change the .desktop file Category (Closes: #544837)
 
   [ James Vega ]
-  * debian/rules: fix sequential build invokations
+  * debian/rules: Fix sequential build invokations
 
   [ Jose Luis Rivas ]
   * New Upstream Version
-  * debian/copyright: major update (not 100% yet)
-  * Moved jigsaw from xscreensaver-data-extra.files to 
-  xscreensaver-gl-extra.files since now is a glx hack.
+  * debian/copyright: Major update (not 100% yet)
+  * Move jigsaw from xscreensaver-data-extra.files to 
+    xscreensaver-gl-extra.files since it now is a glx hack
   * Screensavers that uses images now rotates according to EXIF data 
-  since this new upstream version (Closes: #314553).
-  * Reinstated flurry on xscreensaver-gl-extra since crashes were not
-  reproducible (Closes: #495633)
+    since this new upstream version (Closes: #314553)
+  * Reinstate flurry on xscreensaver-gl-extra since crashes were not
+    reproducible (Closes: #495633)
 
   [ Georg Hofmann ]
   * 12_upstream_fix_typo_in_de.po.patch:
