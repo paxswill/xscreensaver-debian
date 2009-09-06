@@ -14,6 +14,7 @@ xscreensaver (5.09-1) UNRELEASED; urgency=low
     - 67_upstream_metaballs-man.patch
     - 70_upstream_fix_local_screenlock_bypass.patch
   * debian/rules: Add workaround for missing autoconf 2.64 support
+  * debian/split-hacks.config: Do not ship juggle since it is gone
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 06 Sep 2009 20:03:27 +0200
 
