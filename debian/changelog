@@ -1,3 +1,21 @@
+xscreensaver (5.09-1) UNRELEASED; urgency=low
+
+  * New Upstream Version
+    - Fixed intermittent failure in xscreensaver-command
+    - Fixed another potential RANDR crash
+    - New hacks, rubikblocks surfaces
+    - Merged juggle and juggler3d hacks
+  * Drop patches applied upstream:
+    - 11_upstream_phosphor_segfault_win_size.patch
+    - 63_upstream_blinkbox-man.patch
+    - 64_upstream_topblock-man.patch
+    - 65_upstream_eruption-man.patch
+    - 66_upstream_truchet-man.patch
+    - 67_upstream_metaballs-man.patch
+    - 70_upstream_fix_local_screenlock_bypass.patch
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 06 Sep 2009 20:03:27 +0200
+
 xscreensaver (5.08-1) UNRELEASED; urgency=low
 
   [ Tormod Volden ]

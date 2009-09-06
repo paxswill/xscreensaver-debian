@@ -1,5 +1,4 @@
 10_upstream_skip_retired_hacks.patch
-11_upstream_phosphor_segfault_win_size.patch
 12_upstream_fix_typo_in_de.po.patch
 20_hacks_man_section.patch
 20_hacks_maze_xpm_libs.patch
@@ -13,14 +12,5 @@
 31_utils_images_logo-50-bad-xpm.patch
 
 50_driver_screensaver-properties-desktop.patch
-
 53_XScreenSaver.ad.in.patch
 
-63_upstream_blinkbox-man.patch
-64_upstream_topblock-man.patch
-65_upstream_eruption-man.patch
-66_upstream_truchet-man.patch
-67_upstream_metaballs-man.patch
-
-# security fixes
-70_upstream_fix_local_screenlock_bypass.patch
