@@ -14,3 +14,4 @@
 50_driver_screensaver-properties-desktop.patch
 53_XScreenSaver.ad.in.patch
 
+80_Makefile_in-clean-fix.patch
