@@ -4,6 +4,8 @@ xscreensaver (5.10-1) karmic; urgency=low
   * Drop patch applied upstream:
     - 12_upstream_fix_typo_in_de.po.patch
   * Removed hyperball and hypercube hacks, retired upstream
+  * debian/rules: Drop workaround for missing autoconf 2.64 support,
+    fixed upstream
 
  -- Tormod Volden <debian.tormod@gmail.com>  Tue, 08 Sep 2009 23:35:02 +0200
 
