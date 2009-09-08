@@ -1,3 +1,11 @@
+xscreensaver (5.10-1) karmic; urgency=low
+
+  * New Upstream Version
+  * Drop patch applied upstream:
+    - 12_upstream_fix_typo_in_de.po.patch
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Tue, 08 Sep 2009 23:35:02 +0200
+
 xscreensaver (5.09-1) UNRELEASED; urgency=low
 
   * New Upstream Version
