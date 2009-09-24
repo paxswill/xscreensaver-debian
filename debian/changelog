@@ -1,13 +1,13 @@
 xscreensaver (5.10-1) unstable; urgency=low
 
-  [Tormod Volden]
+  [ Tormod Volden ]
   * Drop patch applied upstream:
     - 12_upstream_fix_typo_in_de.po.patch
   * Removed hyperball and hypercube hacks, retired upstream
   * debian/rules: Drop workaround for missing autoconf 2.64 support,
     fixed upstream
 
-  [ Jose Luis Rivas]
+  [ Jose Luis Rivas ]
   * Updated Standards-Version to 3.8.3 wo/ any changes needed.
   * Created debian/README.source.
   * Added patch 20_hack_flurry_man_name for NAME section of manpage for flurry
@@ -28,14 +28,13 @@ xscreensaver (5.10-1) unstable; urgency=low
     - 65_upstream_eruption-man.patch
     - 66_upstream_truchet-man.patch
     - 67_upstream_metaballs-man.patch
-    - 70_upstream_fix_local_screenlock_bypass.patch
+    - 70_upstream_fix_local_screenlock_bypass.patch  (Closes: #539699)
   * debian/rules: Add workaround for missing autoconf 2.64 support
   * Do not ship juggle any longer (merged with juggler3d)
   * Ship new hacks: rubikblocks and surfaces
   * 80_Makefile_in-clean-fix.patch: Workaround for make distclean
     failure in some situations, probably autoconf 2.64 issue
   * Ship the new "photopile" hack
-  * Drop 12_hacks_Makefile.in-typo.patch (applied upstream)
   * Delete two unused patches (52_ and 60_) from source
   * Fix location of Norwegian Bokmål locale (no -> nb)
   * Do not ship these hacks any longer (retired upstream):
@@ -59,8 +58,6 @@ xscreensaver (5.10-1) unstable; urgency=low
   * debian/split-hacks.{sh,config}: Configure which hacks go
     in which packages instead of manually editing *.files
     (Closes: #539937)
-  * 70_upstream_fix_local_screenlock_bypass.patch:
-    Fix security issue, patch by David Fries (Closes: #539699)
   * Refresh 50_driver_screensaver-properties-desktop.patch so that
     we do not change the .desktop file Category (Closes: #544837)
 
@@ -68,7 +65,6 @@ xscreensaver (5.10-1) unstable; urgency=low
   * debian/rules: Fix sequential build invokations
 
   [ Jose Luis Rivas ]
-  * New Upstream Version
   * debian/copyright: Major update (not 100% yet)
   * Move jigsaw from xscreensaver-data-extra.files to 
     xscreensaver-gl-extra.files since it now is a glx hack
@@ -76,10 +72,6 @@ xscreensaver (5.10-1) unstable; urgency=low
     since this new upstream version (Closes: #314553)
   * Reinstate flurry on xscreensaver-gl-extra since crashes were not
     reproducible (Closes: #495633)
-
-  [ Georg Hofmann ]
-  * 12_upstream_fix_typo_in_de.po.patch:
-    Fix typo in German translation file ("abwürgen")
 
  -- Jose Luis Rivas <ghostbar@debian.org>  Thu, 24 Sep 2009 03:21:41 -0430
 
