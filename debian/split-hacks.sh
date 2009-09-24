@@ -11,6 +11,8 @@ do
 	if [ -e debian/tmp/usr/share/xscreensaver/config/$HACK.xml ]; then
 	dh_install -p$PACKAGE debian/tmp/usr/share/xscreensaver/config/$HACK.xml
 	fi
+	if [ -e debian/tmp/usr/share/applications/screensavers/$HACK.desktop ]; then
 	dh_install -p$PACKAGE debian/tmp/usr/share/applications/screensavers/$HACK.desktop
+	fi
 done < debian/split-hacks.config
 exit 0
