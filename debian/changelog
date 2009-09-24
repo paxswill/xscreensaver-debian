@@ -81,7 +81,7 @@ xscreensaver (5.10-1) unstable; urgency=low
   * 12_upstream_fix_typo_in_de.po.patch:
     Fix typo in German translation file ("abwürgen")
 
- -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 23 Sep 2009 20:47:27 -0430
+ -- Jose Luis Rivas <ghostbar@debian.org>  Thu, 24 Sep 2009 03:21:41 -0430
 
 xscreensaver (5.05-3+nmu1) unstable; urgency=high
 
