@@ -16,6 +16,7 @@ xscreensaver (5.10-1) unstable; urgency=low
     hack.
   * Changed my email from ghostbar38@gmail.com to ghostbar@debian.org on 
     Maintainer field.
+  * Acknoledging nmu for 5.07.
 
  -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 23 Sep 2009 20:47:27 -0430
 
@@ -40,6 +41,13 @@ xscreensaver (5.09-1) UNRELEASED; urgency=low
     failure in some situations, probably autoconf 2.64 issue
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 06 Sep 2009 20:03:27 +0200
+
+xscreensaver (5.07-1+nmu1) experimental; urgency=high
+
+  * Non-maintainer upload by the security team.
+  * Fix local screen lock bypass vulnerability (closes: #539699).
+
+ -- Michael Gilbert <michael.s.gilbert@gmail.com>  Mon, 17 Aug 2009 00:43:39 -0400
 
 xscreensaver (5.08-1) UNRELEASED; urgency=low
 
