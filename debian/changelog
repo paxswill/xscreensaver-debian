@@ -1,8 +1,6 @@
 xscreensaver (5.10-1) unstable; urgency=low
 
-  [ Tormod Volden ]
   [Tormod Volden]
-  * New Upstream Version
   * Drop patch applied upstream:
     - 12_upstream_fix_typo_in_de.po.patch
   * Removed hyperball and hypercube hacks, retired upstream
@@ -16,12 +14,9 @@ xscreensaver (5.10-1) unstable; urgency=low
     hack.
   * Changed my email from ghostbar38@gmail.com to ghostbar@debian.org on 
     Maintainer field.
-  * Acknoledging nmu for 5.07.
+  * Acknoledging nmu for 5.05.
 
- -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 23 Sep 2009 20:47:27 -0430
-
-xscreensaver (5.09-1) UNRELEASED; urgency=low
-
+  [ Tormod Volden ]
   * New Upstream Version
     - Fixed intermittent failure in xscreensaver-command
       Thanks to contribution by James Vega (Closes: 486603)
@@ -39,19 +34,6 @@ xscreensaver (5.09-1) UNRELEASED; urgency=low
   * Ship new hacks: rubikblocks and surfaces
   * 80_Makefile_in-clean-fix.patch: Workaround for make distclean
     failure in some situations, probably autoconf 2.64 issue
-
- -- Tormod Volden <debian.tormod@gmail.com>  Sun, 06 Sep 2009 20:03:27 +0200
-
-xscreensaver (5.07-1+nmu1) experimental; urgency=high
-
-  * Non-maintainer upload by the security team.
-  * Fix local screen lock bypass vulnerability (closes: #539699).
-
- -- Michael Gilbert <michael.s.gilbert@gmail.com>  Mon, 17 Aug 2009 00:43:39 -0400
-
-xscreensaver (5.08-1) UNRELEASED; urgency=low
-
-  [ Tormod Volden ]
   * Ship the new "photopile" hack
   * Drop 12_hacks_Makefile.in-typo.patch (applied upstream)
   * Delete two unused patches (52_ and 60_) from source
@@ -99,7 +81,14 @@ xscreensaver (5.08-1) UNRELEASED; urgency=low
   * 12_upstream_fix_typo_in_de.po.patch:
     Fix typo in German translation file ("abwürgen")
 
- -- Jose Luis Rivas <ghostbar38@gmail.com>  Tue, 14 Jul 2009 14:50:09 -0430
+ -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 23 Sep 2009 20:47:27 -0430
+
+xscreensaver (5.05-3+nmu1) unstable; urgency=high
+
+  * Non-maintainer upload by the security team.
+  * Fix local screen lock bypass vulnerability (closes: #539699).
+
+ -- Michael Gilbert <michael.s.gilbert@gmail.com>  Mon, 17 Aug 2009 00:43:39 -0400
 
 xscreensaver (5.07-1) unstable; urgency=low
 
