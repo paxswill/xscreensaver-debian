@@ -1,9 +1,11 @@
-xscreensaver (5.10-2) UNRELEASED; urgency=low
+xscreensaver (5.10-2) unstable; urgency=low
 
   * Updated my email on debian/copyright.
   * Added README.hacking to debian/xscreensaver.docs (Closes: #544352).
+  * Included a hook for Xsession thanks to Y Giridhar Appaji Nag 
+  <debian@appaji.net> (Closes: #357297).
 
- -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 25 Sep 2009 08:53:12 -0430
+ -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 25 Sep 2009 16:32:36 -0430
 
 xscreensaver (5.10-1) unstable; urgency=low
 
