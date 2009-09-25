@@ -1,0 +1,10 @@
+XSCREENSAVER_COMMAND="/usr/bin/xscreensaver-command"
+XSCREENSAVER="/usr/bin/xscreensaver"
+
+if [ -x $XSCREENSAVER_COMMAND ]; then
+	$XSCREENSAVER_COMMAND -exit
+fi
+
+if [ -x $XSCREENSAVER ]; then
+	$XSCREENSAVER -nosplash &
+fi
