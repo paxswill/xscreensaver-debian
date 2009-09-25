@@ -1,3 +1,10 @@
+xscreensaver (5.10-2) UNRELEASED; urgency=low
+
+  * Updated my email on debian/copyright.
+  * Added README.hacking to debian/xscreensaver.docs (Closes: #544352).
+
+ -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 25 Sep 2009 08:53:12 -0430
+
 xscreensaver (5.10-1) unstable; urgency=low
 
   [ Tormod Volden ]
