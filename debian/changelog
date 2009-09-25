@@ -4,8 +4,6 @@ xscreensaver (5.10-1) unstable; urgency=low
   * Drop patch applied upstream:
     - 12_upstream_fix_typo_in_de.po.patch
   * Removed hyperball and hypercube hacks, retired upstream
-  * debian/rules: Drop workaround for missing autoconf 2.64 support,
-    fixed upstream
 
   [ Jose Luis Rivas ]
   * Updated Standards-Version to 3.8.3 wo/ any changes needed.
@@ -29,7 +27,6 @@ xscreensaver (5.10-1) unstable; urgency=low
     - 66_upstream_truchet-man.patch
     - 67_upstream_metaballs-man.patch
     - 70_upstream_fix_local_screenlock_bypass.patch  (Closes: #539699)
-  * debian/rules: Add workaround for missing autoconf 2.64 support
   * Do not ship juggle any longer (merged with juggler3d)
   * Ship new hacks: rubikblocks and surfaces
   * 80_Makefile_in-clean-fix.patch: Workaround for make distclean
@@ -44,7 +41,7 @@ xscreensaver (5.10-1) unstable; urgency=low
   * 10_upstream_skip_retired_hacks.patch: Fix hacks/Makefile.in and
     hacks/glx/Makefile.in so that retired hacks are not built
   * debian/control: Update FSF address
-  * Update to standards version 3.8.2 and debhelper compat 7
+  * Update to debhelper compat 7
   * Fix typo in package description (Closes: #504424)
   * Add missing hacks to package description (Closes: #481749)
   * debian/control: Breaks gnome-screensaver < 2.26 since we are
@@ -73,7 +70,7 @@ xscreensaver (5.10-1) unstable; urgency=low
   * Reinstate flurry on xscreensaver-gl-extra since crashes were not
     reproducible (Closes: #495633)
 
- -- Jose Luis Rivas <ghostbar@debian.org>  Thu, 24 Sep 2009 03:21:41 -0430
+ -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 25 Sep 2009 07:12:21 -0430
 
 xscreensaver (5.05-3+nmu1) unstable; urgency=high
 
