@@ -67,9 +67,13 @@ clean-patched:
 	[ ! -f Makefile ] || $(MAKE) distclean
 	rm -f config.log config.h
 	rm -rf driver/XScreenSaver.ad-nogl
-	rm -rf *~ debian/tmp debian/xscreensaver debian/xscreensaver-gl \
-		debian/xscreensaver-gl-extra debian/xscreensaver-data \
-		debian/xscreensaver-data-extra
+	rm -rf *~ debian/tmp
+	for p in xscreensaver xscreensaver-data xscreensaver-data-extra \
+	         xscreensaver-gl xscreensaver-gl-extra ; do \
+		rm -rf debian/$$p; \
+		rm -f  debian/$$p.install; \
+		rm -f  debian/$$p.manpages; \
+	done
 	rm -rf debian/*~ debian/files*
 	rm -f po/.intltool-merge-cache
 	[ ! -f config.sub.upstream ] || mv config.sub.upstream config.sub
@@ -107,10 +111,8 @@ binary-arch:	build
 	# Change man header section from 6 to 1
 	sed -i '1s/6x/1/' debian/tmp/usr/share/man/man1/xscreensaver-gl-helper.1
 	sh debian/split-hacks.sh
-	dh_movefiles -a
 	dh_install -a
-	# Lists anything that was installed but not packaged
-	find debian/tmp -type f -print
+	dh_installman -a
 	dh_installpam -a
 	dh_installmenu -a
 	# Install app-defaults to proper places
