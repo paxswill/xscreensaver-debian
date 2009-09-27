@@ -1,9 +1,15 @@
+xscreensaver (5.10-3) UNRELEASED; urgency=low
+
+  * Moved 20_hack_flurry_man_name to 11_upstream_flurry_man_name
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 27 Sep 2009 22:29:35 +0200
+
 xscreensaver (5.10-2) unstable; urgency=low
 
-  * Updated my email on debian/copyright.
+  * Updated my email address in debian/copyright.
   * Added README.hacking to debian/xscreensaver.docs (Closes: #544352).
   * Included a hook for Xsession thanks to Y Giridhar Appaji Nag 
-  <debian@appaji.net> (Closes: #357297).
+    <debian@appaji.net> (Closes: #357297).
   * Fixed the changelog.
 
  -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 25 Sep 2009 16:52:44 -0430
@@ -16,13 +22,13 @@ xscreensaver (5.10-1) unstable; urgency=low
   * Removed hyperball and hypercube hacks, retired upstream
 
   [ Jose Luis Rivas ]
-  * Updated Standards-Version to 3.8.3 wo/ any changes needed.
+  * Updated Standards-Version to 3.8.3 w/o any changes needed.
   * Created debian/README.source.
-  * Added patch 20_hack_flurry_man_name for NAME section of manpage for flurry
-    hack.
-  * Changed my email from ghostbar38@gmail.com to ghostbar@debian.org on 
-    Maintainer field.
-  * Acknoledging nmu for 5.05.
+  * Added patch 20_hack_flurry_man_name for NAME section of
+    manpage for flurry hack.
+  * Changed my email address from ghostbar38@gmail.com to
+    ghostbar@debian.org in Maintainer field.
+  * Acknowledging NMU for 5.05.
 
   [ Tormod Volden ]
   * New Upstream Version
