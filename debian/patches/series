@@ -1,5 +1,5 @@
 10_upstream_skip_retired_hacks.patch
-20_hack_flurry_man_name.patch
+11_upstream_flurry_man_name.patch
 20_hacks_man_section.patch
 20_hacks_maze_xpm_libs.patch
 20_skip_install-pam.patch
