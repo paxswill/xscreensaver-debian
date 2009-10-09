@@ -4,6 +4,7 @@ xscreensaver (5.10-3) UNRELEASED; urgency=low
   * debian/split-config.sh, debian/rules, etc: Auto-generate the
     package.install files to make one single dh_install{,man} call
     since this is so much more efficent.
+  * Remove Xsession hook, could not be disabled (Closes: #550042)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 27 Sep 2009 22:29:35 +0200
 
