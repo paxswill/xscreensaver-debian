@@ -95,6 +95,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: xscreensaver
 Conflicts: xscreensaver (<< 5.04-3)
+Replaces: xscreensaver-data (<< 5.10-3)
 Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: GL(Mesa) screen hacks for xscreensaver
  XScreenSaver is a modular screen saver and locker for X11,
