@@ -1,15 +1,15 @@
-xscreensaver (5.10-3) UNRELEASED; urgency=low
+xscreensaver (5.10-3) unstable; urgency=low
 
-  * Moved 20_hack_flurry_man_name to 11_upstream_flurry_man_name
+  * Move sonar to xscreensaver-gl, it got GL-ified (Closes: #550002)
+  * Remove Xsession hook, could not be disabled (Closes: #550042)
+  * Add desktop file to /etc/xdg/autostart, to disable it see
+    http://standards.freedesktop.org/autostart-spec/ (Closes: #357297)
+  * Move 20_hack_flurry_man_name to 11_upstream_flurry_man_name
   * debian/split-config.sh, debian/rules, etc: Auto-generate the
     package.install files to make one single dh_install{,man} call
     since this is so much more efficent.
-  * Remove Xsession hook, could not be disabled (Closes: #550042)
-  * Add desktop file to /etc/xdg/autostart, to disable it see
-    <http://standards.freedesktop.org/autostart-spec/>
-    (Closes: #357297)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Sun, 27 Sep 2009 22:29:35 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Mon, 12 Oct 2009 18:50:17 +0200
 
 xscreensaver (5.10-2) unstable; urgency=low
 
