@@ -1,6 +1,8 @@
 xscreensaver (5.10-4) UNRELEASED; urgency=low
 
   * Removing Xsession hook (Closes: #550201)
+  * Splitted hacks bsod and webcollage on independent packages (Closes:
+	#553529)
 
  -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 04 Nov 2009 17:06:16 -0430
 
