@@ -32,9 +32,4 @@ if [ -d /usr/doc -a -h /usr/doc/xscreensaver -a -d /usr/share/doc/xscreensaver ]
         rm -f /usr/doc/xscreensaver
 fi
 
-# Remove Xsession hook, replaced by XDG hook for autostart
-if [ -f /etc/X11/Xsession.d/80xscreensaver_start ]; then
-	rm -f /etc/X11/Xsession.d/80xscreensaver_start
-fi
-
 #DEBHELPER#
