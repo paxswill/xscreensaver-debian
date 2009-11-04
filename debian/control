@@ -81,12 +81,6 @@ Description: data files to be shared among screensaver frontends
  vidwhacker, wander, webcollage, whirlwindwarp,
  wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm, xspirograph, zoom.
  .
- WARNING: This package includes the 'webcollage' screen saver, which
- displays images that are the result of random web searches. The
- Internet being what it is, absolutely anything might show up in the
- collage of search results including -- quite possibly -- pornography, or
- even nudity. Please act accordingly.
- .
  More display modes can be found in the xscreensaver-data, xscreensaver-gl
  and xscreensaver-gl-extra packages.
 
@@ -142,3 +136,24 @@ Description: GL(Mesa) screen hacks for xscreensaver
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl packages.
+
+Package: xscreensaver-screensaver-webcollage
+Architecture: any
+Depends: ${shlibs:Depends}, xscreensaver-data-extra
+Description: Webcollage hack from XScreenSaver
+ This package ships the hack webcollage which displays images from random 
+ web searches on the Internet.
+ .
+ WARNING: The Internet being what it is, absolutely anything might show up 
+ in the collage of search results including -- quite possibly -- pornography, 
+ or even nudity. Please act accordingly.
+
+Package: xscreensaver-screensaver-bsod
+Architecture: any
+Depends: ${shlibs:Depends}, xscreensaver-data-extra
+Description: BSOD hack from XScreenSaver
+ This package ships the hack BSOD that shows the popular Blue Screens of Death
+ from several OSes including BSD, Windows, Linux, Solaris, Apple and much more.
+ .
+ WARNING: This screensaver could be confused with a real BSOD and could lead an
+ user to reboot the machine with consequences like data loss.
