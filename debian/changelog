@@ -1,3 +1,9 @@
+xscreensaver (5.10-4) UNRELEASED; urgency=low
+
+  * Removing Xsession hook (Closes: #550201)
+
+ -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 04 Nov 2009 17:06:16 -0430
+
 xscreensaver (5.10-3) unstable; urgency=low
 
   * Move sonar to xscreensaver-gl, it got GL-ified (Closes: #550002)
