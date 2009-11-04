@@ -1,7 +1,9 @@
 #!/bin/sh
 
 for PACKAGE in xscreensaver xscreensaver-data xscreensaver-data-extra \
-               xscreensaver-gl xscreensaver-gl-extra
+               xscreensaver-gl xscreensaver-gl-extra \
+			   xscreensaver-screensaver-bsod \
+			   xscreensaver-screensaver-webcollage
 do
 	if [ -e debian/$PACKAGE.install.stub ]; then
 		cp debian/$PACKAGE.install.stub debian/$PACKAGE.install
