@@ -28,9 +28,7 @@ rm_conffile() {
 case "$1" in
 install|upgrade)
     # Remove a file which was mistakenly shipped in 5.10-2
-    if ("$2" = "5.10-*"); then
-        rm_conffile xscreensaver "/etc/X11/Xsession.d/80xscreensaver_start"
-    fi
+    rm_conffile xscreensaver "/etc/X11/Xsession.d/80xscreensaver_start"
 esac
 
 #DEBHELPER#
