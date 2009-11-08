@@ -140,6 +140,7 @@ Description: GL(Mesa) screen hacks for xscreensaver
 Package: xscreensaver-screensaver-webcollage
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra
+Conflicts: xscreensaver-data-extra (<< 5.10-4)
 Replaces: xscreensaver-data-extra (<< 5.10-4)
 Description: Webcollage hack from XScreenSaver
  This package ships the hack webcollage which displays images from random 
@@ -152,6 +153,7 @@ Description: Webcollage hack from XScreenSaver
 Package: xscreensaver-screensaver-bsod
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra
+Conflicts: xscreensaver-data-extra (<< 5.10-4)
 Replaces: xscreensaver-data-extra (<< 5.10-4)
 Description: BSOD hack from XScreenSaver
  This package ships the hack BSOD that shows the popular Blue Screens of Death
