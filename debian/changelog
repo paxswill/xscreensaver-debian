@@ -1,10 +1,10 @@
-xscreensaver (5.10-4) UNRELEASED; urgency=low
+xscreensaver (5.10-4) unstable; urgency=low
 
   * Removing Xsession hook (Closes: #550201)
   * Split hacks bsod and webcollage on independent packages
   (Closes: #553529)
 
- -- Jose Luis Rivas <ghostbar@debian.org>  Wed, 04 Nov 2009 22:19:58 -0430
+ -- Jose Luis Rivas <ghostbar@debian.org>  Sun, 08 Nov 2009 09:27:00 -0430
 
 xscreensaver (5.10-3) unstable; urgency=low
 
