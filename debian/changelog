@@ -1,4 +1,4 @@
-xscreensaver (5.10-4~2) unstable; urgency=low
+xscreensaver (5.10-4) UNRELEASED; urgency=low
 
   * Removing Xsession hook (Closes: #550201)
   * Split hacks bsod and webcollage on independent packages
