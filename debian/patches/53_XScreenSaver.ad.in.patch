@@ -1,7 +1,7 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2009-09-08 23:41:43.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2009-09-08 23:42:31.000000000 +0200
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2009-12-10 21:35:33.000000000 +0100
++++ xscreensaver/driver/XScreenSaver.ad.in	2009-12-10 21:39:25.000000000 +0100
 @@ -56,11 +56,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
@@ -76,7 +76,17 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  @GL_KLUDGE@ GL: 				engine -root				    \n\
  @GL_KLUDGE@ GL: 				flipscreen3d -root			    \n\
  @GL_KLUDGE@ GL: 				gltext -root				    \n\
-@@ -397,10 +407,11 @@
+@@ -347,7 +357,8 @@
+ -				lcdscrub -root				    \n\
+ @GL_KLUDGE@ GL: 				photopile -root				    \n\
+ @GL_KLUDGE@ GL: 				skytentacles -root			    \n\
+-@GL_KLUDGE@ GL: 				rubikblocks -root			    \n
++@GL_KLUDGE@ GL: 				rubikblocks -root			    \n\
++				unicode -root				    \n
+ 
+ 
+ 
+@@ -397,10 +408,11 @@
  *Dialog.shadowThickness:	2
  
  *passwd.heading.label:		XScreenSaver %s
