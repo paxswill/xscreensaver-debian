@@ -1,8 +1,10 @@
-xscreensaver (5.10-5) UNRELEASED; urgency=low
+xscreensaver (5.10-5) unstable; urgency=low
 
-  * Added unicode to app-defaults list" (Closes: #560184)
+  [ Joachim Breitner ]
+  * Added unicode to app-defaults list (Closes: #560184) (Thanks Joachim
+    Breitner <nomeata@debian.org> for updating patch #53)
 
- -- Joachim Breitner <nomeata@debian.org>  Thu, 10 Dec 2009 21:42:41 +0100
+ -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 11 Dec 2009 10:31:06 -0430
 
 xscreensaver (5.10-4) unstable; urgency=low
 
