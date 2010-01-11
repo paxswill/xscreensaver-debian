@@ -1,0 +1,7 @@
+XScreenSaver autostart
+======================
+
+There's a script on /usr/share/xscreensaver called
+xscreensaver-daemon.desktop. If you want XScreenSaver to autostart on your
+session just copy it to ~/.config/autostart , if you want it on all your
+system copy it on /etc/xdg/autostart .

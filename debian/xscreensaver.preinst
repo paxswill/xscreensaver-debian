@@ -29,6 +29,7 @@ case "$1" in
 install|upgrade)
     # Remove a file which was mistakenly shipped in 5.10-2
     rm_conffile xscreensaver "/etc/X11/Xsession.d/80xscreensaver_start"
+	rm_conffile xscreensaver "/etc/xdg/autostart/xscreensaver-daemon.desktop"
 esac
 
 #DEBHELPER#

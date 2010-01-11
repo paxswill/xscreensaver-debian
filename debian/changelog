@@ -1,3 +1,10 @@
+xscreensaver (5.10-6) unstable; urgency=low
+
+  * Removing autostart from xdg, is now on /usr/share so user can copy it if
+  wants autostart. (Closes: #357297)
+
+ -- Jose Luis Rivas <ghostbar@debian.org>  Mon, 11 Jan 2010 18:17:34 -0430
+
 xscreensaver (5.10-5) unstable; urgency=low
 
   [ Joachim Breitner ]
