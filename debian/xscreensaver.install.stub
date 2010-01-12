@@ -38,5 +38,4 @@ usr/share/xscreensaver/glade/screensaver-power.png
 usr/share/xscreensaver/glade/screensaver-snap.png
 usr/share/xscreensaver/glade/xscreensaver-demo.glade2
 debian/xscreensaver.svg /usr/share/pixmaps
-debian/xscreensaver-daemon.desktop
-usr/share/xscreensaver/xscreensaver-daemon.desktop
+debian/xscreensaver-daemon.desktop usr/share/xscreensaver/xscreensaver-daemon.desktop
