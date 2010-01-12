@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Jose Luis Rivas <ghostbar@debian.org>
 Uploaders: Tormod Volden <debian.tormod@gmail.com>
-Build-Depends: bc, debhelper (>= 7.0), fortune-mod, libgtk2.0-dev, libpam0g-dev (>= 0.72), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | xlibmesa-glu-dev | libglu-dev, xutils-dev, libgnome2-dev, libxml2-dev, libglade2-dev, libjpeg62-dev, libgle-dev, intltool, autotools-dev, libx11-dev, libxext-dev, libxinerama-dev, libxmu-dev, libxpm-dev, libxrandr-dev, libxss-dev, libxt-dev, libxtst-dev, libxxf86misc-dev, libxxf86vm-dev, x11proto-core-dev, xbitmaps, quilt, gdm, libxss-dev, libxtst-dev, libxxf86misc-dev
+Build-Depends: bc, debhelper (>= 7.0), fortune-mod, libgtk2.0-dev, libpam0g-dev (>= 0.72), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | xlibmesa-glu-dev | libglu-dev, xutils-dev, libgnome2-dev, libxml2-dev, libglade2-dev, libjpeg62-dev, libgle-dev, intltool, autotools-dev, libx11-dev, libxext-dev, libxinerama-dev, libxmu-dev, libxpm-dev, libxrandr-dev, libxss-dev, libxt-dev, libxtst-dev, libxxf86misc-dev, libxxf86vm-dev, x11proto-core-dev, xbitmaps, quilt, gdm, libxss-dev, libxtst-dev, libxxf86misc-dev, ${misc:Depends}
 Standards-Version: 3.8.3
 Homepage: http://www.jwz.org/xscreensaver/
 Vcs-git: git://git.debian.org/git/collab-maint/xscreensaver.git
