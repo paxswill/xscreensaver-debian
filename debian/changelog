@@ -1,3 +1,9 @@
+xscreensaver (5.10-7) unstable; urgency=low
+
+  * Removed libxxf86misc{*} from Build-Depends (Closes: #559693)
+
+ -- Jose Luis Rivas <ghostbar@debian.org>  Sun, 24 Jan 2010 11:41:02 -0430
+
 xscreensaver (5.10-6) unstable; urgency=low
 
   * Removing autostart from xdg, is now on /usr/share so user can copy it if
