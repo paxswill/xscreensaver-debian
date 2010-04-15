@@ -1,3 +1,10 @@
+xscreensaver (5.10-8) UNRELEASED; urgency=low
+
+  * debian/screensavers-desktop.stub: Add missing semicolon
+    to Categories list (LP: #554856)
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Fri, 16 Apr 2010 19:32:38 +0200
+
 xscreensaver (5.10-7) unstable; urgency=low
 
   * Removed libxxf86misc{*} from Build-Depends (Closes: #559693)
