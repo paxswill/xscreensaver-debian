@@ -42,7 +42,7 @@ build-stamp:
 	./configure --build $(DEB_BUILD_GNU_TYPE) --host $(DEB_HOST_GNU_TYPE) \
 		--prefix=/usr \
 		--without-gl --with-pam --with-gtk --without-kerberos \
-		--with-gnome --with-hackdir=/usr/lib/xscreensaver \
+		--with-hackdir=/usr/lib/xscreensaver \
 		--with-configdir=/usr/share/xscreensaver/config \
 		--mandir=/usr/share/man --with-login-manager \
 		--with-proc-interrupts
@@ -51,7 +51,7 @@ build-stamp:
 	./configure --build $(DEB_BUILD_GNU_TYPE) --host $(DEB_HOST_GNU_TYPE) \
 		--prefix=/usr \
 		--with-gl --with-pam --with-gtk --without-kerberos \
-		--with-gnome --with-hackdir=/usr/lib/xscreensaver \
+		--with-hackdir=/usr/lib/xscreensaver \
 		--with-configdir=/usr/share/xscreensaver/config \
 		--mandir=/usr/share/man --with-login-manager \
 		--with-proc-interrupts
