@@ -1,5 +1,9 @@
-xscreensaver (5.10-8) UNRELEASED; urgency=low
+xscreensaver (5.11-1) UNRELEASED; urgency=low
 
+  * New upstream version
+    - New versions of photopile, strange
+    - Fixed flicker in pipes, cubestorm, noof
+  * Drop obsolete 11_upstream_flurry_man_name.patch
   * debian/screensavers-desktop.stub: Add missing semicolon
     to Categories list (LP: #554856)
 
