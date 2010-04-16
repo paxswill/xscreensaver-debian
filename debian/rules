@@ -91,10 +91,6 @@ binary-arch:	build
 	dh_testdir
 	dh_testroot
 	dh_prep
-	rm -rf debian/tmp debian/xscreensaver debian/xscreensaver-gl \
-		debian/xscreensaver-gnome debian/xscreensaver-nognome \
-		debian/xscreensaver-data debian/xscreensaver-data-extra \
-		debian/xscreensaver-gl-extra
 	$(MAKE) install_prefix=$(CURDIR)/debian/tmp \
 		GTK_DATADIR=/usr/share KDEDIR=/usr install
 	dh_installdirs -a
