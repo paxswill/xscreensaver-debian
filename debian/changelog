@@ -6,6 +6,7 @@ xscreensaver (5.11-1) UNRELEASED; urgency=low
   * Drop obsolete 11_upstream_flurry_man_name.patch
   * debian/screensavers-desktop.stub: Add missing semicolon
     to Categories list (LP: #554856)
+  * Bump Standards-Version to 3.8.4 (no changes needed)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Fri, 16 Apr 2010 19:32:38 +0200
 
