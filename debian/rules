@@ -15,7 +15,7 @@ include /usr/share/quilt/quilt.make
 export DEB_HOST_GNU_TYPE  ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
 export DEB_BUILD_GNU_TYPE ?= $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
 
-build: patch build-stamp
+build:	patch build-stamp
 build-stamp:
 	dh_testdir
 
@@ -58,23 +58,16 @@ build-stamp:
 	$(MAKE) 
 	touch build-stamp
 
-clean: 	clean-patched unpatch
+clean:	clean-patched unpatch
 
 clean-patched:
 	dh_testdir
 	dh_testroot
-	rm -f build-stamp
 	[ ! -f Makefile ] || $(MAKE) distclean
 	rm -f config.log config.h
 	rm -rf driver/XScreenSaver.ad-nogl
-	rm -rf *~ debian/tmp
-	for p in xscreensaver xscreensaver-data xscreensaver-data-extra \
-	         xscreensaver-gl xscreensaver-gl-extra ; do \
-		rm -rf debian/$$p; \
-		rm -f  debian/$$p.install; \
-		rm -f  debian/$$p.manpages; \
-	done
-	rm -rf debian/*~ debian/files*
+	rm -f debian/xscreensaver*.install
+	rm -f debian/xscreensaver*.manpages
 	rm -f po/.intltool-merge-cache
 	[ ! -f config.sub.upstream ] || mv config.sub.upstream config.sub
 	[ ! -f config.guess.upstream ] || mv config.guess.upstream config.guess
@@ -126,8 +119,6 @@ binary-arch:	build
 	dh_md5sums -a
 	dh_builddeb -a
 
-# Below here is fairly generic really
+binary:	binary-indep binary-arch
 
-binary:		binary-indep binary-arch
-
-.PHONY: binary binary-arch binary-indep clean
+.PHONY:	binary binary-arch binary-indep clean
