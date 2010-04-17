@@ -9,6 +9,7 @@ xscreensaver (5.11-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4 (no changes needed)
   * debian/rules: Simplify cleaning
   * debian/rules: Remove obsolete --with-gnome flag
+  * README.Debian: More tips for autostart configuration
 
  -- Tormod Volden <debian.tormod@gmail.com>  Fri, 16 Apr 2010 19:32:38 +0200
 
