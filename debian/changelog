@@ -11,7 +11,7 @@ xscreensaver (5.11-1) unstable; urgency=low
   * debian/rules: Remove obsolete --with-gnome flag
   * README.Debian: More tips for autostart configuration
 
- -- Tormod Volden <debian.tormod@gmail.com>  Fri, 16 Apr 2010 19:32:38 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Wed, 02 Jun 2010 23:06:32 +0200
 
 xscreensaver (5.10-7) unstable; urgency=low
 
