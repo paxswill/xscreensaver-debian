@@ -4,6 +4,8 @@ xscreensaver (5.11-2) UNRELEASED; urgency=low
     - do not set StartupNotify
     - do not specify svg icon (LP: #603222)
   * Fix installation path for xscreensaver-daemon.desktop 
+  * debian/xscreensaver.preinst: Check version before
+    deleting obsolete configuration files (Closes: #588288)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 11 Sep 2010 22:44:25 +0200
 
