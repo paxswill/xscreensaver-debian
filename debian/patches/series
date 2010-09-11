@@ -10,7 +10,6 @@
 30_hacks_xanalogtv.patch
 31_utils_images_logo-50-bad-xpm.patch
 
-50_driver_screensaver-properties-desktop.patch
 53_XScreenSaver.ad.in.patch
 
 80_Makefile_in-clean-fix.patch
