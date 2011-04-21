@@ -3,6 +3,7 @@ xscreensaver (5.13-1) UNRELEASED; urgency=low
   * New upstream version 5.13
     - Passwords that contain UTF-8 non-Latin1 chars are now typeable
     - pt_BR translation (thanks Sérgio Cipolla!) (Closes: #586230)
+    - Fix memory leak in gltext (LP: #768032)
   * xscreensaver.desktop changes:
     - Do not set StartupNotify.
     - Do not specify svg icon. Closes: #618723 (LP: #603222)
