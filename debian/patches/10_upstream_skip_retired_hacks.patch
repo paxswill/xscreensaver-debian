@@ -3,9 +3,9 @@
 #
 Index: xscreensaver/hacks/Makefile.in
 ===================================================================
---- xscreensaver.orig/hacks/Makefile.in	2009-09-08 23:41:44.000000000 +0200
-+++ xscreensaver/hacks/Makefile.in	2009-09-08 23:42:08.000000000 +0200
-@@ -256,7 +256,7 @@
+--- xscreensaver.orig/hacks/Makefile.in	2011-04-21 23:18:56.000000000 +0200
++++ xscreensaver/hacks/Makefile.in	2011-04-21 23:42:22.000000000 +0200
+@@ -257,7 +257,7 @@
  
  
  default: all
@@ -16,9 +16,9 @@ Index: xscreensaver/hacks/Makefile.in
  uninstall: uninstall-program uninstall-xml uninstall-man
 Index: xscreensaver/hacks/glx/Makefile.in
 ===================================================================
---- xscreensaver.orig/hacks/glx/Makefile.in	2009-09-08 23:41:44.000000000 +0200
-+++ xscreensaver/hacks/glx/Makefile.in	2009-09-08 23:42:08.000000000 +0200
-@@ -218,7 +218,7 @@
+--- xscreensaver.orig/hacks/glx/Makefile.in	2011-04-21 23:18:56.000000000 +0200
++++ xscreensaver/hacks/glx/Makefile.in	2011-04-21 23:42:22.000000000 +0200
+@@ -220,7 +220,7 @@
  
  
  default: all
