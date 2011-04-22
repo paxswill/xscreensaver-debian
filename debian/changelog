@@ -5,7 +5,8 @@ xscreensaver (5.13-1) UNRELEASED; urgency=low
     - pt_BR translation (thanks Sérgio Cipolla!) (Closes: #586230)
     - Fix memory leak in gltext (LP: #768032)
   * Build without gdm and libgnome2-dev (Closes: #618165)
-  * Add Suggests on gdm3 because of gdmflexiserver (Closes: #304406)
+  * Add Suggests on gdm3 or kdm-gdmcompat because gdmflexiserver
+    can be used for the "New Login" functionality (see bug #304406)
   * Remove obsolete gdmflexiserver options
   * xscreensaver.desktop changes:
     - Do not set StartupNotify.
