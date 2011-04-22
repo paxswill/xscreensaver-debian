@@ -1,7 +1,7 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-04-21 23:18:56.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2011-04-21 23:44:31.000000000 +0200
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-04-21 23:44:55.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2011-04-22 13:10:29.000000000 +0200
 @@ -56,11 +56,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
@@ -23,8 +23,8 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
 -@GNOME24@*loadURL: @WITH_BROWSER@ '%s'
 -@GNOME24@*manualCommand: gnome-terminal --title '%s manual' \
 -@GNOME24@		--command '/bin/sh -c "man %s; read foo"'
-+! Debian: We build with GNOME so this one will always be used,
-+! but the build packages should work on non-GNOME systems as well.
++! Debian: If we _build_ with GNOME this one will be used,
++! but the built packages should work on non-GNOME systems as well.
 +! Use yelp if installed, since it works fine in current GNOME.
 +@GNOME24@*loadURL: x-www-browser '%s'
 +@GNOME24@*manualCommand: yelp man:%s || \
@@ -33,15 +33,14 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !
  !   Gnome 2.2:
  !
-@@ -112,14 +116,19 @@
+@@ -112,14 +116,18 @@
  !
  !   non-Gnome systems:
  !
 -@NOGNOME@*loadURL: firefox '%s' || mozilla '%s' || netscape '%s'
 -@NOGNOME@*manualCommand: xterm -sb -fg black -bg gray75 -T '%s manual' \
 -@NOGNOME@		    -e /bin/sh -c 'man "%s" ; read foo'
-+! Debian: This will be used when _building_ without GNOME
-+! Be prepared for the day we build it without GNOME on Debian
++! Debian: This is used when _building_ without GNOME
 +@NOGNOME@*loadURL: x-www-browser '%s'
 +@NOGNOME@*manualCommand: yelp man:%s || \
 +@NOGNOME@			x-terminal-emulator -title '%s manual' \
@@ -57,18 +56,18 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  ! To show the time only:
  ! *dateFormat:		%I:%M %p
  ! For 24 hour time:
-@@ -130,7 +139,9 @@
+@@ -130,7 +138,9 @@
  ! (That button does not appear on the dialog if this program does not exist.)
  ! For Gnome: probably "gdmflexiserver -ls".  KDE, probably "kdmctl reserve".
  !
 -@NEW_LOGIN_COMMAND_P@*newLoginCommand:	@NEW_LOGIN_COMMAND@
 +! @NEW_LOGIN_COMMAND_P@*newLoginCommand:	@NEW_LOGIN_COMMAND@
 +! Debian: Hard-wire the command in case the build machine does not have gdm
-+*newLoginCommand:	gdmflexiserver -l -a -c FLEXI_XSERVER
++*newLoginCommand:	gdmflexiserver -l
  
  
  ! Turning on "installColormap" on 8-bit systems interacts erratically with
-@@ -247,7 +258,6 @@
+@@ -247,7 +257,6 @@
  				xspirograph -root			    \n\
  @GL_KLUDGE@ GL: 				circuit -root				    \n\
  @GL_KLUDGE@ GL: 				dangerball -root			    \n\
@@ -76,7 +75,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  @GL_KLUDGE@ GL: 				engine -root				    \n\
  @GL_KLUDGE@ GL: 				flipscreen3d -root			    \n\
  @GL_KLUDGE@ GL: 				gltext -root				    \n\
-@@ -348,7 +358,8 @@
+@@ -348,7 +357,8 @@
  -				lcdscrub -root				    \n\
  @GL_KLUDGE@ GL: 				photopile -root				    \n\
  @GL_KLUDGE@ GL: 				skytentacles -root			    \n\
@@ -86,7 +85,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  
-@@ -398,10 +409,11 @@
+@@ -398,10 +408,11 @@
  *Dialog.shadowThickness:	2
  
  *passwd.heading.label:		XScreenSaver %s
