@@ -13,6 +13,7 @@ xscreensaver (5.13-1) UNRELEASED; urgency=low
   * Fix installation path for xscreensaver-daemon.desktop 
   * debian/xscreensaver.preinst: Check version before
     deleting obsolete configuration files (Closes: #588288)
+  * Bump Standards-Version to 3.9.1 (no changes needed)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 11 Sep 2010 22:44:25 +0200
 
