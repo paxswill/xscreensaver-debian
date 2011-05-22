@@ -6,6 +6,7 @@ xscreensaver (5.14-1) UNRELEASED; urgency=low
     - Added ``Quick Power-off in Blank Only Mode'' option.
     - BSOD GLaDOS. 
   * Clean up duplicate build-depends (thanks Jeremy Bicha)
+  * Drop xli | xloadimage recommends (we use gdk-pixbuf)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 22 May 2011 18:31:28 +0200
 

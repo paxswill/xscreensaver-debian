@@ -13,7 +13,7 @@ Package: xscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data, ${misc:Depends}
 Conflicts: funny-manpages (<< 1.3-1), suidmanager (<< 0.50), xscreensaver-gnome (<< 4.09-2), xscreensaver-nognome (<< 4.09-2), gnome-control-center (<< 1:2)
-Recommends: xli | xloadimage, libjpeg-progs, perl5, miscfiles | wordlist
+Recommends: libjpeg-progs, perl5, miscfiles | wordlist
 Suggests: xfishtank, xdaliclock, xscreensaver-gl, fortune, www-browser, qcam | streamer, gdm3 | kdm-gdmcompat
 Description: Automatic screensaver for X
  XScreenSaver is a modular screen saver and locker for X11,
