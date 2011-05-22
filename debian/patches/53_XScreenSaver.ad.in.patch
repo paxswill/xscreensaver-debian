@@ -1,8 +1,8 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-04-21 23:44:55.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2011-04-22 13:10:29.000000000 +0200
-@@ -56,11 +56,11 @@
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-05-22 18:43:28.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2011-05-22 18:43:51.000000000 +0200
+@@ -57,11 +57,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
  
@@ -16,7 +16,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !*textURL:		http://twitter.com/statuses/public_timeline.atom
  
  *overlayTextForeground:	#FFFF00
-@@ -95,9 +95,13 @@
+@@ -96,9 +96,13 @@
  !
  !   Gnome 2.4, 2.6: (yelp can't display man pages, as of 2.6.3)
  !
@@ -33,7 +33,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !
  !   Gnome 2.2:
  !
-@@ -112,14 +116,18 @@
+@@ -113,14 +117,18 @@
  !
  !   non-Gnome systems:
  !
@@ -56,7 +56,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  ! To show the time only:
  ! *dateFormat:		%I:%M %p
  ! For 24 hour time:
-@@ -130,7 +138,9 @@
+@@ -131,7 +139,9 @@
  ! (That button does not appear on the dialog if this program does not exist.)
  ! For Gnome: probably "gdmflexiserver -ls".  KDE, probably "kdmctl reserve".
  !
@@ -67,7 +67,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  ! Turning on "installColormap" on 8-bit systems interacts erratically with
-@@ -247,7 +257,6 @@
+@@ -248,7 +258,6 @@
  				xspirograph -root			    \n\
  @GL_KLUDGE@ GL: 				circuit -root				    \n\
  @GL_KLUDGE@ GL: 				dangerball -root			    \n\
@@ -75,7 +75,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  @GL_KLUDGE@ GL: 				engine -root				    \n\
  @GL_KLUDGE@ GL: 				flipscreen3d -root			    \n\
  @GL_KLUDGE@ GL: 				gltext -root				    \n\
-@@ -348,7 +357,8 @@
+@@ -349,7 +358,8 @@
  -				lcdscrub -root				    \n\
  @GL_KLUDGE@ GL: 				photopile -root				    \n\
  @GL_KLUDGE@ GL: 				skytentacles -root			    \n\
@@ -85,7 +85,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  
-@@ -398,10 +408,11 @@
+@@ -399,10 +409,11 @@
  *Dialog.shadowThickness:	2
  
  *passwd.heading.label:		XScreenSaver %s
