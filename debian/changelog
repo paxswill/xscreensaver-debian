@@ -1,5 +1,6 @@
-xscreensaver (5.14-1) UNRELEASED; urgency=low
+xscreensaver (5.14-1) unstable; urgency=low
 
+  [ Tormod Volden ]
   * New upstream version 5.14
     - Fixed crash in Blank Only Mode when DPMS disabled.
       (Closes: #627382, #627397)
@@ -8,7 +9,7 @@ xscreensaver (5.14-1) UNRELEASED; urgency=low
   * Clean up duplicate build-depends (thanks Jeremy Bicha)
   * Drop xli | xloadimage recommends (we use gdk-pixbuf)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Sun, 22 May 2011 18:31:28 +0200
+ -- Jose Luis Rivas <ghostbar@debian.org>  Sun, 22 May 2011 23:12:59 -0430
 
 xscreensaver (5.13-1) unstable; urgency=low
 
