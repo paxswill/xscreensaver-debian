@@ -1,3 +1,9 @@
+xscreensaver (5.14-2) UNRELEASED; urgency=low
+
+  * Killing xscreensaver after removal. (Closes: #558024) 
+
+ -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 15 Jul 2011 13:06:25 -0430
+
 xscreensaver (5.14-1) unstable; urgency=low
 
   [ Tormod Volden ]

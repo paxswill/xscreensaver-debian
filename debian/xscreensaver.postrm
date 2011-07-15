@@ -20,6 +20,7 @@ case "$1" in
 	if [ -L /usr/doc/xscreensaver ]; then
 		rm -f /usr/doc/xscreensaver
 	fi
+	pidof xscreensaver | xargs kill -9
 	;;
 esac
 
