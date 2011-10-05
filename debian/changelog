@@ -1,6 +1,12 @@
-xscreensaver (5.14-2) UNRELEASED; urgency=low
+xscreensaver (5.15-1) UNRELEASED; urgency=low
 
-  * Killing xscreensaver after removal. (Closes: #558024) 
+  [ Tormod Volden ]
+  * New upstream version 5.15
+    - New hacks, hilbert, companioncube and tronbit
+    - Turned on LC_CTYPE on Linux (LP: #671923)
+
+  [ Jose Luis Rivas ]
+  * postrm: Kill xscreensaver after removal (Closes: #558024)
 
  -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 15 Jul 2011 13:06:25 -0430
 

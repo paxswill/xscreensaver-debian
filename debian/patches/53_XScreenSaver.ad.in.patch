@@ -1,8 +1,8 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-05-22 18:43:28.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2011-05-22 18:43:51.000000000 +0200
-@@ -57,11 +57,11 @@
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-10-05 22:51:19.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2011-10-05 23:05:46.000000000 +0200
+@@ -58,11 +58,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
  
@@ -11,12 +11,12 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  *textLiteral:		XScreenSaver
  *textFile:		@DEFAULT_TEXT_FILE@
  *textProgram:		fortune
--*textURL:		http://www.livejournal.com/stats/latest-rss.bml
+-*textURL:		http://twitter.com/statuses/public_timeline.atom
 +*textURL:		http://planet.debian.org/rss20.xml
- !*textURL:		http://twitter.com/statuses/public_timeline.atom
+ !*textURL:		http://www.livejournal.com/stats/latest-rss.bml
  
  *overlayTextForeground:	#FFFF00
-@@ -96,9 +96,13 @@
+@@ -99,9 +99,13 @@
  !
  !   Gnome 2.4, 2.6: (yelp can't display man pages, as of 2.6.3)
  !
@@ -33,7 +33,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !
  !   Gnome 2.2:
  !
-@@ -113,14 +117,18 @@
+@@ -116,14 +120,18 @@
  !
  !   non-Gnome systems:
  !
@@ -56,7 +56,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  ! To show the time only:
  ! *dateFormat:		%I:%M %p
  ! For 24 hour time:
-@@ -131,7 +139,9 @@
+@@ -134,7 +142,9 @@
  ! (That button does not appear on the dialog if this program does not exist.)
  ! For Gnome: probably "gdmflexiserver -ls".  KDE, probably "kdmctl reserve".
  !
@@ -67,7 +67,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  ! Turning on "installColormap" on 8-bit systems interacts erratically with
-@@ -248,7 +258,6 @@
+@@ -251,7 +261,6 @@
  				xspirograph -root			    \n\
  @GL_KLUDGE@ GL: 				circuit -root				    \n\
  @GL_KLUDGE@ GL: 				dangerball -root			    \n\
@@ -75,17 +75,17 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  @GL_KLUDGE@ GL: 				engine -root				    \n\
  @GL_KLUDGE@ GL: 				flipscreen3d -root			    \n\
  @GL_KLUDGE@ GL: 				gltext -root				    \n\
-@@ -349,7 +358,8 @@
- -				lcdscrub -root				    \n\
- @GL_KLUDGE@ GL: 				photopile -root				    \n\
- @GL_KLUDGE@ GL: 				skytentacles -root			    \n\
--@GL_KLUDGE@ GL: 				rubikblocks -root			    \n
-+@GL_KLUDGE@ GL: 				rubikblocks -root			    \n\
+@@ -355,7 +364,8 @@
+ @GL_KLUDGE@ GL: 				rubikblocks -root			    \n\
+ @GL_KLUDGE@ GL: 				companioncube -root			    \n\
+ @GL_KLUDGE@ GL: 				hilbert -root				    \n\
+-@GL_KLUDGE@ GL: 				tronbit -root				    \n
++@GL_KLUDGE@ GL: 				tronbit -root				    \n\
 +				unicode -root				    \n
  
  
  
-@@ -399,10 +409,11 @@
+@@ -405,10 +415,11 @@
  *Dialog.shadowThickness:	2
  
  *passwd.heading.label:		XScreenSaver %s
