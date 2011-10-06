@@ -44,8 +44,9 @@ Description: data files to be shared among screensaver frontends
  is used by both xscreensaver and gnome-screensaver.
  .
  This is the selected set of non-GL screensavers shipped by default:
- abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy, m6502,
- metaballs, penrose, ripples, shadebobs, slidescreen, sonar, swirl, xlyap.
+ abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy,
+ m6502, metaballs, penrose, ripples, shadebobs, slidescreen, swirl,
+ xlyap.
  .
  More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
  and xscreensaver-gl-extra packages.
@@ -66,20 +67,20 @@ Description: data files to be shared among screensaver frontends
  xscreensaver and gnome-screensaver.
  .
  This is the set of non-GL screensavers not shipped by default:
- ant, anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
- blitspin, bouboule, boxfit, braid, bsod, bumps, ccurve, celtic,
- cloudlife, compass, coral, crystal, cynosure, decayscreen,
- deluxe, demon, discrete, drift, epicycle, eruption, euler2d, fadeplot,
- fireworkx, flame, flow, fluidballs, fontglide, goop,
- grav, greynetic, halftone, halo, helix, hopalong, hyperball,
- hypercube, ifs, imsmap, interaggregate, interference, intermomentary, jigsqw,
- juggle, julia, memscroller, mismunch, moire, moire2, mountain, munch,
- nerverot, noseguy, pacman, pedal, penetrate, petry, phosphor, piecewise,
- polyominoes, pong, pyro, qiz, rd-bomb, rocks, rorschach, rotzoomer,
- sierpinski, slip, speedmine, spotlight, squiral, starfish,
- strange, substrate, thornbird, triangle, truchet, twang, vermiculate,
- vidwhacker, wander, webcollage, whirlwindwarp,
- wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm, xspirograph, zoom.
+ anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
+ blitspin, bouboule, boxfit, braid, bumps, ccurve, celtic, cloudlife,
+ compass, coral, crystal, cynosure, decayscreen, deluxe, demon,
+ discrete, drift, epicycle, eruption, euler2d, fadeplot, fireworkx,
+ flame, flow, fluidballs, fontglide, goop, grav, greynetic, halftone,
+ halo, helix, hopalong, ifs, imsmap, interaggregate, interference,
+ intermomentary, julia, kaleidescope, kumppa, lcdscrub, ljlatest, loop,
+ maze, memscroller, moire2, moire, mountain, munch, nerverot, noseguy,
+ pacman, pedal, penetrate, petri, phosphor, piecewise, polyominoes,
+ pong, pyro, qix, rd-bomb, rocks, rorschach, rotzoomer, sierpinski,
+ slip, speedmine, spotlight, squiral, starfish, strange, substrate,
+ thornbird, triangle, truchet, twang, vermiculate, vidwhacker, wander,
+ whirlwindwarp, wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm,
+ xspirograph, zoom.
  .
  More display modes can be found in the xscreensaver-data, xscreensaver-gl
  and xscreensaver-gl-extra packages.
@@ -100,14 +101,13 @@ Description: GL(Mesa) screen hacks for xscreensaver
  used by both xscreensaver and gnome-screensaver.
  .
  This is the set of GL screensavers shipped by default:
- antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit, cubestorm,
- endgame, engine, flipflop, flipscreen3d, flurry, flyingtoasters, gears,
- gflux, glblur, glcells, gleidescope, glknots, glmatrix, glschool,
- glslideshow, glsnake, gltext, hypertorus, jigglypuff, lavalite, lockward,
- mirrorblog, moebius, boebiusgears, molecule, morph3d, pipes, polyhedra,
- polytopes, pulsar, queens, sierpinski3d, spheremonics, stonerview, 
- superquadrics, topblock, voronoi.
- More GL screensavers can be found in the xscreensaver-gl-extra package.
+ antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
+ cubestorm, endgame, engine, flipflop, flipscreen3d, flyingtoasters,
+ gears, gflux, glblur, glcells, gleidescope, glknots, glmatrix,
+ glschool, glslideshow, glsnake, gltext, hypertorus, jigglypuff,
+ lavalite, lockward, mirrorblog, moebius, moebiusgears, molecule,
+ morph3d, pipes, polyhedra, polytopes, pulsar, queens, sierpinski3d,
+ sonar, spheremonics, stonerview, superquadrics, topblock, voronoi.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
@@ -128,11 +128,13 @@ Description: GL(Mesa) screen hacks for xscreensaver
  by both xscreensaver and gnome-screensaver.
  .
  This is the set of GL screensavers not shipped by default with
- xscreensaver-gl: antmaze, atlantis, blocktube, boing, bouncingcow, boxed,
- cage, carousel, crackberg, cube21, cubenetic, dangerball, extrusion,
- fliptext, glhanoi, glplanet, juggler3d, klein, lament, menger,
- noof, pinion, providence, rubik, sballs, sproingies, staris, starwars,
- tangram, timetunnel.
+ xscreensaver-gl:
+ antmaze, atlantis, blocktube, boing, bouncingcow, boxed, cage,
+ carousel, companioncube, crackberg, cube21, cubenetic, cubicgrid,
+ dangerball, extrusion, fliptext, flurry, glhanoi, glplanet, hilbert,
+ hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof, photopile,
+ pinion, providence, rubik, rubikblocks, sballs, skytentacles,
+ sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl packages.
