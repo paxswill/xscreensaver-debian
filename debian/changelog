@@ -1,15 +1,15 @@
-xscreensaver (5.15-1) UNRELEASED; urgency=low
+xscreensaver (5.15-1) unstable; urgency=low
 
   [ Tormod Volden ]
   * New upstream version 5.15
-    - New hacks, hilbert, companioncube and tronbit
+    - New hacks: hilbert, companioncube and tronbit
     - Turned on LC_CTYPE on Linux (LP: #671923)
   * debian/rules: Add build-arch and build-indep targets
 
   [ Jose Luis Rivas ]
   * postrm: Kill xscreensaver after removal (Closes: #558024)
 
- -- Jose Luis Rivas <ghostbar@debian.org>  Fri, 15 Jul 2011 13:06:25 -0430
+ -- Tormod Volden <debian.tormod@gmail.com>  Thu, 06 Oct 2011 23:12:30 +0200
 
 xscreensaver (5.14-1) unstable; urgency=low
 
