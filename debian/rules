@@ -15,7 +15,9 @@ include /usr/share/quilt/quilt.make
 export DEB_HOST_GNU_TYPE  ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
 export DEB_BUILD_GNU_TYPE ?= $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
 
-build:	patch build-stamp
+build:	build-arch build-indep
+build-arch:	patch build-stamp
+build-indep:	patch build-stamp
 build-stamp:
 	dh_testdir
 
