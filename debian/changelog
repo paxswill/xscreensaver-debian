@@ -1,4 +1,4 @@
-xscreensaver (5.15-2) UNRELEASED; urgency=low
+xscreensaver (5.15-2) unstable; urgency=low
 
   * Build-dep on libjpeg-dev instead of libjpeg62-dev (Closes: #647110)
 
