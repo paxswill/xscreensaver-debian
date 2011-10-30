@@ -1,3 +1,9 @@
+xscreensaver (5.15-2) UNRELEASED; urgency=low
+
+  * Build-dep on libjpeg-dev instead of libjpeg62-dev (Closes: #647110)
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 30 Oct 2011 18:08:37 +0100
+
 xscreensaver (5.15-1) unstable; urgency=low
 
   [ Tormod Volden ]
