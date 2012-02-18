@@ -1,3 +1,10 @@
+xscreensaver (5.15-2.1) UNRELEASED; urgency=low
+
+  * Removed Jose Luis Rivas as maintainer, now the sole maintainer is Tormod
+  Volden.
+
+ --  <ghostbar@debian.org>  Fri, 17 Feb 2012 22:45:04 -0430
+
 xscreensaver (5.15-2) unstable; urgency=low
 
   * Build-dep on libjpeg-dev instead of libjpeg62-dev (Closes: #647110)
