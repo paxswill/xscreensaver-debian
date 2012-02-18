@@ -1,9 +1,13 @@
-xscreensaver (5.15-2.1) UNRELEASED; urgency=low
+xscreensaver (5.15-3) UNRELEASED; urgency=low
 
-  * Removed Jose Luis Rivas as maintainer, now the sole maintainer is Tormod
-  Volden.
+  [ Jose Luis Rivas ]
+  * Removed Jose Luis Rivas as maintainer, now the sole maintainer
+    is Tormod Volden.
 
- --  <ghostbar@debian.org>  Fri, 17 Feb 2012 22:45:04 -0430
+  [ Tormod Volden ]
+  * Add -s to gdmflexiserver invocation (Closes: #349000)
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sat, 18 Feb 2012 21:08:00 +0100
 
 xscreensaver (5.15-2) unstable; urgency=low
 
