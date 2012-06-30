@@ -1,4 +1,4 @@
-xscreensaver (5.15-3) UNRELEASED; urgency=low
+xscreensaver (5.15-3) unstable; urgency=low
 
   [ Jose Luis Rivas ]
   * Removed Jose Luis Rivas as maintainer, now the sole maintainer
@@ -9,7 +9,7 @@ xscreensaver (5.15-3) UNRELEASED; urgency=low
   * xscreensaver-data depends on libwww-perl (LP: #971140)
   * Bump Standards-Version to 3.9.3 (no changes needed)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Sat, 18 Feb 2012 21:08:00 +0100
+ -- Tormod Volden <debian.tormod@gmail.com>  Sat, 30 Jun 2012 17:24:51 +0200
 
 xscreensaver (5.15-2) unstable; urgency=low
 
