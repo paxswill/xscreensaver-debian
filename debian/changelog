@@ -6,6 +6,7 @@ xscreensaver (5.15-3) UNRELEASED; urgency=low
 
   [ Tormod Volden ]
   * Add -s to gdmflexiserver invocation (Closes: #349000)
+  * xscreensaver-data depends on libwww-perl (LP: #971140)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 18 Feb 2012 21:08:00 +0100
 
