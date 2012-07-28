@@ -14,6 +14,7 @@ xscreensaver (5.15-4) UNRELEASED; urgency=low
   * New xscreensaver daemon wrapper used by the example .desktop file
     to determine correct "New login" command.
   * debian/copyright: Updated to comply with accepted standard
+  * debian/control: Make short descriptions more consistent
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 28 Jul 2012 11:25:47 +0200
 
