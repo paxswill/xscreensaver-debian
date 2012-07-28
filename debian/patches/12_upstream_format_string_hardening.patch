@@ -1,0 +1,26 @@
+Description: Fix format string issue in xscreensaver-text
+Bug-Ubuntu: https://bugs.launchpad.net/bugs/781948
+Author: Tormod Volden <debian.tormod@gmail.com>
+Forwarded: jwz 2012-07-28
+
+Index: xscreensaver/driver/xscreensaver-text
+===================================================================
+--- xscreensaver.orig/driver/xscreensaver-text	2012-07-28 12:52:14.000000000 +0200
++++ xscreensaver/driver/xscreensaver-text	2012-07-28 12:52:58.000000000 +0200
+@@ -192,11 +192,11 @@
+   }
+ 
+   if ($verbose > 1) {
+-    printf STDERR "$progname: mode:    $text_mode\n";
+-    printf STDERR "$progname: literal: $text_literal\n";
+-    printf STDERR "$progname: file:    $text_file\n";
+-    printf STDERR "$progname: program: $text_program\n";
+-    printf STDERR "$progname: url:     $text_url\n";
++    print STDERR "$progname: mode:    $text_mode\n";
++    print STDERR "$progname: literal: $text_literal\n";
++    print STDERR "$progname: file:    $text_file\n";
++    print STDERR "$progname: program: $text_program\n";
++    print STDERR "$progname: url:     $text_url\n";
+   }
+ 
+   $text_mode =~ tr/A-Z/a-z/;
