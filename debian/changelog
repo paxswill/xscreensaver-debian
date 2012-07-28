@@ -11,6 +11,8 @@ xscreensaver (5.15-4) UNRELEASED; urgency=low
     (thanks Emanuel Bronshtein)
   * Stop xscreensaver in prerm instead of postrm (Closes: 681613)
     (thanks Filipus Klutiero)
+  * New xscreensaver daemon wrapper used by the example .desktop file
+    to determine correct "New login" command.
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 28 Jul 2012 11:25:47 +0200
 
