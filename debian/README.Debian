@@ -24,5 +24,6 @@ NoShowIn=KDE;GNOME; might suit your purpose.
 
 Note that the example desktop file does not start the daemon directly
 but via a wrapper script. This wrapper is intended to set the
-newLoginCommand resource correctly depending on the current
-environment.
+newLoginCommand resource correctly depending on the currently
+running display manager.
+
