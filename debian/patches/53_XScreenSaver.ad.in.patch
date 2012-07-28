@@ -1,7 +1,7 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2011-10-05 22:51:19.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2011-10-05 23:05:46.000000000 +0200
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2012-07-28 18:16:44.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2012-07-28 18:18:39.000000000 +0200
 @@ -58,11 +58,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
@@ -56,9 +56,9 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  ! To show the time only:
  ! *dateFormat:		%I:%M %p
  ! For 24 hour time:
-@@ -134,7 +142,9 @@
- ! (That button does not appear on the dialog if this program does not exist.)
+@@ -135,7 +143,9 @@
  ! For Gnome: probably "gdmflexiserver -ls".  KDE, probably "kdmctl reserve".
+ ! Or maybe yet another wheel-reinvention, "lxdm -c USER_SWITCH".
  !
 -@NEW_LOGIN_COMMAND_P@*newLoginCommand:	@NEW_LOGIN_COMMAND@
 +! @NEW_LOGIN_COMMAND_P@*newLoginCommand:	@NEW_LOGIN_COMMAND@
@@ -67,7 +67,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  ! Turning on "installColormap" on 8-bit systems interacts erratically with
-@@ -251,7 +261,6 @@
+@@ -252,7 +262,6 @@
  				xspirograph -root			    \n\
  @GL_KLUDGE@ GL: 				circuit -root				    \n\
  @GL_KLUDGE@ GL: 				dangerball -root			    \n\
@@ -75,7 +75,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  @GL_KLUDGE@ GL: 				engine -root				    \n\
  @GL_KLUDGE@ GL: 				flipscreen3d -root			    \n\
  @GL_KLUDGE@ GL: 				gltext -root				    \n\
-@@ -355,7 +364,8 @@
+@@ -356,7 +365,8 @@
  @GL_KLUDGE@ GL: 				rubikblocks -root			    \n\
  @GL_KLUDGE@ GL: 				companioncube -root			    \n\
  @GL_KLUDGE@ GL: 				hilbert -root				    \n\
@@ -85,7 +85,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  
  
  
-@@ -405,10 +415,11 @@
+@@ -406,10 +416,11 @@
  *Dialog.shadowThickness:	2
  
  *passwd.heading.label:		XScreenSaver %s

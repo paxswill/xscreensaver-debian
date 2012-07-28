@@ -5,9 +5,9 @@ Forwarded: jwz 2012-07-28
 
 Index: xscreensaver/driver/xscreensaver-text
 ===================================================================
---- xscreensaver.orig/driver/xscreensaver-text	2012-07-28 12:52:14.000000000 +0200
-+++ xscreensaver/driver/xscreensaver-text	2012-07-28 12:52:58.000000000 +0200
-@@ -192,11 +192,11 @@
+--- xscreensaver.orig/driver/xscreensaver-text	2012-07-28 18:16:44.000000000 +0200
++++ xscreensaver/driver/xscreensaver-text	2012-07-28 18:18:16.000000000 +0200
+@@ -197,11 +197,11 @@
    }
  
    if ($verbose > 1) {
