@@ -66,6 +66,7 @@ extract_entries () {
   XMLEXE="$XMLNAME $XMLARG"
 
   XMLLABEL=`get_xml_option $XML screensaver _label`
+  XMLGL=`get_xml_option $XML screensaver gl`
 
   # delete trailing spaces and years
   XMLDES=`get_xml_entity $XML _description |
@@ -156,6 +157,16 @@ for XML in hacks/config/*.xml; do
 #	echo " description not matching on $NAME"
   if [ x"$XMLDES" = x ] || [ x"$DSKDES" = x ]; then
 	echo " description missing on $NAME"
+  fi
+
+  if grep -q "^$NAME	[a-z-]*-gl" debian/split-hacks.config ; then
+	if [ -z "$XMLGL" ]; then
+		echo "non-GL saver $NAME in -gl package?"
+	fi
+  else
+	if [ x"$XMLGL" = xyes ]; then
+		echo "GL saver $NAME not in gl package?"
+	fi
   fi
 
 done
