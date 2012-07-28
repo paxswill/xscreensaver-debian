@@ -3,6 +3,9 @@ xscreensaver (5.15-4) UNRELEASED; urgency=low
   * debian/rules: Drop unnecessary dh_testroot from clean target
     (thanks Julien Cristau)
   * debian/rules: Include buildflags.mk for hardening options
+  * Build with -D_FILE_OFFSET_BITS=64 to fix inode number overflow
+    when accessing image files on cifs file systems (LP: #609451)
+    (thanks Mamoru Tasaka)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 28 Jul 2012 11:25:47 +0200
 
