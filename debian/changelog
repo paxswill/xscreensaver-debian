@@ -1,3 +1,10 @@
+xscreensaver (5.15-4) UNRELEASED; urgency=low
+
+  * debian/rules: Drop unnecessary dh_testroot from clean target
+    (thanks Julien Cristau)
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sat, 28 Jul 2012 11:25:47 +0200
+
 xscreensaver (5.15-3) unstable; urgency=low
 
   [ Jose Luis Rivas ]

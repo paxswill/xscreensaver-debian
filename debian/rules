@@ -64,7 +64,6 @@ clean:	clean-patched unpatch
 
 clean-patched:
 	dh_testdir
-	dh_testroot
 	[ ! -f Makefile ] || $(MAKE) distclean
 	rm -f config.log config.h
 	rm -rf driver/XScreenSaver.ad-nogl
