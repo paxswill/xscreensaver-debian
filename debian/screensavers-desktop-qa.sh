@@ -1,10 +1,10 @@
 #!/bin/sh
-# Check our desktop files and compare them to upstream xml files
-# Or, provided an xml file as argument, generate a desktop file
-# 2008 Tormod Volden
+# Checks our desktop files and compare them to upstream xml files.
+# Or, provided an xml file as argument, generates a desktop file.
+# 2008-2012 Tormod Volden
 
-# Some xml files are for external programs or hacks that are not built
-# we do not ship desktop files for those
+# Some xml files are for external programs or hacks that are not built.
+# We do not ship desktop files for those.
 EXTERNALS="\
  cosmos \
  dnalogo \
@@ -19,6 +19,26 @@ EXTERNALS="\
  xplanet \
  xsnow \
  xteevee \
+"
+RETIRED="\
+ bubbles \
+ critical \
+ flag \
+ forest \
+ glforestfire \
+ lmorph \
+ laser \
+ lightning \
+ lisa \
+ lissie \
+ mismunch \
+ rotor \
+ sphere \
+ spiral \
+ t3d \
+ vines \
+ whirlygig \
+ worm \
 "
 
 # Poor man's xml parser "can i haz xml purrser"
@@ -77,9 +97,9 @@ for XML in hacks/config/*.xml; do
   NAME=`basename $XML .xml`
   DSK=debian/screensavers-desktop-files/${NAME}.desktop
 
-  if echo $EXTERNALS | grep -wq $NAME; then
+  if echo $EXTERNALS $RETIRED | grep -wq $NAME; then
 	if [ -f $DSK ]; then
-		echo " external $NAME has a desktop file"
+		echo " external/retired $NAME has a desktop file"
 	fi
 	continue
   fi
@@ -105,6 +125,7 @@ for XML in hacks/config/*.xml; do
   extract_entries $XML
 
   DSKEXE=`sed -n '/^Exec=/s@Exec=@@p' < $DSK`
+  DSKEXE=${DSKEXE#/usr/lib/xscreensaver/}
   if [ x"$XMLEXE" = x ] ||
      [ x"$DSKEXE" = x ] ||
      [ x"$XMLEXE" != x"$DSKEXE" ]; then
@@ -119,6 +140,7 @@ for XML in hacks/config/*.xml; do
   fi
 
   DSKTRY=`sed -n '/^TryExec=/s@TryExec=@@p' < $DSK`
+  DSKTRY=${DSKTRY#/usr/lib/xscreensaver/}
   if [ x"$XMLNAME" = x ] ||
      [ x"$DSKTRY" = x ] ||
      [ x"$XMLNAME" != x"$DSKTRY" ]; then
