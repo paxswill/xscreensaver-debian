@@ -11,7 +11,7 @@ Vcs-browser: http://git.debian.org/?p=collab-maint/xscreensaver.git;a=summary
 Package: xscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data, ${misc:Depends}
-Conflicts: funny-manpages (<< 1.3-1), suidmanager (<< 0.50), xscreensaver-gnome (<< 4.09-2), xscreensaver-nognome (<< 4.09-2), gnome-control-center (<< 1:2)
+Breaks: funny-manpages (<< 1.3-1), suidmanager (<< 0.50), xscreensaver-gnome (<< 4.09-2), xscreensaver-nognome (<< 4.09-2), gnome-control-center (<< 1:2)
 Recommends: libjpeg-progs, perl5, miscfiles | wordlist
 Suggests: xfishtank, xdaliclock, xscreensaver-gl, fortune, www-browser, qcam | streamer, gdm3 | kdm-gdmcompat
 Description: Screensaver daemon and frontend for X11
@@ -31,9 +31,8 @@ Package: xscreensaver-data
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl
 Suggests: xscreensaver
-Conflicts: xscreensaver (<< 5.04-3), kscreensaver-xsavers (<< 4:3.5.9-1)
 Replaces: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.15.4-0ubuntu1)
-Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
+Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: Screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -54,9 +53,8 @@ Package: xscreensaver-data-extra
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data (>= 5.04-3), dictionaries-common, libjpeg-progs, netpbm, ${misc:Depends}
 Enhances: xscreensaver, gnome-screensaver
-Conflicts: xscreensaver (<< 5.04-3), kscreensaver-xsavers (<< 4:3.5.9-1)
 Replaces: xscreensaver (<< 5.04-3)
-Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
+Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: Extra screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -88,9 +86,8 @@ Package: xscreensaver-gl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: xscreensaver
-Conflicts: xscreensaver (<< 5.04-3)
 Replaces: xscreensaver-data (<< 5.10-3)
-Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
+Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: GL(Mesa) screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -115,9 +112,8 @@ Package: xscreensaver-gl-extra
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-gl (>= 5.04-3), ${misc:Depends}
 Enhances: xscreensaver, gnome-screensaver
-Conflicts: xscreensaver (<< 5.04-3)
 Replaces: xscreensaver-gl (<< 5.04-3)
-Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
+Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -141,7 +137,7 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
 Package: xscreensaver-screensaver-webcollage
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra, ${misc:Depends}
-Conflicts: xscreensaver-data-extra (<< 5.10-4)
+Breaks: xscreensaver-data-extra (<< 5.10-4)
 Replaces: xscreensaver-data-extra (<< 5.10-4)
 Description: Webcollage screen saver module from XScreenSaver
  This package ships the hack webcollage which displays images from random 
@@ -154,7 +150,7 @@ Description: Webcollage screen saver module from XScreenSaver
 Package: xscreensaver-screensaver-bsod
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra, ${misc:Depends}
-Conflicts: xscreensaver-data-extra (<< 5.10-4)
+Breaks: xscreensaver-data-extra (<< 5.10-4)
 Replaces: xscreensaver-data-extra (<< 5.10-4)
 Description: BSOD screen saver module from XScreenSaver
  This package ships the hack BSOD that shows the popular Blue Screens of Death
