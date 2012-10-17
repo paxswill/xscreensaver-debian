@@ -1,14 +1,15 @@
-xscreensaver (5.19-1) UNRELEASED; urgency=low
+xscreensaver (5.20-1) UNRELEASED; urgency=low
 
-  * New upstream release 5.19, changes since 5.15:
+  * New upstream release 5.20, changes since 5.15:
     - Made pipes be ridiculously less efficient, but spin
     - Added better mouse control to rubik, cube21, crackberg, and julia
     - Cosmetic improvements to queens and endgame
     - sonar can now ping local subnet on DHCP
     - Most savers now resize/rotate properly
     - Enlarged the texture image for lament
+  * Drop 12_upstream_format_string_hardening.patch (applied upstream)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Sat, 28 Jul 2012 18:36:33 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Wed, 17 Oct 2012 21:52:41 +0200
 
 xscreensaver (5.15-4) UNRELEASED; urgency=low
 
