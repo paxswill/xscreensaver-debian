@@ -9,6 +9,8 @@ xscreensaver (5.20-1) UNRELEASED; urgency=low
     - Enlarged the texture image for lament
     - Gnome/KDE instructions updated in man page (Closes: #640640)
   * Drop 12_upstream_format_string_hardening.patch (applied upstream)
+  * debian/patches: Split up 53_XScreenSaver.ad.in.patch into
+    logically separated and better named patches
 
  -- Tormod Volden <debian.tormod@gmail.com>  Wed, 17 Oct 2012 21:52:41 +0200
 

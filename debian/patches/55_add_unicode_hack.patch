@@ -1,0 +1,14 @@
+Index: xscreensaver/driver/XScreenSaver.ad.in
+===================================================================
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2012-10-18 22:39:41.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2012-10-18 22:39:45.000000000 +0200
+@@ -365,7 +365,8 @@
+ @GL_KLUDGE@ GL: 				rubikblocks -root			    \n\
+ @GL_KLUDGE@ GL: 				companioncube -root			    \n\
+ @GL_KLUDGE@ GL: 				hilbert -root				    \n\
+-@GL_KLUDGE@ GL: 				tronbit -root				    \n
++@GL_KLUDGE@ GL: 				tronbit -root				    \n\
++				unicode -root				    \n
+ 
+ 
+ 

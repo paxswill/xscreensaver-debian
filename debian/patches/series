@@ -10,6 +10,13 @@
 30_hacks_xanalogtv.patch
 31_utils_images_logo-50-bad-xpm.patch
 
-53_XScreenSaver.ad.in.patch
+# All these modify XScreenSaver.ad.in
+50_debian_branding.patch
+51_generalize_external_commands.patch
+52_standard_time_format.patch
+53_default_newLoginCommand.patch
+54_no_dnalogo_hack.patch
+55_add_unicode_hack.patch
+56_password_dialog_reworded.patch
 
 80_Makefile_in-clean-fix.patch
