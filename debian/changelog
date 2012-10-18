@@ -7,6 +7,7 @@ xscreensaver (5.20-1) UNRELEASED; urgency=low
     - sonar can now ping local subnet on DHCP
     - Most savers now resize/rotate properly
     - Enlarged the texture image for lament
+    - Gnome/KDE instructions updated in man page (Closes: #640640)
   * Drop 12_upstream_format_string_hardening.patch (applied upstream)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Wed, 17 Oct 2012 21:52:41 +0200
