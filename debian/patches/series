@@ -19,4 +19,5 @@
 55_add_unicode_hack.patch
 56_password_dialog_reworded.patch
 
+57_grabDesktopImages_default_off.patch
 80_Makefile_in-clean-fix.patch
