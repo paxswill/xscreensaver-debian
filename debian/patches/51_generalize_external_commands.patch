@@ -1,8 +1,8 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2012-10-18 22:39:25.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2012-10-18 22:43:06.000000000 +0200
-@@ -99,9 +99,13 @@
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-02-07 21:17:10.000000000 +0100
++++ xscreensaver/driver/XScreenSaver.ad.in	2013-02-07 21:17:10.000000000 +0100
+@@ -98,9 +98,13 @@
  !
  !   Gnome 2.4, 2.6: (yelp can't display man pages, as of 2.6.3)
  !
@@ -19,7 +19,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !
  !   Gnome 2.2:
  !
-@@ -116,9 +120,11 @@
+@@ -115,9 +119,11 @@
  !
  !   non-Gnome systems:
  !

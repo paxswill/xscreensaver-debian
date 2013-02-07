@@ -1,12 +1,18 @@
-xscreensaver (5.20-1) UNRELEASED; urgency=low
+xscreensaver (5.21-1) UNRELEASED; urgency=low
 
-  * New upstream release 5.20, changes since 5.15:
+  * New upstream release 5.21, changes since 5.15:
+    - XInput devices now also ignore small mouse motions
+    - Loading images via RSS feeds is much improved
+    - Enlarged the texture image for lament
     - Made pipes be ridiculously less efficient, but spin
     - Added better mouse control to rubik, cube21, crackberg, and julia
     - Cosmetic improvements to queens and endgame
     - sonar can now ping local subnet on DHCP
     - Most savers now resize/rotate properly
-    - Enlarged the texture image for lament
+    - New version of `fireworkx'
+    - Minor fixes to `distort', `fontglide', `xmatrix'
+    - New MacOS crash in `bsod'
+    - New mode in `lcdscrub'
     - Gnome/KDE instructions updated in man page (Closes: #640640)
     - New --enable-pam-check-account-type option (Closes: #656766)
     - Fixed imageDirectory URL parsing (LP: #1116006)
@@ -16,7 +22,7 @@ xscreensaver (5.20-1) UNRELEASED; urgency=low
   * debian/patches/57_grabDesktopImages_default_off.patch:
     Do not reveal desktop content by default (Closes: #679974)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Wed, 17 Oct 2012 21:52:41 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Feb 2013 21:29:31 +0100
 
 xscreensaver (5.15-4) UNRELEASED; urgency=low
 

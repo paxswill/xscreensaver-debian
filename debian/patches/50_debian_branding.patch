@@ -1,7 +1,7 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2012-07-28 18:16:44.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2012-07-28 18:18:39.000000000 +0200
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-02-07 21:17:04.000000000 +0100
++++ xscreensaver/driver/XScreenSaver.ad.in	2013-02-07 21:17:04.000000000 +0100
 @@ -58,11 +58,11 @@
  *captureStderr: 	True
  *ignoreUninstalledPrograms: False
@@ -11,8 +11,8 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  *textLiteral:		XScreenSaver
  *textFile:		@DEFAULT_TEXT_FILE@
  *textProgram:		fortune
--*textURL:		http://twitter.com/statuses/public_timeline.atom
+-*textURL:		http://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
 +*textURL:		http://planet.debian.org/rss20.xml
- !*textURL:		http://www.livejournal.com/stats/latest-rss.bml
  
  *overlayTextForeground:	#FFFF00
+ *overlayTextBackground:	#000000
