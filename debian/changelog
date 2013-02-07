@@ -9,6 +9,7 @@ xscreensaver (5.20-1) UNRELEASED; urgency=low
     - Enlarged the texture image for lament
     - Gnome/KDE instructions updated in man page (Closes: #640640)
     - New --enable-pam-check-account-type option (Closes: #656766)
+    - Fixed imageDirectory URL parsing (LP: #1116006)
   * Drop 12_upstream_format_string_hardening.patch (applied upstream)
   * debian/patches: Split up 53_XScreenSaver.ad.in.patch into
     logically separated and better named patches
