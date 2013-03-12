@@ -16,6 +16,8 @@ xscreensaver (5.21-1) UNRELEASED; urgency=low
     - Gnome/KDE instructions updated in man page (Closes: #640640)
     - New --enable-pam-check-account-type option (Closes: #656766)
     - Fixed imageDirectory URL parsing (LP: #1116006)
+    - Use of AC_SYS_LARGEFILE fixes inode number overflow when accessing
+      image files on cifs file systems (LP: #609451) Thanks Mamoru Tasaka!
   * Drop 12_upstream_format_string_hardening.patch (applied upstream)
   * debian/patches: Split up 53_XScreenSaver.ad.in.patch into
     logically separated and better named patches
