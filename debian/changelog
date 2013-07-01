@@ -23,6 +23,8 @@ xscreensaver (5.21-1) UNRELEASED; urgency=low
     logically separated and better named patches
   * debian/patches/57_grabDesktopImages_default_off.patch:
     Do not reveal desktop content by default (Closes: #679974)
+  * debian/patches/12_upstream_pacman_dot_crash.patch:
+    Fix segfault in pacman hack (LP: #1196251)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Feb 2013 21:29:31 +0100
 
