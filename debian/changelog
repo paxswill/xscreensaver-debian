@@ -15,7 +15,7 @@ xscreensaver (5.21-1) UNRELEASED; urgency=low
     - New mode in `lcdscrub'
     - Gnome/KDE instructions updated in man page (Closes: #640640)
     - New --enable-pam-check-account-type option (Closes: #656766)
-    - Fixed imageDirectory URL parsing (LP: #1116006)
+    - Fixed imageDirectory URL parsing. Closes: #714582 (LP: #1116006)
     - Use of AC_SYS_LARGEFILE fixes inode number overflow when accessing
       image files on cifs file systems (LP: #609451) Thanks Mamoru Tasaka!
   * Drop 12_upstream_format_string_hardening.patch (applied upstream)
