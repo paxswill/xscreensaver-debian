@@ -1,13 +1,13 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-02-07 21:17:25.000000000 +0100
-+++ xscreensaver/driver/XScreenSaver.ad.in	2013-02-07 21:17:25.000000000 +0100
-@@ -364,7 +364,8 @@
- @GL_KLUDGE@ GL: 				rubikblocks -root			    \n\
- @GL_KLUDGE@ GL: 				companioncube -root			    \n\
- @GL_KLUDGE@ GL: 				hilbert -root				    \n\
--@GL_KLUDGE@ GL: 				tronbit -root				    \n
-+@GL_KLUDGE@ GL: 				tronbit -root				    \n\
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-07-23 20:44:28.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2013-07-23 20:44:28.000000000 +0200
+@@ -368,7 +368,8 @@
+ 				hexadrop -root				    \n\
+ @GL_KLUDGE@ GL: 				kaleidocycle -root			    \n\
+ @GL_KLUDGE@ GL: 				quasicrystal -root			    \n\
+-@GL_KLUDGE@ GL: 				unknownpleasures -root			    \n
++@GL_KLUDGE@ GL: 				unknownpleasures -root			    \n\
 +				unicode -root				    \n
  
  
