@@ -34,6 +34,7 @@ xscreensaver (5.22-1) UNRELEASED; urgency=low
     logically separated and better named patches
   * debian/patches/57_grabDesktopImages_default_off.patch:
     Do not reveal desktop content by default (Closes: #679974)
+  * Bump Standards-Version to 3.9.4 (no changes needed)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Feb 2013 21:29:31 +0100
 
