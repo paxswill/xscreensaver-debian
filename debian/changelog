@@ -1,6 +1,6 @@
-xscreensaver (5.21-1) UNRELEASED; urgency=low
+xscreensaver (5.22-1) UNRELEASED; urgency=low
 
-  * New upstream release 5.21, changes since 5.15:
+  * New upstream release 5.22 (Closes: #699833), changes since 5.15:
     - XInput devices now also ignore small mouse motions
     - Loading images via RSS feeds is much improved
     - Enlarged the texture image for lament
@@ -18,13 +18,22 @@ xscreensaver (5.21-1) UNRELEASED; urgency=low
     - Fixed imageDirectory URL parsing. Closes: #714582 (LP: #1116006)
     - Use of AC_SYS_LARGEFILE fixes inode number overflow when accessing
       image files on cifs file systems (LP: #609451) Thanks Mamoru Tasaka!
+    - New hacks: kaleidocycle, quasicrystal, unknownpleasures, hexadrop
+    - Performance improvements for `interference'.
+    - Fixed possible crashes in apple2, maze, pacman, polyominoes,
+      fireworkx, engine (LP: #1196251)
+    - Fix for `bumps' in 64 bit.
+    - Fixed "Shake to Randomize"; display name of saver.
+    - Fixed rotation problems with `pacman', `decayscreen'.
+    - Better dragging in `fluidballs'.
+    - Ignore rotation in hacks that don't benefit from it.
+    - Ignore DEACTIVATE messages when locked, instead of popping up the
+      password dialog box.
   * Drop 12_upstream_format_string_hardening.patch (applied upstream)
   * debian/patches: Split up 53_XScreenSaver.ad.in.patch into
     logically separated and better named patches
   * debian/patches/57_grabDesktopImages_default_off.patch:
     Do not reveal desktop content by default (Closes: #679974)
-  * debian/patches/12_upstream_pacman_dot_crash.patch:
-    Fix segfault in pacman hack (LP: #1196251)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Feb 2013 21:29:31 +0100
 
