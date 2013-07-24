@@ -43,8 +43,8 @@ Description: Screen saver modules for screensaver frontends
  .
  This is the selected set of non-GL screensavers shipped by default:
  abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy,
- m6502, metaballs, penrose, ripples, shadebobs, slidescreen, swirl,
- xlyap.
+ hexadrop, m6502, metaballs, penrose, ripples, shadebobs, slidescreen,
+ swirl, xlyap.
  .
  More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
  and xscreensaver-gl-extra packages.
@@ -101,9 +101,10 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  cubestorm, endgame, engine, flipflop, flipscreen3d, flyingtoasters,
  gears, gflux, glblur, glcells, gleidescope, glknots, glmatrix,
  glschool, glslideshow, glsnake, gltext, hypertorus, jigglypuff,
- lavalite, lockward, mirrorblob, moebius, moebiusgears, molecule,
- morph3d, pipes, polyhedra, polytopes, pulsar, queens, sierpinski3d,
- sonar, spheremonics, stonerview, superquadrics, topblock, voronoi.
+ kaleidocycle, lavalite, lockward, mirrorblob, moebius, moebiusgears,
+ molecule, morph3d, pipes, polyhedra, polytopes, pulsar, quasicrystal,
+ queens, sierpinski3d, sonar, spheremonics, stonerview, superquadrics,
+ topblock, voronoi.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
@@ -129,7 +130,8 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  dangerball, extrusion, fliptext, flurry, glhanoi, glplanet, hilbert,
  hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof, photopile,
  pinion, providence, rubik, rubikblocks, sballs, skytentacles,
- sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit.
+ sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit,
+ unknownpleasures.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl packages.
