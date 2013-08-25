@@ -1,4 +1,4 @@
-xscreensaver (5.22-1) UNRELEASED; urgency=low
+xscreensaver (5.22-1) unstable; urgency=low
 
   * New upstream release 5.22 (Closes: #699833), changes since 5.15:
     - XInput devices now also ignore small mouse motions
@@ -40,7 +40,7 @@ xscreensaver (5.22-1) UNRELEASED; urgency=low
     Allow keyboard exit when run standalone (from upstream)
   * Bump Standards-Version to 3.9.4 (no changes needed)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Feb 2013 21:29:31 +0100
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 25 Aug 2013 10:12:46 +0200
 
 xscreensaver (5.15-4) UNRELEASED; urgency=low
 
