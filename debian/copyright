@@ -4,7 +4,11 @@ Upstream-Contact: Jamie Zawinski <jwz@jwz.org>
 Source: http://www.jwz.org/xscreensaver/
 
 Files: *
-Copyright: © 1991-2008 Jamie Zawinski <jwz@jwz.org>
+       hacks/noseguy.*
+       hacks/hyperball.*
+Copyright: 1991-2008 Jamie Zawinski <jwz@jwz.org>
+           1985-1990 Dan Heller <argv@danheller.com>
+           2000 Joe Keane
 License: Other
  Permission to use, copy, modify, distribute, and sell this software and its
  documentation for any purpose is hereby granted without fee, provided that
@@ -24,7 +28,74 @@ License: Other
  supporting documentation.
 
 Files: hacks/xanalogtv.* hacks/analogtv.*
-Copyright: © 2003 Trevor Blackwell <tlb@tlb.org>
+       hacks/squiral.*
+       hacks/wormhole.*
+       hacks/xspirograph.c
+       hacks/petri.*
+       hacks/nerverot.*
+       hacks/xflame.*
+       hacks/bumps.*
+       hacks/glx/tangram.*
+       hacks/glx/timetunnel.*
+       hacks/glx/stonerview*
+       hacks/celtic.*
+       hacks/interference.*
+       hacks/epicycle.*
+       hacks/metaballs.*
+       hacks/penetrate.*
+       hacks/kaleidescope.*
+       hacks/truchet.*
+       hacks/anemone.*
+       hacks/blaster.*
+       hacks/rotor.man
+       hacks/demon.*
+       hacks/interaggregate.*
+       hacks/ccurve.* hacks/wander.*
+       hacks/spotlight.*
+       hacks/zoom.*
+       hacks/speedmine.*
+       hacks/popsquares.*
+       hacks/fireworkx*
+       hacks/xsublim.*
+       hacks/imsmap.*
+       hacks/vermiculate.*
+       hacks/abstractile.*
+       hacks/asm6502.*
+       hacks/pedal.*
+Copyright: 2003 Trevor Blackwell <tlb@tlb.org>
+           1999 Jeff Epler <jepler@inetnebr.com>
+           2004 Jon Rafkind
+           2000 Rohit Singh <rohit_singh@hotmail.com>
+           1992-2000 Dan Bornstein <danfuzz@milk.com>
+           1996-2002 Carsten Haitzler <raster@redhat.com>
+           1999-2006 Shane Smit
+           2005 Sean Brennan <zettix@yahoo.com>
+           2005 Jeremy English <jhe@jeremyenglish.org>
+           1998-2001 Andrew Plotkin <erkyrath@eblong.com>
+           2006 Max Froumentin <max@lapin-bleu.net>
+           1998 Hannu Mallat <hmallat@cs.hut.fi>
+           1998 James Youngman <jay@gnu.org>
+           2002-2003 W.P. van Paassen <peter@paassen.tmfweb.nl>
+           1999 Adam Miller
+           1997-2006 Ron Tapia <tapia@nmia.com>
+           1998 Adrian Likins <adrian@gimp.org>
+           1999 Jonathan H. Lin <jonlin@tesuji.org>
+           2001-2002 Gabriel Finch
+           2002 Tom Lawrence
+           1995-2002 David Bagley
+           2003 J. Tarbell
+           1998-2002 Rick Campbell <rick@campbellcentral.org>
+           1999 Rick Schultz
+           2000 James Macnicol
+           2001 Conrad Parker <conrad@deephackmode.org>
+           2003 Levi Burton <donburton@sbcglobal.net>
+           1999-2007 Rony B Chandran <ronybc@asia.com>
+           1999-2000 Greg Knauss <greg@eod.com>
+           1992-2008 Juergen Nickelsen and Jamie Zawinski
+           2004 Steve Sundstrom
+           2002 Tyler Pierce
+           Jeremy English <jhe@jeremyenglish.org>
+           1994 Carnegie Mellon University
 License: Other
  Permission to use, copy, modify, distribute, and sell this software and its
  documentation for any purpose is hereby granted without fee, provided that
@@ -34,7 +105,47 @@ License: Other
  purpose.  It is provided "as is" without express or implied warranty.
 
 Files: hacks/lissie.*
-Copyright: © 1996-2002 Alexander Jolk <ub9x@rz.uni-karlsruhe.de>
+       hacks/glx/moebius.*
+       hacks/glx/glcells.*
+       hacks/glx/tunnel_draw.*
+       hacks/ant.c
+       hacks/rotor.c
+       hacks/pacman*
+       hacks/flow.*
+       hacks/braid.*
+       hacks/flag.*
+       hacks/triangle.*
+       hacks/penrose.*
+       hacks/automata.h
+       hacks/laser.*
+       hacks/mountain.*
+       hacks/juggle.*
+       hacks/euler2d.* hacks/polyominoes.*
+       hacks/sierpinski.*
+       hacks/vines.*
+       hacks/grav.*
+       hacks/spiral.*
+Copyright: 1996-2002 Alexander Jolk <ub9x@rz.uni-karlsruhe.de>
+           1995 David Bagley
+           1997-2002 Marcelo F. Vianna <mfvianna@centroin.com.br>
+           2007 Matthias Toussaint
+           2002-2004 E. Lassauge
+           1991 Patrick J. Naughton
+           2002 Edwin de Jong <mauddib@gmx.net>
+           1996 Tim Auckland <Tim.Auckland@Procket.com>
+           1995 John Neil
+           1996 Charles Vidal <vidalc@univ-mlv.fr>
+           1995 Tobias Gloth
+           1996 Timo Korvola <tkorvola@dopey.hut.fi>
+           1995 David Bagley
+           1995 Pascal Pensa <pensa@aurora.unice.fr>
+           1995 Pascal Pensa <pensa@aurora.unice.fr>
+           1996 Tim Auckland <tda10.geo@yahoo.com>
+           2000 Stephen Montgomery-Smith <stephen@math.missouri.edu>
+           1996 Desmond Daignault
+           1997 Tracy Camp <campt@hurrah.com>
+           1993 Greg Bowering
+           1994 Darrick Brown
 License: Other
  Permission to use, copy, modify, and distribute this software and its
  documentation for any purpose and without fee is hereby granted,
@@ -54,99 +165,6 @@ License: Other
  Permission is granted to copy, modify, and use this as long
  as this notice remains intact.  No warranties are expressed or implied.
  CMU Sucks.
-
-Files: hacks/squiral.*
-Copyright: © 1999 Jeff Epler <jepler@inetnebr.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/euler2d.* hacks/polyominoes.*
-Copyright: © 2000 Stephen Montgomery-Smith <stephen@math.missouri.edu>
-License: Same as hacks/lissie.*
-
-Files: hacks/sierpinski.*
-Copyright: © 1996 Desmond Daignault
-License: Same as hacks/lissie.*
-
-Files: hacks/wormhole.*
-Copyright: © 2004 Jon Rafkind
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/xspirograph.c
-Copyright: © 2000 Rohit Singh <rohit_singh@hotmail.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/petri.*
-       hacks/nerverot.*
-Copyright: © 1992-2000 Dan Bornstein <danfuzz@milk.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/xflame.*
-Copyright: © 1996-2002 Carsten Haitzler <raster@redhat.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/bumps.*
-Copyright: © 1999-2006 Shane Smit
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/vines.*
-Copyright: © 1997 Tracy Camp <campt@hurrah.com>
-License: Same as hacks/lissie.*
-
-Files: hacks/celtic.*
-Copyright: © 2006 Max Froumentin <max@lapin-bleu.net>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/metaballs.*
-Copyright: © 2002-2003 W.P. van Paassen <peter@paassen.tmfweb.nl>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/grav.*
-Copyright: © 1993 Greg Bowering
-License: Same as hacks/lissie.*
-
-Files: hacks/penetrate.*
-Copyright: © 1999 Adam Miller
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/kaleidescope.*
-Copyright: © 1997-2006 Ron Tapia <tapia@nmia.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/truchet.*
-Copyright: © 1998 Adrian Likins <adrian@gimp.org>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/spiral.*
-Copyright: © 1994 Darrick Brown
-License: Same as hacks/lissie.*
-
-Files: hacks/noseguy.*
-Copyright: © 1985-1990 Dan Heller <argv@danheller.com>
-License: Same as XScreenSaver
-
-Files: hacks/hyperball.*
-Copyright: © 2000 Joe Keane.
-License: Same as XScreenSaver
-
-Files: hacks/laser.*
-Copyright: © 1995 Pascal Pensa <pensa@aurora.unice.fr>
-License: Same as hacks/lissie.*
-
-Files: hacks/interference.*
-Copyright: © 1998 Hannu Mallat <hmallat@cs.hut.fi>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/epicycle.*
-Copyright: © 1998 James Youngman <jay@gnu.org>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/mountain.*
-Copyright: © 1995 Pascal Pensa <pensa@aurora.unice.fr>
-License: Same as hacks/lissie.*
-
-Files: hacks/juggle.*
-Copyright: © 1996 Tim Auckland <tda10.geo@yahoo.com>
-License: Same as hacks/lissie.*
 
 Files: hacks/kumppa.*
 Copyright: © 1998-2002 Teemu Suutari <temisu@utu.fi>
@@ -175,17 +193,9 @@ License: MIT with extra notice
  other dealings in this Software without prior written authorization
  from the X Consortium.
 
-Files: hacks/automata.h
-Copyright: © 1995 David Bagley
-License: Same as hacks/lissie.*
-
-Files: hacks/anemone.*
-Copyright: © 2001-2002 Gabriel Finch
-License: Same as hacks/xanalogtv.*
-
 Files: hacks/crystal.*
 Copyright: © 1997 Jouk Jansen <joukj@crys.chem.uva.nl>
-License: Same as hacks/lissie.* extended
+License: Other
  Permission to use, copy, modify, and distribute this software and its
  documentation for any purpose and without fee is hereby granted,
  provided that the above copyright notice appear in all copies and that
@@ -201,78 +211,6 @@ License: Same as hacks/lissie.* extended
  The author should like to be notified if changes have been made to the
  routine.  Response will only be guaranteed when a VMS version of the
  program is available.
-
-Files: hacks/blaster.*
-Copyright: © 1999 Jonathan H. Lin <jonlin@tesuji.org>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/ant.c
-Copyright: © 1995 David Bagley
-License: Same as hacks/lissie.*
-
-Files: hacks/rotor.c
-Copyright: © 1991 Patrick J. Naughton
-License: Same as hacks/lissie.*
-
-Files: hacks/rotor.man
-Copyright: © 2002 Tom Lawrence
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/demon.*
-Copyright: © 1995-2002 David Bagley
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/interaggregate.*
-Copyright: © 2003 J. Tarbell
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/ccurve.* hacks/wander.*
-Copyright: © 1998-2002 Rick Campbell <rick@campbellcentral.org>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/pacman*
-Copyright: © 2002 Edwin de Jong <mauddib@gmx.net>
-License: Same as hacks/lissie.*
-
-Files: hacks/penrose.*
-Copyright: © 1996 Timo Korvola <tkorvola@dopey.hut.fi>
-License: Same as hacks/lissie.*
-
-Files: hacks/spotlight.*
-Copyright: © 1999 Rick Schultz
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/triangle.*
-Copyright: © 1995 Tobias Gloth
-License: Same as hacks/lissie.*
-
-Files: hacks/zoom.*
-Copyright: © 2000 James Macnicol
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/speedmine.*
-Copyright: © 2001 Conrad Parker <conrad@deephackmode.org>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/popsquares.*
-Copyright: 2003 Levi Burton <donburton@sbcglobal.net>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/flag.*
-Copyright: © 1996 Charles Vidal <vidalc@univ-mlv.fr>
-License: Same as hacks/lissie.*
-
-Files: hacks/fireworkx*
-Copyright: © 1999-2007 Rony B Chandran <ronybc@asia.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/xsublim.*
-Copyright: © 1999-2000 Greg Knauss <greg@eod.com>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/imsmap.*
-Copyright: © 1992-2008 Juergen Nickelsen and Jamie Zawinski
-License: Same as hacks/xanalogtv.*
 
 Files: hacks/maze.* hacks/sphere.*
 Copyright: © 1988 Sun Microsystems
@@ -294,30 +232,6 @@ License: Other
  OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
  OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE
  OR PERFORMANCE OF THIS SOFTWARE.
-
-Files: hacks/vermiculate.*
-Copyright: © 2002 Tyler Pierce
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/abstractile.*
-Copyright: © 2004 Steve Sundstrom
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/flow.*
-Copyright: © 1996 Tim Auckland <Tim.Auckland@Procket.com>
-License: Same as hacks/lissie.*
-
-Files: hacks/braid.*
-Copyright: © 1995 John Neil
-License: Same as hacks/lissie.*
-
-Files: hacks/asm6502.*
-Copyright: © Jeremy English <jhe@jeremyenglish.org>
-License: Same as hacks/xanalogtv.*
-
-Files: hacks/pedal.*
-Copyright: © 1994 Carnegie Mellon University
-License: Same as hacks/xanalogtv.*
 
 Files: hacks/glx/chessmodels.*
 Copyright: © 2006 John-Paul Gignac <jjgignac@users.sf.net>
@@ -341,36 +255,12 @@ License: GPL-2+
  On Debian GNU/Linux systems, the complete text of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
-Files: hacks/glx/tangram.*
-Copyright: © 2005 Jeremy English <jhe@jeremyenglish.org>
-License: same as hacks/xanalogtv.*
-
-Files: hacks/glx/moebius.*
-Copyright: © 1997-2002 Marcelo F. Vianna <mfvianna@centroin.com.br>
-License: same as hacks/lissie.*
-
-Files: hacks/glx/timetunnel.*
-Copyright: © 2005 Sean Brennan <zettix@yahoo.com>
-License: same as hacks/xanalogtv.*
-
-Files: hacks/glx/glcells.*
-Copyright: © 2007 Matthias Toussaint
-License: same as hacks/lissie.*
-
 Files: hacks/glx/glut*
 Copyright: © 1989-1995 Mark J. Kilgard
 License: Other
  This program is freely distributable without licensing fees
  and is provided without guarantee or warrantee expressed or
  implied. This program is -not- in the public domain.
-
-Files: hacks/glx/stonerview*
-Copyright: © 1998-2001 Andrew Plotkin <erkyrath@eblong.com>
-License: same as hacks/xanalogtv.*
-
-Files: hacks/glx/tunnel_draw.*
-Copyright: © 2002-2004 E. Lassauge
-License: same as hacks/lissie.*
 
 Files: debian/*
 Copyright: © 1996-2002 Larry Daffner <vizzie@airmail.net>
