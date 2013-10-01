@@ -29,7 +29,8 @@ xscreensaver (5.22-1) unstable; urgency=low
     - Ignore rotation in hacks that don't benefit from it.
     - Ignore DEACTIVATE messages when locked, instead of popping up the
       password dialog box.
-  * Drop 12_upstream_format_string_hardening.patch (applied upstream)
+    - Fix format string glitch in xscreensaver-text (LP: #781948)
+      (thanks Emanuel Bronshtein)
   * debian/patches: Split up 53_XScreenSaver.ad.in.patch into
     logically separated and better named patches
   * debian/patches/57_grabDesktopImages_default_off.patch:
@@ -39,20 +40,9 @@ xscreensaver (5.22-1) unstable; urgency=low
   * debian/patches/14_upstream_hexadrop_keyboard_exit.patch:
     Allow keyboard exit when run standalone (from upstream)
   * Bump Standards-Version to 3.9.4 (no changes needed)
-
- -- Tormod Volden <debian.tormod@gmail.com>  Sun, 25 Aug 2013 10:12:46 +0200
-
-xscreensaver (5.15-4) UNRELEASED; urgency=low
-
   * debian/rules: Drop unnecessary dh_testroot from clean target
     (thanks Julien Cristau)
   * debian/rules: Include buildflags.mk for hardening options
-  * Build with -D_FILE_OFFSET_BITS=64 to fix inode number overflow
-    when accessing image files on cifs file systems (LP: #609451)
-    (thanks Mamoru Tasaka)
-  * debian/patches/12_upstream_format_string_hardening.patch:
-    Fix format string glitch in xscreensaver-text (LP: #781948)
-    (thanks Emanuel Bronshtein)
   * Stop xscreensaver in prerm instead of postrm (Closes: 681613)
     (thanks Filipus Klutiero)
   * New xscreensaver daemon wrapper used by the example .desktop file
@@ -61,7 +51,7 @@ xscreensaver (5.15-4) UNRELEASED; urgency=low
   * debian/control: Make short descriptions more consistent
   * debian/control: Migrate Conflicts: to Breaks:
 
- -- Tormod Volden <debian.tormod@gmail.com>  Sat, 28 Jul 2012 11:25:47 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Tue, 01 Oct 2013 22:00:48 +0200
 
 xscreensaver (5.15-3) unstable; urgency=low
 
