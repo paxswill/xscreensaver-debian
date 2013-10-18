@@ -39,6 +39,8 @@ xscreensaver (5.22-1) unstable; urgency=low
     Adjust texture width to graphics card/driver capability
   * debian/patches/14_upstream_hexadrop_keyboard_exit.patch:
     Allow keyboard exit when run standalone (from upstream)
+  * debian/patches/15_upstream_activate_faster_nontty.patch:
+    Activate faster when not from tty session (LP: #1229486)
   * Bump Standards-Version to 3.9.4 (no changes needed)
   * debian/rules: Drop unnecessary dh_testroot from clean target
     (thanks Julien Cristau)
