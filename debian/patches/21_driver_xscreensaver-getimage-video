@@ -1,7 +1,7 @@
 Index: xscreensaver/driver/xscreensaver-getimage-video
 ===================================================================
---- xscreensaver.orig/driver/xscreensaver-getimage-video	2011-04-21 23:18:56.000000000 +0200
-+++ xscreensaver/driver/xscreensaver-getimage-video	2011-04-21 23:44:15.000000000 +0200
+--- xscreensaver.orig/driver/xscreensaver-getimage-video	2013-11-23 16:16:12.000000000 +0100
++++ xscreensaver/driver/xscreensaver-getimage-video	2013-11-23 16:16:12.000000000 +0100
 @@ -34,6 +34,8 @@
  
  my $tmpdir   = $ENV{TMPDIR} || "/tmp";
@@ -9,9 +9,9 @@ Index: xscreensaver/driver/xscreensaver-getimage-video
 +my $tmpfile1 = sprintf ("%s/xssgv01.ppm", $tmpdir, rand(0xFFFFFFFF));
 +my $tmpfile3 = sprintf ("%s/xssgv03.ppm", $tmpdir, rand(0xFFFFFFFF));
  
- my $verbose           = 0;
- my $use_stdout_p      = 0;
-@@ -48,7 +50,7 @@
+ my $verbose = 0;
+ 
+@@ -46,7 +48,7 @@
  # If you add other programs to this list, please let me know!
  #
  my @programs = (
