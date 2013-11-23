@@ -127,9 +127,9 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  xscreensaver-gl:
  antmaze, atlantis, blocktube, boing, bouncingcow, boxed, cage,
  carousel, companioncube, crackberg, cube21, cubenetic, cubicgrid,
- dangerball, extrusion, fliptext, flurry, glhanoi, glplanet, hilbert,
- hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof, photopile,
- pinion, providence, rubik, rubikblocks, sballs, skytentacles,
+ dangerball, extrusion, fliptext, flurry, geodesic, glhanoi, glplanet,
+ hilbert, hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof,
+ photopile, pinion, providence, rubik, rubikblocks, sballs, skytentacles,
  sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit,
  unknownpleasures.
  .
