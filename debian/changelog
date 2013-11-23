@@ -16,6 +16,7 @@ xscreensaver (5.23-1) UNRELEASED; urgency=low
     - 15_upstream_activate_faster_nontty.patch
   * debian/patches/12_upstream_use_cppflags.patch:
     Make sure CPPFLAGS are used (fixes hardening warnings)
+  * debian/control: Update VCS fields (fixes Lintian warning)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sat, 23 Nov 2013 16:18:48 +0100
 
