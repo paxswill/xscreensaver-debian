@@ -1,3 +1,22 @@
+xscreensaver (5.23-1) UNRELEASED; urgency=low
+
+  * New upstream release 5.23 (Closes: #729311)
+    - New hack, geodesic
+    - More heuristics for using RSS feeds as image sources
+    - Improved Wikipedia parser
+    - Updated webcollage for recent Flickr changes
+    - Added Android to bsod
+    - Made quasicrystal work on weak graphics cards
+    - Better compression on icons, plists and XML files
+    - Reverted that DEACTIVATE change. Bad idea.
+    - Phosphor now supports amber as well as green 
+  * Dropped patches applied upstream:
+    - 12_upstream_quasicrystal_texture_width.patch
+    - 14_upstream_hexadrop_keyboard_exit.patch
+    - 15_upstream_activate_faster_nontty.patch
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sat, 23 Nov 2013 16:18:48 +0100
+
 xscreensaver (5.22-1) unstable; urgency=low
 
   * New upstream release 5.22 (Closes: #699833), changes since 5.15:
