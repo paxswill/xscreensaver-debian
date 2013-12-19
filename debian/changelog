@@ -58,7 +58,7 @@ xscreensaver (5.22-1) unstable; urgency=low
     - Performance improvements for `interference'.
     - Fixed possible crashes in apple2, maze, pacman, polyominoes,
       fireworkx, engine (LP: #1196251)
-    - Fix for `bumps' in 64 bit.
+    - Fix for `bumps' in 64 bit (LP: #103975)
     - Fixed "Shake to Randomize"; display name of saver.
     - Fixed rotation problems with `pacman', `decayscreen'.
     - Better dragging in `fluidballs'.
