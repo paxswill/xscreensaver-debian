@@ -8,6 +8,7 @@ xscreensaver (5.26-1) UNRELEASED; urgency=low
     - Bug fixes.
   * Drop patch applied upstream:
     - debian/patches/12_upstream_use_cppflags.patch
+  * Bump Standards-Version to 3.9.5 (no changes needed)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 19 Dec 2013 16:26:25 +0100
 
