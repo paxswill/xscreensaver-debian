@@ -1,3 +1,16 @@
+xscreensaver (5.26-1) UNRELEASED; urgency=low
+
+  * New upstream release 5.26, changes since 5.23:
+    - Updated feed-loading for recent Flickr changes.
+    - Updated `webcollage' for recent Google changes.
+    - Added Instagram and Bing as `webcollage' image sources.
+    - Updated to latest autoconf.
+    - Bug fixes.
+  * Drop patch applied upstream:
+    - debian/patches/12_upstream_use_cppflags.patch
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Thu, 19 Dec 2013 16:26:25 +0100
+
 xscreensaver (5.23-1) unstable; urgency=low
 
   * New upstream release 5.23 (Closes: #729311)
