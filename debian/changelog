@@ -1,4 +1,4 @@
-xscreensaver (5.26-1) UNRELEASED; urgency=low
+xscreensaver (5.26-1) unstable; urgency=low
 
   * New upstream release 5.26, changes since 5.23:
     - Updated feed-loading for recent Flickr changes.
@@ -10,7 +10,7 @@ xscreensaver (5.26-1) UNRELEASED; urgency=low
     - debian/patches/12_upstream_use_cppflags.patch
   * Bump Standards-Version to 3.9.5 (no changes needed)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Thu, 19 Dec 2013 16:26:25 +0100
+ -- Tormod Volden <debian.tormod@gmail.com>  Mon, 17 Feb 2014 20:34:28 +0100
 
 xscreensaver (5.23-1) unstable; urgency=low
 
