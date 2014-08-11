@@ -1,8 +1,8 @@
 Index: xscreensaver/hacks/Makefile.in
 ===================================================================
---- xscreensaver.orig/hacks/Makefile.in	2013-02-07 21:16:48.000000000 +0100
-+++ xscreensaver/hacks/Makefile.in	2013-02-07 21:16:48.000000000 +0100
-@@ -596,7 +596,7 @@
+--- xscreensaver.orig/hacks/Makefile.in	2014-08-11 21:23:44.000000000 +0200
++++ xscreensaver/hacks/Makefile.in	2014-08-11 21:23:44.000000000 +0200
+@@ -608,7 +608,7 @@
  	$(CC_HACK) -o $@ $@.o	$(HACK_OBJS) $(HACK_LIBS)
  
  maze:		maze.o		$(HACK_OBJS) $(ERASE) $(LOGO)

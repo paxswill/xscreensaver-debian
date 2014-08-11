@@ -1,13 +1,13 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-11-23 16:16:38.000000000 +0100
-+++ xscreensaver/driver/XScreenSaver.ad.in	2013-11-23 16:16:38.000000000 +0100
-@@ -369,7 +369,8 @@
- 				hexadrop -root				    \n\
- @GL_KLUDGE@ GL: 				kaleidocycle -root			    \n\
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2014-08-11 21:24:11.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2014-08-11 21:24:11.000000000 +0200
+@@ -371,7 +371,8 @@
  @GL_KLUDGE@ GL: 				quasicrystal -root			    \n\
--@GL_KLUDGE@ GL: 				unknownpleasures -root			    \n
-+@GL_KLUDGE@ GL: 				unknownpleasures -root			    \n\
+ @GL_KLUDGE@ GL: 				unknownpleasures -root			    \n\
+ @GL_KLUDGE@ GL: 				projectiveplane -root			    \n\
+-				tessellimage -root			    \n
++				tessellimage -root			    \n\
 +				unicode -root				    \n
  
  
