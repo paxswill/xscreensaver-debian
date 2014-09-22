@@ -1,4 +1,4 @@
-xscreensaver (5.29-1) UNRELEASED; urgency=low
+xscreensaver (5.29-1) unstable; urgency=low
 
   * New upstream release 5.29, changes since 5.26:
     - New hacks, `tessellimage' and `projectiveplane'.
@@ -11,7 +11,7 @@ xscreensaver (5.29-1) UNRELEASED; urgency=low
     - Fixed some compilation problems and intermittent crashes.
     - Updated `webcollage' for recent changes.
 
- -- Tormod Volden <debian.tormod@gmail.com>  Mon, 11 Aug 2014 21:30:40 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Mon, 22 Sep 2014 08:09:14 +0200
 
 xscreensaver (5.26-1) unstable; urgency=low
 
