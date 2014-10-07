@@ -1,3 +1,17 @@
+xscreensaver (5.30-1) UNRELEASED; urgency=low
+
+  * New upstream release 5.30
+    - New hack, `winduprobot'.
+    - Many improvements to `lament', including Leviathan.
+    - Fixed the normals in `flyingtoasters': shading is correct now.
+    - Dragging has inertia now.
+    - Most hacks respond to mouse-clicks, double-taps and swipes as
+      meaning "do something different now".
+    - Reworked OpenGL fonts.
+    - Various minor fixes.
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Tue, 07 Oct 2014 23:05:43 +0200
+
 xscreensaver (5.29-1) unstable; urgency=low
 
   * New upstream release 5.29, changes since 5.26:
