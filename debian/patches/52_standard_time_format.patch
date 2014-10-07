@@ -1,8 +1,8 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-02-07 21:17:14.000000000 +0100
-+++ xscreensaver/driver/XScreenSaver.ad.in	2013-02-07 21:17:14.000000000 +0100
-@@ -128,7 +128,9 @@
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2014-10-07 22:48:53.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2014-10-07 22:48:53.000000000 +0200
+@@ -129,7 +129,9 @@
  
  ! The format used for printing the date and time in the password dialog box
  ! (see the strftime(3) manual page for details.)

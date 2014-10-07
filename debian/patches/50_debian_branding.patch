@@ -1,10 +1,10 @@
 Index: xscreensaver/driver/XScreenSaver.ad.in
 ===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2013-02-07 21:17:04.000000000 +0100
-+++ xscreensaver/driver/XScreenSaver.ad.in	2013-02-07 21:17:04.000000000 +0100
-@@ -58,11 +58,11 @@
- *captureStderr: 	True
+--- xscreensaver.orig/driver/XScreenSaver.ad.in	2014-10-07 22:48:41.000000000 +0200
++++ xscreensaver/driver/XScreenSaver.ad.in	2014-10-07 22:48:41.000000000 +0200
+@@ -59,11 +59,11 @@
  *ignoreUninstalledPrograms: False
+ *authWarningSlack:	20
  
 -*textMode:		file
 +*textMode:		url

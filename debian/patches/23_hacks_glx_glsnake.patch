@@ -3,9 +3,9 @@
 
 Index: xscreensaver/hacks/glx/glsnake.c
 ===================================================================
---- xscreensaver.orig/hacks/glx/glsnake.c	2012-07-28 18:16:44.000000000 +0200
-+++ xscreensaver/hacks/glx/glsnake.c	2012-07-28 18:18:32.000000000 +0200
-@@ -542,7 +542,7 @@
+--- xscreensaver.orig/hacks/glx/glsnake.c	2014-10-07 22:48:32.000000000 +0200
++++ xscreensaver/hacks/glx/glsnake.c	2014-10-07 22:48:32.000000000 +0200
+@@ -537,7 +537,7 @@
  	PIN, ZERO, RIGHT, RIGHT, ZERO, PIN, PIN, ZERO, PIN, PIN, ZERO,
  	RIGHT, ZERO }
      },
@@ -14,7 +14,7 @@ Index: xscreensaver/hacks/glx/glsnake.c
        { RIGHT, RIGHT, PIN, RIGHT, LEFT, RIGHT, PIN, RIGHT, LEFT,
  	RIGHT, PIN, RIGHT, LEFT, RIGHT, PIN, RIGHT, LEFT, RIGHT, PIN,
  	RIGHT, LEFT, RIGHT, PIN, ZERO }
-@@ -567,22 +567,22 @@
+@@ -562,22 +562,22 @@
  	ZERO, PIN, ZERO, ZERO, ZERO, ZERO, PIN, ZERO, ZERO, ZERO, ZERO,
  	ZERO, ZERO, ZERO }
      },
@@ -41,7 +41,7 @@ Index: xscreensaver/hacks/glx/glsnake.c
        { RIGHT, ZERO, ZERO, ZERO, RIGHT, ZERO, ZERO, PIN, ZERO, ZERO,
  	LEFT, ZERO, ZERO, ZERO, LEFT, ZERO, LEFT, PIN, LEFT, PIN, RIGHT,
  	PIN, RIGHT, ZERO }
-@@ -1002,7 +1002,7 @@
+@@ -997,7 +997,7 @@
      { "Parrot",
          { ZERO, ZERO, ZERO, ZERO, RIGHT, RIGHT, ZERO, LEFT, PIN, RIGHT, ZERO, RIGHT, ZERO, RIGHT, ZERO, RIGHT, PIN, LEFT, ZERO, RIGHT, LEFT, ZERO, PIN, ZERO }
      },
