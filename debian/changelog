@@ -9,6 +9,7 @@ xscreensaver (5.30-1) UNRELEASED; urgency=low
       meaning "do something different now".
     - Reworked OpenGL fonts.
     - Various minor fixes.
+  * Bump Standards-Version to 3.9.6 (no changes needed)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Tue, 07 Oct 2014 23:05:43 +0200
 
