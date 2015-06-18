@@ -42,9 +42,9 @@ Description: Screen saver modules for screensaver frontends
  is used by both xscreensaver and gnome-screensaver.
  .
  This is the selected set of non-GL screensavers shipped by default:
- abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy,
- hexadrop, m6502, metaballs, penrose, ripples, shadebobs, slidescreen,
- swirl, tessellimage, xlyap.
+ abstractile, binaryring, cwaves, deco, distort, fiberlamp, fuzzyflakes,
+ galaxy, hexadrop, m6502, metaballs, penrose, ripples, shadebobs,
+ slidescreen, swirl, tessellimage, xlyap.
  .
  More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
  and xscreensaver-gl-extra packages.
@@ -98,13 +98,13 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  .
  This is the set of GL screensavers shipped by default:
  antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
- cubestorm, endgame, engine, flipflop, flipscreen3d, flyingtoasters,
- gears, gflux, glblur, glcells, gleidescope, glknots, glmatrix,
- glschool, glslideshow, glsnake, gltext, hypertorus, jigglypuff,
- kaleidocycle, lavalite, lockward, mirrorblob, moebius, moebiusgears,
- molecule, morph3d, pipes, polyhedra, polytopes, projectiveplane,
- pulsar, quasicrystal, queens, sierpinski3d, sonar, spheremonics,
- stonerview, superquadrics, topblock, voronoi, winduprobot.
+ cityring, cubestorm, endgame, engine, flipflop, flipscreen3d,
+ flyingtoasters, gears, geodesic, geodesicgears, gflux, glblur, glcells,
+ gleidescope, glknots, glmatrix, glschool, glslideshow, glsnake, gltext,
+ hypertorus, jigglypuff, kaleidocycle, lavalite, lockward, mirrorblob,
+ moebius, moebiusgears, molecule, morph3d, pipes, polyhedra, polytopes,
+ projectiveplane, pulsar, quasicrystal, queens, sierpinski3d, sonar,
+ spheremonics, stonerview, superquadrics, topblock, voronoi, winduprobot.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
@@ -127,7 +127,7 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  xscreensaver-gl:
  antmaze, atlantis, blocktube, boing, bouncingcow, boxed, cage,
  carousel, companioncube, crackberg, cube21, cubenetic, cubicgrid,
- dangerball, extrusion, fliptext, flurry, geodesic, glhanoi, glplanet,
+ dangerball, extrusion, fliptext, flurry, glhanoi, glplanet,
  hilbert, hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof,
  photopile, pinion, providence, rubik, rubikblocks, sballs, skytentacles,
  sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit,
