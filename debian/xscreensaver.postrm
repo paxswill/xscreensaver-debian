@@ -7,9 +7,6 @@ case "$1" in
 	if [ -L /etc/X11/app-defaults/XScreenSaver ]; then
 		rm /etc/X11/app-defaults/XScreenSaver
 	fi
-	if [ -L /usr/X11R6/lib/X11/app-defaults/XScreenSaver ]; then
-		rm /usr/X11R6/lib/X11/app-defaults/XScreenSaver
-	fi
 	;;
 esac
 
