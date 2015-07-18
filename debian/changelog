@@ -10,7 +10,10 @@ xscreensaver (5.32-1) UNRELEASED; urgency=low
       to Latin1 or ASCII.
     - `glplanet' now has both day and night maps, and a sharp terminator.
     - Fixed a transparency glitch in `winduprobot'.
-  * xscreensaver*.postrm/postinst/preinst: Remove obsolete parts
+  * xscreensaver*.postrm/postinst/preinst: Remove obsolete parts used in
+    lenny->squeeze and potato->woody transitions
+  * Do not overwrite user-configured /etc/X11/app-defaults/XScreenSaver
+    Thanks to Bastien Roucariès for initial patch (Closes: #767019)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 18 Jun 2015 21:57:50 +0200
 
