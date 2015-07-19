@@ -8,7 +8,7 @@ xscreensaver (5.33-1) UNRELEASED; urgency=low
       `noseguy', `fliptext', `starwars', and `winduprobot'.
       The other text-displaying hacks (`apple2', `phosphor', `xmatrix',
       and `gltext') also now accept UTF-8 input, though they convert it
-      to Latin1 or ASCII.
+      to Latin1 or ASCII. (Closes: #180775)
     - `glplanet' now has both day and night maps, and a sharp terminator.
     - Fixed a transparency glitch in `winduprobot'.
     - Better detection of user activity on modern GNOME systems.
