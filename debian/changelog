@@ -1,7 +1,8 @@
-xscreensaver (5.32-1) UNRELEASED; urgency=low
+xscreensaver (5.33-1) UNRELEASED; urgency=low
 
-  * New upstream release 5.32, changes since 5.30:
-    - New hacks, `geodesicgears', `binaryring' and `cityflow'.
+  * New upstream release 5.33, changes since 5.30:
+    - New hacks, `geodesicgears', `binaryring', `cityflow', `splitflap'
+      and `romanboy'.
     - UTF-8 text support (instead of only Latin1) and antialiased text
       on X11 with Xft (instead of only on OSX/iOS) in `fontglide',
       `noseguy', `fliptext', `starwars', and `winduprobot'.
@@ -10,12 +11,13 @@ xscreensaver (5.32-1) UNRELEASED; urgency=low
       to Latin1 or ASCII.
     - `glplanet' now has both day and night maps, and a sharp terminator.
     - Fixed a transparency glitch in `winduprobot'.
+    - Better detection of user activity on modern GNOME systems.
   * xscreensaver*.postrm/postinst/preinst: Remove obsolete parts used in
     lenny->squeeze and potato->woody transitions
   * Do not overwrite user-configured /etc/X11/app-defaults/XScreenSaver
     Thanks to Bastien Roucariès for initial patch (Closes: #767019)
 
- -- Tormod Volden <debian.tormod@gmail.com>  Thu, 18 Jun 2015 21:57:50 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 19 Jul 2015 11:50:31 +0200
 
 xscreensaver (5.30-1) unstable; urgency=low
 
