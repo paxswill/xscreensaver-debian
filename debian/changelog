@@ -16,8 +16,10 @@ xscreensaver (5.33-1) UNRELEASED; urgency=low
     lenny->squeeze and potato->woody transitions
   * Do not overwrite user-configured /etc/X11/app-defaults/XScreenSaver
     Thanks to Bastien Roucariès for initial patch (Closes: #767019)
-  * Replace GNOME with MATE in desktop files stub (Closes: #766880)
+  * Replace GNOME with MATE in desktop files stub (Closes: #766880, #774539)
   * debian/copyright: Use unique short names for "other" licenses
+  * xscreensaver-wrapper.sh: Detect if launched from lightdm session
+    Thanks to Alexander Gerasiov for patch (Closes: #778470)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 19 Jul 2015 11:50:31 +0200
 
