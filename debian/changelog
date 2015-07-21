@@ -20,6 +20,8 @@ xscreensaver (5.33-1) UNRELEASED; urgency=low
   * debian/copyright: Use unique short names for "other" licenses
   * xscreensaver-wrapper.sh: Detect if launched from lightdm session
     Thanks to Alexander Gerasiov for patch (Closes: #778470)
+  * debian/control: Recommend libgnomeui-0 package for xscreensaver-demo
+    Thanks to Michael Gilbert for patch (Closes: #661174)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 19 Jul 2015 11:50:31 +0200
 
