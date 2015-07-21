@@ -22,6 +22,7 @@ xscreensaver (5.33-1) UNRELEASED; urgency=low
     Thanks to Alexander Gerasiov for patch (Closes: #778470)
   * debian/control: Recommend libgnomeui-0 package for xscreensaver-demo
     Thanks to Michael Gilbert for patch (Closes: #661174)
+  * debian/rules: Hardcode app-defaults dir for configure
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 19 Jul 2015 11:50:31 +0200
 
