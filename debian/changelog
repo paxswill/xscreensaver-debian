@@ -1,4 +1,4 @@
-xscreensaver (5.33-1) UNRELEASED; urgency=low
+xscreensaver (5.33-1) unstable; urgency=low
 
   * New upstream release 5.33, changes since 5.30:
     - New hacks, `geodesicgears', `binaryring', `cityflow', `splitflap'
@@ -24,7 +24,7 @@ xscreensaver (5.33-1) UNRELEASED; urgency=low
     Thanks to Michael Gilbert for patch (Closes: #661174)
   * debian/rules: Hardcode app-defaults dir for configure
 
- -- Tormod Volden <debian.tormod@gmail.com>  Sun, 19 Jul 2015 11:50:31 +0200
+ -- Tormod Volden <debian.tormod@gmail.com>  Tue, 28 Jul 2015 00:41:06 +0200
 
 xscreensaver (5.30-1) unstable; urgency=low
 
