@@ -1,3 +1,12 @@
+xscreensaver (5.34-1) unstable; urgency=medium
+
+  * New upstream release 5.34
+    - Fixed a crash when hot-swapping monitors while locked.
+      (Closes: #802914)
+    - Fixed some incorrect output from xscreensaver-command -watch.
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 25 Oct 2015 09:31:21 +0100
+
 xscreensaver (5.33-1) unstable; urgency=low
 
   * New upstream release 5.33, changes since 5.30:
