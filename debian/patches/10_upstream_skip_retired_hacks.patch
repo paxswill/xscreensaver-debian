@@ -9,7 +9,7 @@ Index: xscreensaver/hacks/Makefile.in
  
  
  default: all
--all: $(EXES) $(RETIRED_EXES)
+-all: $(EXES) $(RETIRED_EXES) testx11
 +all: $(EXES)
  
  install:   install-program   install-scripts install-xml install-man
