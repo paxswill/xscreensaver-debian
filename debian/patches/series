@@ -21,3 +21,4 @@
 
 57_grabDesktopImages_default_off.patch
 80_Makefile_in-clean-fix.patch
+81_hacks_deterministic_file_order.patch
