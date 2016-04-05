@@ -1,7 +1,9 @@
-xscreensaver (5.34-2) UNRELEASED; urgency=medium
+xscreensaver (5.34-2) unstable; urgency=medium
 
   * Fix sort order in hacks/Makefile (for reproducible builds)
     (Closes: #819595)
+  * Disable Easter egg about "outdated" version
+    (Closes: #819703)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Tue, 05 Apr 2016 22:53:13 +0200
 
