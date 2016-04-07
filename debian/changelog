@@ -1,3 +1,10 @@
+xscreensaver (5.34-3) UNRELEASED; urgency=medium
+
+  * Replace dependencies on libjpeg-progs with libjpeg-turbo-progs
+    (Closes: 813395)
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
+
 xscreensaver (5.34-2) unstable; urgency=medium
 
   * Fix sort order in hacks/Makefile (for reproducible builds)
