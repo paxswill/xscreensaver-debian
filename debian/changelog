@@ -11,6 +11,7 @@ xscreensaver (5.35-1) UNRELEASED; urgency=medium
   * debian/patches/12_upstream_hurd-no-pthread_stack_min.patch:
     Do not check for PTHREAD_STACK_MIN on GNU/Hurd (Closes: #823049)
   * debian/control: Updated, secure Vcs-Git and Vcs-Browser URI
+  * Bump Standards-Version to 3.9.8 (no changes needed)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
 
