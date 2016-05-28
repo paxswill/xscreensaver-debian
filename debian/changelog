@@ -12,6 +12,7 @@ xscreensaver (5.35-1) UNRELEASED; urgency=medium
     Do not check for PTHREAD_STACK_MIN on GNU/Hurd (Closes: #823049)
   * debian/control: Updated, secure Vcs-Git and Vcs-Browser URI
   * Bump Standards-Version to 3.9.8 (no changes needed)
+  * Bump debhelper compatibility version to 9
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
 
