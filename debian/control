@@ -46,8 +46,8 @@ Description: Screen saver modules for screensaver frontends
  galaxy, hexadrop, m6502, metaballs, penrose, ripples, shadebobs,
  slidescreen, swirl, tessellimage, xlyap.
  .
- More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
- and xscreensaver-gl-extra packages.
+ More display modes can be found in xscreensaver-data-extra,
+ xscreensaver-gl and xscreensaver-gl-extra packages.
 
 Package: xscreensaver-data-extra
 Architecture: any
@@ -79,8 +79,8 @@ Description: Extra screen saver modules for screensaver frontends
  whirlwindwarp, wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm,
  xspirograph, zoom.
  .
- More display modes can be found in the xscreensaver-data, xscreensaver-gl
- and xscreensaver-gl-extra packages.
+ More display modes can be found in the xscreensaver-data,
+ xscreensaver-gl and xscreensaver-gl-extra packages.
 
 Package: xscreensaver-gl
 Architecture: any
@@ -94,18 +94,19 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  .
  This package contains a small selection of 3D (OpenGL) screen
  saver modules from the xscreensaver collection. This package is
- used by both xscreensaver and gnome-screensaver.
+ used by xscreensaver and some other screensaver engines.
  .
  This is the set of GL screensavers shipped by default:
  antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
- cityring, cubestorm, endgame, engine, flipflop, flipscreen3d,
- flyingtoasters, gears, geodesic, geodesicgears, gflux, glblur, glcells,
- gleidescope, glknots, glmatrix, glschool, glslideshow, glsnake, gltext,
- hypertorus, jigglypuff, kaleidocycle, lavalite, lockward, mirrorblob,
- moebius, moebiusgears, molecule, morph3d, pipes, polyhedra, polytopes,
- projectiveplane, pulsar, quasicrystal, queens, romanboy, sierpinski3d,
- sonar, spheremonics, splitflap, stonerview, superquadrics, topblock,
- voronoi, winduprobot.
+ cityring, cubestorm, dymaxionmap, endgame, energystream, engine,
+ flipflop, flipscreen3d, flyingtoasters, gears, geodesic,
+ geodesicgears, gflux, glblur, glcells, gleidescope, glknots, glmatrix,
+ glschool, glslideshow, glsnake, gltext, hydrostat, hypertorus,
+ jigglypuff, kaleidocycle, lavalite, lockward, mirrorblob, moebius,
+ moebiusgears, molecule, morph3d, pipes, polyhedra, polytopes,
+ projectiveplane, pulsar, quasicrystal, queens, raverhoop, romanboy,
+ sierpinski3d, sonar, spheremonics, splitflap, stonerview,
+ superquadrics, topblock, unicrud, voronoi, winduprobot.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
