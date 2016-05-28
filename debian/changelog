@@ -1,5 +1,11 @@
-xscreensaver (5.34-3) UNRELEASED; urgency=medium
+xscreensaver (5.35-1) UNRELEASED; urgency=medium
 
+  * New upstream release 5.35
+    - New hacks, `dymaxionmap', `unicrud', `energystream', `raverhoop'
+      and `hydrostat'.
+    - Ignore WM_USER_TIME property changes with days-old timestamps.
+    - Added Windows 10 to `bsod'.
+    - `pong' is now playable.
   * Replace dependencies on libjpeg-progs with libjpeg-turbo-progs
     (Closes: #813395)
   * debian/patches/12_upstream_hurd-no-pthread_stack_min.patch:
