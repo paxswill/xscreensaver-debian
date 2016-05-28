@@ -1,3 +1,6 @@
+#
+# This "please upgrade" message would drive users crazy. Bug #819703
+#
 Index: xscreensaver-git/driver/prefs.c
 ===================================================================
 --- xscreensaver-git.orig/driver/prefs.c	2016-05-28 19:06:12.441676714 +0200

@@ -1,3 +1,6 @@
+#
+# For reproducible builds. Bug #819595
+#
 --- a/hacks/Makefile.in
 +++ b/hacks/Makefile.in
 @@ -854,8 +854,8 @@
