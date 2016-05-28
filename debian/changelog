@@ -13,6 +13,7 @@ xscreensaver (5.35-1) UNRELEASED; urgency=medium
   * debian/control: Updated, secure Vcs-Git and Vcs-Browser URI
   * Bump Standards-Version to 3.9.8 (no changes needed)
   * Bump debhelper compatibility version to 9
+  * debian/patches/20_hacks_maze_xpm_libs.patch: Deleted (obsolete)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
 
