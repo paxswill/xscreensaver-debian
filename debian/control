@@ -18,10 +18,11 @@ Description: Screensaver daemon and frontend for X11
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
  .
- This package includes the bare minimum needed to blank and lock
- your screen. Install this package if you prefer xscreensaver to
- gnome-screensaver. If you prefer gnome-screensaver, you don't
- need to install this package.
+ This package includes the bare minimum needed to blank and lock your
+ screen. Install this package if you want to use the xscreensaver engine
+ to control screen blanking and launching display hacks. If you only
+ want to use other screensaver engines, you don't need to install this
+ package.
  .
  The graphical display modes are in the xscreensaver-data, 
  xscreensaver-data-extra, xscreensaver-gl and xscreensaver-gl-extra 
@@ -39,7 +40,7 @@ Description: Screen saver modules for screensaver frontends
  .
  This package contains a small selection of graphical screen saver
  modules (listed below) from the xscreensaver collection. This package
- is used by both xscreensaver and gnome-screensaver.
+ can be used by xscreensaver and also some other screensaver engines.
  .
  This is the selected set of non-GL screensavers shipped by default:
  abstractile, binaryring, cwaves, deco, distort, fiberlamp, fuzzyflakes,
@@ -59,9 +60,9 @@ Description: Extra screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
  .
- This package contains the rest of the 2D screen saver modules
- from the xscreensaver collection. This package is used by both
- xscreensaver and gnome-screensaver.
+ This package contains the rest of the 2D screen saver modules from
+ the xscreensaver collection. This package can be used by
+ xscreensaver and also some other screensaver engines.
  .
  This is the set of non-GL screensavers not shipped by default:
  anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
@@ -92,9 +93,9 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
  .
- This package contains a small selection of 3D (OpenGL) screen
- saver modules from the xscreensaver collection. This package is
- used by xscreensaver and some other screensaver engines.
+ This package contains a small selection of 3D (OpenGL) screen saver
+ modules from the xscreensaver collection. This package can be used by
+ xscreensaver and also some other screensaver engines.
  .
  This is the set of GL screensavers shipped by default:
  antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
@@ -122,8 +123,8 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  containing more than 200 screen savers.
  .
  This package contains the rest of the 3D (OpenGL) screen saver
- modules from the xscreensaver collection. This package is used
- by both xscreensaver and gnome-screensaver.
+ modules from the xscreensaver collection. This package can be used by
+ xscreensaver and also some other screensaver engines.
  .
  This is the set of GL screensavers not shipped by default with
  xscreensaver-gl:
