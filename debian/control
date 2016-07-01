@@ -2,7 +2,7 @@ Source: xscreensaver
 Section: x11
 Priority: optional
 Maintainer: Tormod Volden <debian.tormod@gmail.com>
-Build-Depends: bc, debhelper (>= 9.0), fortune-mod, libgtk2.0-dev, libpam0g-dev (>= 0.72), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | xlibmesa-glu-dev | libglu-dev, xutils-dev, libxml2-dev, libglade2-dev, libjpeg-dev, libgle-dev, intltool, autotools-dev, libx11-dev, libxext-dev, libxinerama-dev, libxmu-dev, libxpm-dev, libxrandr-dev, libxss-dev, libxt-dev, libxtst-dev, libxxf86vm-dev, x11proto-core-dev, xbitmaps, quilt, dpkg-dev (>= 1.16.1)
+Build-Depends: bc, debhelper (>= 9.0), fortune-mod, libgtk2.0-dev, libpam0g-dev, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | xlibmesa-glu-dev | libglu-dev, xutils-dev, libxml2-dev, libglade2-dev, libjpeg-dev, libgle-dev, intltool, autotools-dev, libx11-dev, libxext-dev, libxinerama-dev, libxmu-dev, libxpm-dev, libxrandr-dev, libxss-dev, libxt-dev, libxtst-dev, libxxf86vm-dev, x11proto-core-dev, xbitmaps, quilt, dpkg-dev (>= 1.16.1)
 Standards-Version: 3.9.8
 Homepage: http://www.jwz.org/xscreensaver/
 Vcs-Git: https://anonscm.debian.org/git/collab-maint/xscreensaver.git
@@ -11,9 +11,8 @@ Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xscreensaver.git/
 Package: xscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data, ${misc:Depends}
-Breaks: funny-manpages (<< 1.3-1), suidmanager (<< 0.50), xscreensaver-gnome (<< 4.09-2), xscreensaver-nognome (<< 4.09-2), gnome-control-center (<< 1:2)
 Recommends: libjpeg-turbo-progs, perl5, miscfiles | wordlist, libgnomeui-0
-Suggests: xfishtank, xdaliclock, xscreensaver-gl, fortune, www-browser, qcam | streamer, gdm3 | kdm-gdmcompat
+Suggests: xfishtank, xdaliclock, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, fortune, www-browser, qcam | streamer, gdm3 | kdm-gdmcompat
 Description: Screensaver daemon and frontend for X11
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -32,8 +31,6 @@ Package: xscreensaver-data
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl
 Suggests: xscreensaver
-Replaces: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.15.4-0ubuntu1)
-Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: Screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -52,10 +49,7 @@ Description: Screen saver modules for screensaver frontends
 
 Package: xscreensaver-data-extra
 Architecture: any
-Depends: ${shlibs:Depends}, xscreensaver-data (>= 5.04-3), dictionaries-common, libjpeg-turbo-progs, netpbm, ${misc:Depends}
-Enhances: xscreensaver, gnome-screensaver
-Replaces: xscreensaver (<< 5.04-3)
-Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
+Depends: ${shlibs:Depends}, xscreensaver-data, dictionaries-common, libjpeg-turbo-progs, netpbm, ${misc:Depends}
 Description: Extra screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -87,8 +81,6 @@ Package: xscreensaver-gl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: xscreensaver
-Replaces: xscreensaver-data (<< 5.10-3)
-Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
 Description: GL(Mesa) screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -114,10 +106,7 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
 
 Package: xscreensaver-gl-extra
 Architecture: any
-Depends: ${shlibs:Depends}, xscreensaver-gl (>= 5.04-3), ${misc:Depends}
-Enhances: xscreensaver, gnome-screensaver
-Replaces: xscreensaver-gl (<< 5.04-3)
-Breaks: xscreensaver (<< 5.04-3), gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1)
+Depends: ${shlibs:Depends}, xscreensaver-gl, ${misc:Depends}
 Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  XScreenSaver is a modular screen saver and locker for X11,
  containing more than 200 screen savers.
@@ -142,8 +131,6 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
 Package: xscreensaver-screensaver-webcollage
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra, ${misc:Depends}
-Breaks: xscreensaver-data-extra (<< 5.10-4)
-Replaces: xscreensaver-data-extra (<< 5.10-4)
 Description: Webcollage screen saver module from XScreenSaver
  This package ships the hack webcollage which displays images from random 
  web searches on the Internet.
@@ -155,8 +142,6 @@ Description: Webcollage screen saver module from XScreenSaver
 Package: xscreensaver-screensaver-bsod
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra, ${misc:Depends}
-Breaks: xscreensaver-data-extra (<< 5.10-4)
-Replaces: xscreensaver-data-extra (<< 5.10-4)
 Description: BSOD screen saver module from XScreenSaver
  This package ships the hack BSOD that shows the popular Blue Screens of Death
  from several OSes including BSD, Windows, Linux, Solaris, Apple and much more.

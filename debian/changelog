@@ -16,6 +16,8 @@ xscreensaver (5.35-1) UNRELEASED; urgency=medium
   * debian/patches/20_hacks_maze_xpm_libs.patch: Deleted (obsolete)
   * Add patch descriptions (and some bug references) to all patches
   * debian/rules: Enable all hardening options
+  * debian/control: Remove Enhances (reverse dependencies) and obsolete
+    Breaks, Replaces and versioned dependencies (Closes: #822621)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
 
