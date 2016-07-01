@@ -22,7 +22,7 @@ xscreensaver (5.35-1) UNRELEASED; urgency=medium
 xscreensaver (5.34-2) unstable; urgency=medium
 
   * Fix sort order in hacks/Makefile (for reproducible builds)
-    (Closes: #819595)
+    (Closes: #819595) Thanks to Sascha Steinbiss!
   * Disable Easter egg about "outdated" version
     (Closes: #819703)
 
