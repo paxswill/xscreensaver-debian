@@ -23,6 +23,8 @@ xscreensaver (5.36-1) UNRELEASED; urgency=medium
   * debian/control: Remove Enhances (reverse dependencies) and obsolete
     Breaks, Replaces and versioned dependencies (Closes: #822621)
   * Ship /usr/lib/systemd/user/xscreensaver.service (Closes: #843610)
+  * debian/patches/75_Makefile_in-ignore-alien-platforms.patch:
+    Do not descend into OSX and android folders in make clean
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
 
