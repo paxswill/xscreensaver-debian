@@ -22,6 +22,7 @@ xscreensaver (5.36-1) UNRELEASED; urgency=medium
   * debian/rules: Enable all hardening options
   * debian/control: Remove Enhances (reverse dependencies) and obsolete
     Breaks, Replaces and versioned dependencies (Closes: #822621)
+  * Ship /usr/lib/systemd/user/xscreensaver.service (Closes: #843610)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Thu, 07 Apr 2016 22:28:44 +0200
 
