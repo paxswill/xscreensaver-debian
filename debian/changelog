@@ -1,11 +1,15 @@
-xscreensaver (5.35-1) UNRELEASED; urgency=medium
+xscreensaver (5.36-1) UNRELEASED; urgency=medium
 
-  * New upstream release 5.35
-    - New hacks, `dymaxionmap', `unicrud', `energystream', `raverhoop'
-      and `hydrostat'.
+  * New upstream release 5.36, changes since 5.34:
+    - New hacks (modes): `dymaxionmap', `unicrud', `energystream',
+      `raverhoop', `hydrostat', `discoball', `cubetwist', `cubestack',
+      `splodesic' and `hexstrut'.
     - Ignore WM_USER_TIME property changes with days-old timestamps.
     - Added Windows 10 to `bsod'.
     - `pong' is now playable.
+    - Several new programs in `m6502'.
+    - `rotzoomer -mode circle'.
+    - Better titles in `photopile'.
   * Replace dependencies on libjpeg-progs with libjpeg-turbo-progs
     (Closes: #813395)
   * debian/patches/12_upstream_hurd-no-pthread_stack_min.patch:
