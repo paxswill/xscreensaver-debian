@@ -19,9 +19,9 @@ Description: Screensaver daemon and frontend for X11
  .
  This package includes the bare minimum needed to blank and lock your
  screen. Install this package if you want to use the xscreensaver engine
- to control screen blanking and launching display hacks. If you only
- want to use other screensaver engines, you don't need to install this
- package.
+ to control screen blanking and launching display modes ("hacks"). If
+ you only want to use other screensaver engines, you don't need to
+ install this package.
  .
  The graphical display modes are in the xscreensaver-data, 
  xscreensaver-data-extra, xscreensaver-gl and xscreensaver-gl-extra 
@@ -91,15 +91,15 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  .
  This is the set of GL screensavers shipped by default:
  antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
- cityring, cubestorm, dymaxionmap, endgame, energystream, engine,
- flipflop, flipscreen3d, flyingtoasters, gears, geodesic,
- geodesicgears, gflux, glblur, glcells, gleidescope, glknots, glmatrix,
- glschool, glslideshow, glsnake, gltext, hydrostat, hypertorus,
- jigglypuff, kaleidocycle, lavalite, lockward, mirrorblob, moebius,
- moebiusgears, molecule, morph3d, pipes, polyhedra, polytopes,
- projectiveplane, pulsar, quasicrystal, queens, raverhoop, romanboy,
- sierpinski3d, sonar, spheremonics, splitflap, stonerview,
- superquadrics, topblock, unicrud, voronoi, winduprobot.
+ cityring, cubestack, cubestorm, cubetwist, discoball, dymaxionmap,
+ endgame, energystream, engine, flipflop, flipscreen3d, flyingtoasters,
+ gears, geodesic, geodesicgears, gflux, glblur, glcells, gleidescope,
+ glknots, glmatrix, glschool, glslideshow, glsnake, gltext, hexstrut,
+ hydrostat, hypertorus, jigglypuff, kaleidocycle, lavalite, lockward,
+ mirrorblob, moebius, moebiusgears, molecule, morph3d, pipes, polyhedra,
+ polytopes, projectiveplane, pulsar, quasicrystal, queens, raverhoop,
+ romanboy, sierpinski3d, sonar, spheremonics, splitflap, splodesic,
+ stonerview, superquadrics, topblock, unicrud, voronoi, winduprobot.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
@@ -132,7 +132,7 @@ Package: xscreensaver-screensaver-webcollage
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra, ${misc:Depends}
 Description: Webcollage screen saver module from XScreenSaver
- This package ships the hack webcollage which displays images from random 
+ This package ships the mode webcollage which displays images from random
  web searches on the Internet.
  .
  WARNING: The Internet being what it is, absolutely anything might show up 
@@ -143,7 +143,7 @@ Package: xscreensaver-screensaver-bsod
 Architecture: any
 Depends: ${shlibs:Depends}, xscreensaver-data-extra, ${misc:Depends}
 Description: BSOD screen saver module from XScreenSaver
- This package ships the hack BSOD that shows the popular Blue Screens of Death
+ This package ships the mode BSOD that shows the popular Blue Screens of Death
  from several OSes including BSD, Windows, Linux, Solaris, Apple and much more.
  .
  WARNING: This screensaver could be confused with a real BSOD and could lead an
