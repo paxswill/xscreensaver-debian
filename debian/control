@@ -99,7 +99,8 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  mirrorblob, moebius, moebiusgears, molecule, morph3d, pipes, polyhedra,
  polytopes, projectiveplane, pulsar, quasicrystal, queens, raverhoop,
  romanboy, sierpinski3d, sonar, spheremonics, splitflap, splodesic,
- stonerview, superquadrics, topblock, unicrud, voronoi, winduprobot.
+ stonerview, superquadrics, topblock, unicrud, vigilance, voronoi,
+ winduprobot.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
