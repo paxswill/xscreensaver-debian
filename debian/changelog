@@ -5,6 +5,7 @@ xscreensaver (5.37-1) UNRELEASED; urgency=medium
     - Added Mac Software Update and VMware to `bsod'.
     - Updated `webcollage' for recent changes.
     - Various bug fixes.
+  * debian/xscreensaver.install.stub: Locale 'ca' dropped upstream
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 23 Jul 2017 19:15:54 +0200
 
