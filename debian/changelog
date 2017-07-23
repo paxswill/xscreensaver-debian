@@ -1,3 +1,13 @@
+xscreensaver (5.37-1) UNRELEASED; urgency=medium
+
+  * New upstream release 5.37
+    - New hack, `vigilance'.
+    - Added Mac Software Update and VMware to `bsod'.
+    - Updated `webcollage' for recent changes.
+    - Various bug fixes.
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Sun, 23 Jul 2017 19:15:54 +0200
+
 xscreensaver (5.36-1) unstable; urgency=medium
 
   * New upstream release 5.36, changes since 5.34:
