@@ -3,9 +3,9 @@
 #
 Index: xscreensaver-git/hacks/Makefile.in
 ===================================================================
---- xscreensaver-git.orig/hacks/Makefile.in	2016-12-11 14:23:11.356275726 +0100
-+++ xscreensaver-git/hacks/Makefile.in	2016-12-11 14:23:11.352275725 +0100
-@@ -273,7 +273,7 @@
+--- xscreensaver-git.orig/hacks/Makefile.in
++++ xscreensaver-git/hacks/Makefile.in
+@@ -265,7 +265,7 @@ TARFILES	= $(SRCS) $(HDRS) $(SCRIPTS) $(
  
  
  default: all
@@ -16,9 +16,9 @@ Index: xscreensaver-git/hacks/Makefile.in
  uninstall: uninstall-program uninstall-xml uninstall-man
 Index: xscreensaver-git/hacks/glx/Makefile.in
 ===================================================================
---- xscreensaver-git.orig/hacks/glx/Makefile.in	2016-12-11 14:23:11.356275726 +0100
-+++ xscreensaver-git/hacks/glx/Makefile.in	2016-12-11 14:23:11.352275725 +0100
-@@ -266,7 +266,7 @@
+--- xscreensaver-git.orig/hacks/glx/Makefile.in
++++ xscreensaver-git/hacks/glx/Makefile.in
+@@ -274,7 +274,7 @@ TARFILES	= $(SRCS) $(HDRS) $(GL_MEN) $(R
  
  
  default: all

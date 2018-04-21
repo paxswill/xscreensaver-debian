@@ -5,7 +5,7 @@ Index: xscreensaver-git/hacks/Makefile.in
 ===================================================================
 --- xscreensaver-git.orig/hacks/Makefile.in
 +++ xscreensaver-git/hacks/Makefile.in
-@@ -855,8 +855,8 @@ cwaves:		cwaves.o	$(HACK_OBJS) $(COL)
+@@ -849,8 +849,8 @@ cwaves:		cwaves.o	$(HACK_OBJS) $(COL)
  
  m6502.h:
  	@echo "building m6502.h from $(srcdir)/images/m6502/*.asm"; \
@@ -15,4 +15,4 @@ Index: xscreensaver-git/hacks/Makefile.in
 +	  UTILS_SRC="$(UTILS_SRC)" xargs $(srcdir)/m6502.sh m6502.h
  
  m6502.o:	m6502.h
- m6502:		m6502.o		asm6502.o $(HACK_OBJS) $(ATV)
+ m6502:		m6502.o		asm6502.o $(HACK_OBJS) $(ATV) $(PNG)

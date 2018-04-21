@@ -5,7 +5,7 @@ Index: xscreensaver-git/Makefile.in
 @@ -7,7 +7,7 @@
  
  SHELL		= /bin/sh
- SUBDIRS 	= utils jwxyz hacks hacks/glx driver po
+ SUBDIRS 	= utils jwxyz hacks/images hacks hacks/glx driver po
 -SUBDIRS2	= $(SUBDIRS) OSX android
 +SUBDIRS2	= $(SUBDIRS)
  TARFILES	= README README.hacking README.VMS INSTALL \

@@ -11,6 +11,6 @@ Index: xscreensaver-git/driver/prefs.c
  
 +  return 0;
 +
-   time_t now = time ((time_t *) 0);				/*       */
-   struct tm *tm = localtime (&now);				/*   d   */
-   const char *s = screensaver_id;				/*   o   */
+   time_t now = time ((time_t *) 0);				/*   d   */
+   struct tm *tm = localtime (&now);				/*   o   */
+   const char *s = screensaver_id;				/*   n   */
