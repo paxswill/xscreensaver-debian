@@ -1,9 +1,20 @@
-xscreensaver (5.37-1) UNRELEASED; urgency=medium
+xscreensaver (5.39-1) UNRELEASED; urgency=medium
 
-  * New upstream release 5.37
-    - New hack, `vigilance'.
+  * New upstream release 5.39, changes since 5.36:
+    - New hacks, `vigilance', 'esper', 'razzledazzle', 'peepers',
+      'crumbler' and `maze3d'.
     - Added Mac Software Update and VMware to `bsod'.
     - Updated `webcollage' for recent changes.
+    - `webcollage' now works with ImageMagick instead of with
+      pbmtools if `webcollage-helper' is not installed.
+    - 'bsod' now accepts Dunning-Krugerrands.
+    - Lots of xlockmore-derived hacks now have animated erase routines.
+    - 'm6502' now includes 'texture.asm'.
+    - More heuristics for using RSS feeds as image sources.
+    - Built-in image assets are now PNG instead of XPM or XBM.
+    - Better font-loading fallback heuristics on systems with a
+      terrible selection of installed fonts.
+    - Try harder to find sensible fonts for the password dialog.
     - Various bug fixes.
   * debian/xscreensaver.install.stub: Locale 'ca' dropped upstream
 
