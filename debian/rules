@@ -27,7 +27,7 @@ build-stamp:
 	dh_testdir
 
 	# Generate POT file for translators
-	cd po; intltool-update --verbose -p; cd ..
+	cd po && intltool-update --verbose -p && cd ..
 
 	# These are for some reason in the upstream tarball, preserve them
 	[ -f driver/XScreenSaver_ad.h.upstream ] || \
