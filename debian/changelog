@@ -20,6 +20,8 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
   * debian/xscreensaver.install.stub: Locale 'ca' dropped upstream
   * debian/rules: Stop if intltool-update fails (Closes: 873108)
   * Allow cross-compilation (Closes: 873106) thanks Helmut Grohne!
+  * debian/patches/92_hacks_images_distclean.patch:
+    Missing distclean in new, non-generated Makefile
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 23 Jul 2017 19:15:54 +0200
 
