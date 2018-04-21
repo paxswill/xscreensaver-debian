@@ -40,7 +40,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xscreensaver.git/
 Package: xscreensaver
 Architecture: any
 Depends: xscreensaver-data, ${misc:Depends}, ${shlibs:Depends}
-Recommends: libjpeg-turbo-progs, miscfiles | wordlist, perl5
+Recommends: libjpeg-turbo-progs, miscfiles | wordlist, perl
 Suggests: fortune,
           gdm3 | kdm-gdmcompat,
           qcam | streamer,

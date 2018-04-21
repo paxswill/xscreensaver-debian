@@ -23,6 +23,7 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
   * debian/patches/92_hacks_images_distclean.patch:
     Missing distclean in new, non-generated Makefile
   * Drop recommends on libgnomeui (Closes: #885731)
+  * Change recommends from perl5 to perl (Closes: #864310)
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 23 Jul 2017 19:15:54 +0200
 
