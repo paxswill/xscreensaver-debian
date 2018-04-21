@@ -1,0 +1,44 @@
+From: Helmut Grohne <helmut@subdivi.de>
+Subject: fix cross compilation
+
+AC_TRY_RUN fails during cross compilation. We can expect any compiler to just
+work, so discard the test.
+
+Consider $ac_tool_prefix for pkg-config by using PKG_PROG_PKG_CONFIG.
+
+Debian bug #873106.
+
+Index: xscreensaver-git/configure.in
+===================================================================
+--- xscreensaver-git.orig/configure.in
++++ xscreensaver-git/configure.in
+@@ -422,13 +422,6 @@ AC_DEFUN([AC_PROG_CC_ANSI],
+ 
+   OBJCC="$CC"
+ 
+-  AC_MSG_CHECKING([whether the compiler works on ANSI C])
+-  AC_TRY_RUN([ main(int ac, char **av) { return 0; } ],
+-     AC_MSG_RESULT(yes),
+-     AC_MSG_RESULT(no)
+-     AC_MSG_ERROR(Couldn't build even a trivial ANSI C program: check CC.),
+-     AC_MSG_ERROR(Couldn't build even a trivial ANSI C program: check CC.))
+-
+   if test -n "$GCC"; then
+     AC_MSG_RESULT(Turning on gcc compiler warnings.)
+     CC="$CC -pedantic -Wall -Wstrict-prototypes -Wnested-externs -Wmissing-prototypes"
+@@ -2622,11 +2615,13 @@ if test ! -z "$gtk_dir"; then
+   gtk_path="$foo:$gtk_path"
+ fi
+ 
+-AC_PATH_PROGS(pkg_config, pkg-config,, $gtk_path)
++PKG_PROG_PKG_CONFIG
+ 
+-if test -z "$pkg_config" ; then
++if test -z "$PKG_CONFIG" ; then
+   AC_MSG_WARN([pkg-config not found!])
+   pkg_config="false"
++else
++  pkg_config=$PKG_CONFIG
+ fi
+ 
+ 

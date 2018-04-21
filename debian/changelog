@@ -19,6 +19,7 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
     - Added 6502/dmsc source (Closes: #876087)
   * debian/xscreensaver.install.stub: Locale 'ca' dropped upstream
   * debian/rules: Stop if intltool-update fails (Closes: 873108)
+  * Allow cross-compilation (Closes: 873106) thanks Helmut Grohne!
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 23 Jul 2017 19:15:54 +0200
 
