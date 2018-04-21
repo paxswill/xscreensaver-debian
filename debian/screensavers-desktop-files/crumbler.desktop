@@ -1,0 +1,6 @@
+
+[Desktop Entry]
+Name=Crumbler
+Exec=/usr/lib/xscreensaver/crumbler -root
+TryExec=/usr/lib/xscreensaver/crumbler
+Comment=Randomly subdivides a ball into voronoi chunks, then further subdivides one of the remaining pieces. https://en.wikipedia.org/wiki/Voronoi_diagram https://en.wikipedia.org/wiki/Convex_hull https://en.wikipedia.org/wiki/Quickhull Written by Jamie Zawinski.

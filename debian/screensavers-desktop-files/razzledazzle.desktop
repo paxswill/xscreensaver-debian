@@ -1,0 +1,6 @@
+
+[Desktop Entry]
+Name=RazzleDazzle
+Exec=/usr/lib/xscreensaver/razzledazzle -root
+TryExec=/usr/lib/xscreensaver/razzledazzle
+Comment=Generates an infinitely-scrolling sequence of dazzle camouflage patterns. Dazzle Ships, in addition to being the best album by Orchestral Manoeuvres in the Dark, were military vessels during World War I and early in World War II that were painted not to conceal but to confuse: with these Cubist overlapping stripes, it was very hard to estimate their size, range and heading. This was a big deal before the invention of Radar. https://en.wikipedia.org/wiki/Dazzle_camouflage https://en.wikipedia.org/wiki/Cubism https://en.wikipedia.org/wiki/Dazzle_Ships_%28album%29 https://en.wikipedia.org/wiki/Acoustic_mirror https://en.wikipedia.org/wiki/Radar Written by Jamie Zawinski.

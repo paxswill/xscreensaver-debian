@@ -1,0 +1,6 @@
+
+[Desktop Entry]
+Name=Peepers
+Exec=/usr/lib/xscreensaver/peepers -root
+TryExec=/usr/lib/xscreensaver/peepers
+Comment=Floating eyeballs. Anatomically correct, and they also track the pointer. Written by Jamie Zawinski.

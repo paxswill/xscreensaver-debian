@@ -91,16 +91,17 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  .
  This is the set of GL screensavers shipped by default:
  antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
- cityring, cubestack, cubestorm, cubetwist, discoball, dymaxionmap,
- endgame, energystream, engine, flipflop, flipscreen3d, flyingtoasters,
- gears, geodesic, geodesicgears, gflux, glblur, glcells, gleidescope,
- glknots, glmatrix, glschool, glslideshow, glsnake, gltext, hexstrut,
- hydrostat, hypertorus, jigglypuff, kaleidocycle, lavalite, lockward,
- mirrorblob, moebius, moebiusgears, molecule, morph3d, pipes, polyhedra,
+ cityring, crumbler, cubestack, cubestorm, cubetwist, discoball,
+ dymaxionmap, endgame, energystream, engine, esper, flipflop,
+ flipscreen3d, flyingtoasters, gears, geodesic, geodesicgears, gflux,
+ glblur, glcells, gleidescope, glknots, glmatrix, glschool,
+ glslideshow, glsnake, gltext, hexstrut, hydrostat, hypertorus,
+ jigglypuff, kaleidocycle, lavalite, lockward, maze3d, mirrorblob,
+ moebius, moebiusgears, molecule, morph3d, peepers, pipes, polyhedra,
  polytopes, projectiveplane, pulsar, quasicrystal, queens, raverhoop,
- romanboy, sierpinski3d, sonar, spheremonics, splitflap, splodesic,
- stonerview, superquadrics, topblock, unicrud, vigilance, voronoi,
- winduprobot.
+ razzledazzle, romanboy, sierpinski3d, sonar, spheremonics, splitflap,
+ splodesic, stonerview, superquadrics, topblock, unicrud, vigilance,
+ voronoi, winduprobot.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-data-extra and xscreensaver-gl-extra packages.
