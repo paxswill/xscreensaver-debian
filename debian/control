@@ -34,8 +34,8 @@ Build-Depends: autotools-dev,
                xutils-dev
 Standards-Version: 4.1.4
 Homepage: https://www.jwz.org/xscreensaver/
-Vcs-Git: https://anonscm.debian.org/git/collab-maint/xscreensaver.git
-Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xscreensaver.git/
+Vcs-Browser: https://salsa.debian.org/debian/xscreensaver
+Vcs-Git: https://salsa.debian.org/debian/xscreensaver.git
 
 Package: xscreensaver
 Architecture: any
