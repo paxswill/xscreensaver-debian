@@ -2,7 +2,7 @@
 # To be sent upstream (jwz) after verification
 #
 # PTHREAD_STACK_MIN is not defined on GNU/Hurd
-# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823049
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823049
 #
 Index: xscreensaver-git/utils/thread_util.c
 ===================================================================

@@ -15,7 +15,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  *textFile:		@DEFAULT_TEXT_FILE@
  *textProgram:		fortune
 -*textURL:		https://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
-+*textURL:		http://planet.debian.org/rss20.xml
++*textURL:		https://planet.debian.org/rss20.xml
  
  *overlayTextForeground:	#FFFF00
  *overlayTextBackground:	#000000
