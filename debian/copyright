@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: XScreenSaver
 Upstream-Contact: Jamie Zawinski <jwz@jwz.org>
-Source: http://www.jwz.org/xscreensaver/
+Source: https://www.jwz.org/xscreensaver/
 
 Files: *
        hacks/noseguy.*

@@ -1,6 +1,6 @@
 If you are having problems with running the GL screenhacs from xscreensaver,
 but not from a window, please see
-<http://www.jwz.org/xscreensaver/faq.html#gl-mem>, especially if you
+<https://www.jwz.org/xscreensaver/faq.html#gl-mem>, especially if you
 are using nVIdia's GL implementation. This has appeared as a SIGSEGV
 crash and as a failutre to allocate GL context. In particular:
 

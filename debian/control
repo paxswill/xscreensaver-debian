@@ -33,7 +33,7 @@ Build-Depends: autotools-dev,
                xbitmaps,
                xutils-dev
 Standards-Version: 4.1.4
-Homepage: http://www.jwz.org/xscreensaver/
+Homepage: https://www.jwz.org/xscreensaver/
 Vcs-Git: https://anonscm.debian.org/git/collab-maint/xscreensaver.git
 Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xscreensaver.git/
 
