@@ -66,7 +66,7 @@ build-stamp:
 		--mandir=/usr/share/man --with-login-manager \
 		--with-x-app-defaults=/etc/X11/app-defaults \
 		--with-proc-interrupts
-	$(MAKE) 
+	$(MAKE)
 	touch build-stamp
 
 clean:	clean-patched unpatch

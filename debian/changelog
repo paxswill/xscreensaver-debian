@@ -24,6 +24,8 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
     Missing distclean in new, non-generated Makefile
   * Drop recommends on libgnomeui (Closes: #885731)
   * Change recommends from perl5 to perl (Closes: #864310)
+  * Run wrap-and-sort on debian/control and clean-up trailing
+    whitespace in changelog and rules (Lintian warnings)
   * Bump Standards-Version to 4.1.4 (no changes needed)
   * Update various URLs to use https instead of http
   * Update Vcs-* fields to new location at salsa.debian.org
@@ -162,7 +164,7 @@ xscreensaver (5.23-1) unstable; urgency=low
     - Made quasicrystal work on weak graphics cards
     - Better compression on icons, plists and XML files
     - Reverted that DEACTIVATE change. Bad idea.
-    - Phosphor now supports amber as well as green 
+    - Phosphor now supports amber as well as green
   * Dropped patches applied upstream:
     - 12_upstream_quasicrystal_texture_width.patch
     - 14_upstream_hexadrop_keyboard_exit.patch
@@ -269,7 +271,7 @@ xscreensaver (5.14-1) unstable; urgency=low
     - Fixed crash in Blank Only Mode when DPMS disabled.
       (Closes: #627382, #627397)
     - Added ``Quick Power-off in Blank Only Mode'' option.
-    - BSOD GLaDOS. 
+    - BSOD GLaDOS.
   * Clean up duplicate build-depends (thanks Jeremy Bicha)
   * Drop xli | xloadimage recommends (we use gdk-pixbuf)
 
@@ -288,7 +290,7 @@ xscreensaver (5.13-1) unstable; urgency=low
   * xscreensaver.desktop changes:
     - Do not set StartupNotify.
     - Do not specify svg icon. Closes: #618723 (LP: #603222)
-  * Fix installation path for xscreensaver-daemon.desktop 
+  * Fix installation path for xscreensaver-daemon.desktop
   * debian/xscreensaver.preinst: Check version before
     deleting obsolete configuration files (Closes: #588288)
   * Bump Standards-Version to 3.9.2 (no changes needed)
@@ -356,7 +358,7 @@ xscreensaver (5.10-2) unstable; urgency=low
 
   * Updated my email address in debian/copyright.
   * Added README.hacking to debian/xscreensaver.docs (Closes: #544352).
-  * Included a hook for Xsession thanks to Y Giridhar Appaji Nag 
+  * Included a hook for Xsession thanks to Y Giridhar Appaji Nag
     <debian@appaji.net> (Closes: #357297).
   * Fixed the changelog.
 
@@ -427,9 +429,9 @@ xscreensaver (5.10-1) unstable; urgency=low
 
   [ Jose Luis Rivas ]
   * debian/copyright: Major update (not 100% yet)
-  * Move jigsaw from xscreensaver-data-extra.files to 
+  * Move jigsaw from xscreensaver-data-extra.files to
     xscreensaver-gl-extra.files since it now is a glx hack
-  * Screensavers that uses images now rotates according to EXIF data 
+  * Screensavers that uses images now rotates according to EXIF data
     since this new upstream version (Closes: #314553)
   * Reinstate flurry on xscreensaver-gl-extra since crashes were not
     reproducible (Closes: #495633)
@@ -450,7 +452,7 @@ xscreensaver (5.07-1) unstable; urgency=low
   * driver/XScreensaver.ad.in:
     + Use ISO time/date format in password dialog
     + Use url as default text method
-    + remove dnalogo and flurry which are not installed 
+    + remove dnalogo and flurry which are not installed
   * remove xsublim hack since upstream no more installs it
   * add desktop file comment to cubicgrid, hypnowheel and lcdscrub
   * debian/patches: renamed, commented, refreshed patches and series
@@ -531,7 +533,7 @@ xscreensaver (5.05-2) unstable; urgency=low
 
 xscreensaver (5.05-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
     - fixed overlapping with Xinerama. (Closes: #453708)
     - fixed double-buffering in cubestorm and noof (Closes: #310157)
     - don't warn about about bogus ClientMessages of GNOME (Closes: #191530)
@@ -622,7 +624,7 @@ xscreensaver (5.04-2) unstable; urgency=low
 
   [ Jose Luis Rivas ]
   * debian/xscreensaver.files:
-   + Added m6502 (without manpage at the moment) and abstractile 
+   + Added m6502 (without manpage at the moment) and abstractile
    hacks.
   * debian/xscreensaver-gl.files:
    + Added moebiusgears and lockward hacks. (Closes: #454601)
@@ -658,7 +660,7 @@ xscreensaver (5.03-3) unstable; urgency=low
   * The config problems doesn't exists anymore since there's now the original
   XML file, so no changes needed. (Closes: #367791, #405266).
   * debian/rules:
-   + Added a line that adds "NoDisplay=true" to 
+   + Added a line that adds "NoDisplay=true" to
    gnome-screensaver-properties.desktop. (Closes: #435446)
 
  -- Jose Luis Rivas <ghostbar38@gmail.com>  Sat, 04 Aug 2007 16:25:39 -0400
@@ -666,7 +668,7 @@ xscreensaver (5.03-3) unstable; urgency=low
 xscreensaver (5.03-2) unstable; urgency=low
 
   * debian/rules, debian/xscreensaver.files, debian/xscreensaver-gl.files:
-   + Adding again the `x` at the end of each manpage. 
+   + Adding again the `x` at the end of each manpage.
    (Closes: #435035)
 
  -- Jose Luis Rivas <ghostbar38@gmail.com>  Sun, 29 Jul 2007 02:22:49 -0400
@@ -686,9 +688,9 @@ xscreensaver (5.03-1) unstable; urgency=low
   * Currently XScreensaver request password everytime, even if Power management
   is enabled. (Closes: #330971)
   * XScreensaver does not longer ignores settings on ~/.xscreensaver anymore
-  and modifying settings with `xscreensaver-demo' will save your settings as 
+  and modifying settings with `xscreensaver-demo' will save your settings as
   should and will not be restarted. (Closes: #316931)
-  * xscreensaver does properly requests passwords and proccess them as should 
+  * xscreensaver does properly requests passwords and proccess them as should
   if that's the case. (Closes: #368600)
   * Now images are rotated as should when using carousel with the EXIF data of
   each JPEG archive. (Closes: #375488)
@@ -709,10 +711,10 @@ xscreensaver (5.03-1) unstable; urgency=low
   * debian/rules:
     + Included `dpatch.make' for patching.
     + Changed targets to fits `dpatch' functioning.
-    + Changed the way as config.{sub|guess} is deleted, now is moved so isn't 
+    + Changed the way as config.{sub|guess} is deleted, now is moved so isn't
     showed in the final `diff.gz'.
   * debian/xscreensaver.files:
-    + Removed line for adding `gnome-screensaver-properties.desktop' since 
+    + Removed line for adding `gnome-screensaver-properties.desktop' since
     GNOME ships their own screensaver and the menu entrie in preferences should
     not be added, users should use the another menu entrie. (Closes: #390672)
     + Added new hack `cwaves'.
@@ -767,10 +769,10 @@ xscreensaver (4.24-2) unstable; urgency=low
 xscreensaver (4.24-1) unstable; urgency=low
 
   * new upstream release:
-  * New versions of cube21, glsnake, celtic. 
+  * New versions of cube21, glsnake, celtic.
   * Fixed startup crash in getgroups() when running setuid. (closes: #302791)
-  * Default to not displaying stderr on the saver window. 
-  * Fixed bad free() in `Documentation'' button. 
+  * Default to not displaying stderr on the saver window.
+  * Fixed bad free() in `Documentation'' button.
   * Don't try to run hacks that aren't installed (closes: #350029, #309443)
   * Minor fixes to various XML config files and man pages.
   * fix typo in German PO file (closes: #359067)
@@ -798,7 +800,7 @@ xscreensaver (4.23-3) unstable; urgency=low
       (closes: #336590).
     + Force gdmflexiserver to start a new flexible X server
       (closes: #337760).
-  * utils/images/logo-50-bad.xpm: this is a stripped down (64 colors) 
+  * utils/images/logo-50-bad.xpm: this is a stripped down (64 colors)
     version of the logo.
   * hacks/xanalogtv.c: use this version instead (closes: #304344).
 
@@ -823,16 +825,16 @@ xscreensaver (4.23-0.1) unstable; urgency=high
 xscreensaver (4.23-1) unstable; urgency=low
 
   * new upstream (closes: #308668, #195727, #322752, #305528)
-    
+
  -- Ralf Hildebrandt <ralf.hildebrandt@charite.de>  Wed, 26 Sep 2005 15:23:43 +0200
 
 xscreensaver (4.21-7) unstable; urgency=low
 
   * fixed fubared patch in lines 1596 to 1603 of file "driver/prefs.c" (closes: #323841)
     thanks to Arnaud Giersch
-    
+
  -- Ralf Hildebrandt <ralf.hildebrandt@charite.de>  Thu, 22 Sep 2005 23:23:43 +0200
-    
+
 xscreensaver (4.21-6) unstable; urgency=low
 
   * patch against stop_the_insanity() (closes: #323841)
@@ -874,7 +876,7 @@ xscreensaver (4.21-4) unstable; urgency=low
   * Fix metric assload of typos (closes: #312776, #312777, #312785, #312783, #312784, #312786, #312791, #312789)
   * Fix metric assload of typos (closes: #312797, #312796, #312793, #312795, #312798, #312800, #312802, #312803)
   * Apply jwz's patch to phosphor (closes: #308720)
-  
+
  -- Ralf Hildebrandt <ralf.hildebrandt@charite.de>  Sat, 11 Jun 2005 11:20:43 +0200
 
 xscreensaver (4.21-3) unstable; urgency=low
@@ -1069,7 +1071,7 @@ xscreensaver (4.06-1) unstable; urgency=low
     one's .fvwm2rc. closes: #167848
   * webcollage mimics netscape when talking to images.google.com.
     closes: #163563
-  
+
  -- Karl Ramm <kcr@debian.org>  Tue, 31 Dec 2002 23:42:16 -0500
 
 xscreensaver (4.05-10) unstable; urgency=low
@@ -1149,7 +1151,7 @@ xscreensaver (4.05-2.1) unstable; urgency=low
   * Allow null passwords through PAM. This doesn't work exactly as it
     should, but now if you have a blank password, typing anything in
     the password box will get you out of a locked screen. (Closes: #43670)
-  * Start xscreensaver with X if ~/.xscreensaver exists 
+  * Start xscreensaver with X if ~/.xscreensaver exists
     - reference bug #127276
 
  -- Ari Pollak <compwiz@aripollak.com>  Thu, 18 Jul 2002 12:17:37 -0400
@@ -1278,7 +1280,7 @@ xscreensaver (3.30-1) unstable; urgency=low
 
   * New upstream version
   * Fix to upstream manpage to document current DPMS behavior. (Closes:
-    #90491) 
+    #90491)
 
  -- Larry Daffner <vizzie@airmail.net>  Mon, 26 Mar 2001 18:42:30 -0600
 
@@ -1441,7 +1443,7 @@ xscreensaver (3.21-3) unstable; urgency=low
 xscreensaver (3.21-2) unstable; urgency=low
 
   * fixed inadvertent worm-xworm in appdefaults (fixup in rules) (Closes:
-    #51005) 
+    #51005)
   * Changed image program Depends: to Recommends:
   * Changed suidregister to mode 2755 instead of 4755 (Closes: #44907)
 
@@ -1557,7 +1559,7 @@ xscreensaver (2.34-1) unstable; urgency=low
 
 xscreensaver (2.30-1) unstable; urgency=low
 
-  * New upstream version  
+  * New upstream version
 
  -- Larry Daffner <vizzie@airmail.net>  Fri, 25 Sep 1998 21:30:37 -0500
 
