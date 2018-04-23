@@ -1,5 +1,6 @@
-Missing distclean in this Makefile breaks rebuilding.
-
+#
+# Missing distclean in this Makefile breaks rebuilding.
+#
 Index: xscreensaver-git/hacks/images/Makefile
 ===================================================================
 --- xscreensaver-git.orig/hacks/images/Makefile

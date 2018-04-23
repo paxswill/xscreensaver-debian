@@ -26,6 +26,7 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
   * Change recommends from perl5 to perl (Closes: #864310)
   * Run wrap-and-sort on debian/control and clean-up trailing
     whitespace in changelog and rules (Lintian warnings)
+  * Add missing patch description (Lintian warning)
   * Bump Standards-Version to 4.1.4 (no changes needed)
   * Update various URLs to use https instead of http
   * Update Vcs-* fields to new location at salsa.debian.org
