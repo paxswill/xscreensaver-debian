@@ -26,3 +26,4 @@
 90_remove_Easter_egg_about_version.patch
 91_allow_cross_compilation.patch
 92_hacks_images_distclean.patch
+93_driver_distclean.patch
