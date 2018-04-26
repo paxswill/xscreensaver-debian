@@ -9,9 +9,6 @@
 # This file may have to be extensively modified
 # Modified by Jose Luis Rivas and Tormod Volden and others
 
-# Including quilt.make
-include /usr/share/quilt/quilt.make
-
 # Includes hardening compile options
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUILDFLAGS = 1
@@ -21,8 +18,8 @@ export DEB_HOST_GNU_TYPE  ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
 export DEB_BUILD_GNU_TYPE ?= $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
 
 build:	build-arch build-indep
-build-arch:	patch build-stamp
-build-indep:	patch build-stamp
+build-arch:	build-stamp
+build-indep:	build-stamp
 build-stamp:
 	dh_testdir
 
@@ -69,9 +66,7 @@ build-stamp:
 	$(MAKE)
 	touch build-stamp
 
-clean:	clean-patched unpatch
-
-clean-patched:
+clean:
 	dh_testdir
 	[ ! -f Makefile ] || $(MAKE) distclean
 	rm -f config.log config.h

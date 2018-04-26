@@ -33,6 +33,7 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.4 (no changes needed)
   * Update various URLs to use https instead of http
   * Update Vcs-* fields to new location at salsa.debian.org
+  * Switch to dpkg-source 3.0 (quilt) format
 
  -- Tormod Volden <debian.tormod@gmail.com>  Sun, 23 Jul 2017 19:15:54 +0200
 
