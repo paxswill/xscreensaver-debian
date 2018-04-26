@@ -17,6 +17,7 @@ xscreensaver (5.39-1) UNRELEASED; urgency=medium
     - Try harder to find sensible fonts for the password dialog.
     - Various bug fixes.
     - Added 6502/dmsc source (Closes: #876087)
+  * Build-Depends on libpng-dev instead of libxpm-dev
   * debian/xscreensaver.install.stub: Locale 'ca' dropped upstream
   * debian/rules: Stop if intltool-update fails (Closes: #873108)
   * Allow cross-compilation (Closes: #873106) thanks Helmut Grohne!
