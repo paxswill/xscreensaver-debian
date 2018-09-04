@@ -8,7 +8,12 @@ xscreensaver (5.40-1.1) UNRELEASED; urgency=medium
     - DymaxionMap can display arbitrary map images, and animate sunlight
       across the flattened globe.
     - Tessellimage can draw either Delaunay or Voronoi tilings.
-    - XAnalogTV includes test cards. 
+    - XAnalogTV includes test cards.
+  * removed patches that do not apply and were fixing a bug that seems
+    fixed upstream (#304344):
+    - 30_hacks_xanalogtv.patch and
+    - 31_utils_images_logo-50-bad-xpm.patch
+
   [ Tormod Volden ]
   * New upstream release 5.39, changes since 5.36:
     - New hacks, `vigilance', 'esper', 'razzledazzle', 'peepers',

@@ -7,8 +7,9 @@
 23_hacks_glx_glsnake.patch
 
 # These two go together
-30_hacks_xanalogtv.patch
-31_utils_images_logo-50-bad-xpm.patch
+# ... but don't apply to 5.40 so: skipped.
+#30_hacks_xanalogtv.patch
+#31_utils_images_logo-50-bad-xpm.patch
 
 # All these modify XScreenSaver.ad.in
 50_debian_branding.patch
