@@ -101,20 +101,21 @@ Description: Extra screen saver modules for screensaver frontends
  xscreensaver and also some other screensaver engines.
  .
  This is the set of non-GL screensavers not shipped by default:
- anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
- blitspin, bouboule, boxfit, braid, bumps, ccurve, celtic, cloudlife,
- compass, coral, crystal, cynosure, decayscreen, deluxe, demon,
- discrete, drift, epicycle, eruption, euler2d, fadeplot, fireworkx,
- flame, flow, fluidballs, fontglide, goop, grav, greynetic, halftone,
- halo, helix, hopalong, ifs, imsmap, interaggregate, interference,
- intermomentary, julia, kaleidescope, kumppa, lcdscrub, ljlatest, loop,
- maze, memscroller, moire2, moire, mountain, munch, nerverot, noseguy,
- pacman, pedal, penetrate, petri, phosphor, piecewise, polyominoes,
- pong, pyro, qix, rd-bomb, rocks, rorschach, rotzoomer, sierpinski,
- slip, speedmine, spotlight, squiral, starfish, strange, substrate,
- thornbird, triangle, truchet, twang, vermiculate, vidwhacker, wander,
- whirlwindwarp, wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm,
- xspirograph, zoom.
+ anemone, anemotaxis, apollonian, apple2, attraction, barcode,
+ blaster, blitspin, bouboule, boxfit, braid, bumps, ccurve, celtic,
+ cloudlife, compass, coral, crystal, cynosure, decayscreen, deluxe,
+ demon, discrete, drift, epicycle, eruption, euler2d, fadeplot,
+ filmleader, fireworkx, flame, flow, fluidballs, fontglide, glitchpeg,
+ goop, grav, greynetic, halftone, halo, helix, hopalong, ifs, imsmap,
+ interaggregate, interference, intermomentary, julia, kaleidescope,
+ kumppa, lcdscrub, ljlatest, loop, maze, memscroller, moire2, moire,
+ mountain, munch, nerverot, noseguy, pacman, pedal, penetrate, petri,
+ phosphor, piecewise, polyominoes, pong, pyro, qix, rd-bomb, rocks,
+ rorschach, rotzoomer, sierpinski, slip, speedmine, spotlight,
+ squiral, starfish, strange, substrate, thornbird, triangle, truchet,
+ twang, vermiculate, vfeedback, vidwhacker, wander, whirlwindwarp,
+ wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm, xspirograph,
+ zoom.
  .
  More display modes can be found in the xscreensaver-data,
  xscreensaver-gl and xscreensaver-gl-extra packages.
