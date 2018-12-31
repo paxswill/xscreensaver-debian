@@ -1,3 +1,16 @@
+xscreensaver (5.42-1) UNRELEASED; urgency=medium
+
+  * New upstream release 5.42, changes since 5.40:
+    - New hack, `handsy'.
+    - X11: Those new font-loading fallback heuristics work again. Oops.
+    - Fixed noof from displaying minimalistically.
+    - Rewrote unknownpleasures to be faster, and a true waterfall graph.
+    - BSOD Solaris improved. DVD added.
+    - If the xscreensaver daemon is setuid, then we can implore the
+      kernel's out-of-memory killer to not unlock the screen.
+
+ -- Tormod Volden <debian.tormod@gmail.com>  Mon, 31 Dec 2018 12:48:47 +0100
+
 xscreensaver (5.40-1) unstable; urgency=medium
 
   [ Antoine Beaupré ]
