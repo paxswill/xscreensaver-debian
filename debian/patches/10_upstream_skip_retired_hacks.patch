@@ -5,7 +5,7 @@ Index: xscreensaver-git/hacks/Makefile.in
 ===================================================================
 --- xscreensaver-git.orig/hacks/Makefile.in
 +++ xscreensaver-git/hacks/Makefile.in
-@@ -265,7 +265,7 @@ TARFILES	= $(SRCS) $(HDRS) $(SCRIPTS) $(
+@@ -269,7 +269,7 @@ TARFILES	= $(SRCS) $(HDRS) $(SCRIPTS) $(
  
  
  default: all
@@ -18,7 +18,7 @@ Index: xscreensaver-git/hacks/glx/Makefile.in
 ===================================================================
 --- xscreensaver-git.orig/hacks/glx/Makefile.in
 +++ xscreensaver-git/hacks/glx/Makefile.in
-@@ -274,7 +274,7 @@ TARFILES	= $(SRCS) $(HDRS) $(GL_MEN) $(R
+@@ -276,7 +276,7 @@ TARFILES	= $(SRCS) $(HDRS) $(GL_MEN) $(R
  
  
  default: all

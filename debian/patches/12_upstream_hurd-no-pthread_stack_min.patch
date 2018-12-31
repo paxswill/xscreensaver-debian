@@ -1,5 +1,5 @@
 #
-# To be sent upstream (jwz) after verification
+# Sent upstream (jwz) 2018-12-31
 #
 # PTHREAD_STACK_MIN is not defined on GNU/Hurd
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823049

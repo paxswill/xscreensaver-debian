@@ -12,7 +12,7 @@ Index: xscreensaver-git/configure.in
 ===================================================================
 --- xscreensaver-git.orig/configure.in
 +++ xscreensaver-git/configure.in
-@@ -422,13 +422,6 @@ AC_DEFUN([AC_PROG_CC_ANSI],
+@@ -427,13 +427,6 @@ AC_DEFUN([AC_PROG_CC_ANSI],
  
    OBJCC="$CC"
  
@@ -26,7 +26,7 @@ Index: xscreensaver-git/configure.in
    if test -n "$GCC"; then
      AC_MSG_RESULT(Turning on gcc compiler warnings.)
      CC="$CC -pedantic -Wall -Wstrict-prototypes -Wnested-externs -Wmissing-prototypes"
-@@ -2622,11 +2615,13 @@ if test ! -z "$gtk_dir"; then
+@@ -2670,11 +2663,13 @@ if test ! -z "$gtk_dir"; then
    gtk_path="$foo:$gtk_path"
  fi
  

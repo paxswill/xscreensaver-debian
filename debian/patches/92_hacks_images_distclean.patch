@@ -5,7 +5,7 @@ Index: xscreensaver-git/hacks/images/Makefile
 ===================================================================
 --- xscreensaver-git.orig/hacks/images/Makefile
 +++ xscreensaver-git/hacks/images/Makefile
-@@ -44,3 +44,4 @@ uninstall-man:
+@@ -52,3 +52,4 @@ uninstall-man:
  depend:
  distdepend:
  tags:
