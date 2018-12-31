@@ -8,6 +8,7 @@ xscreensaver (5.42-1) UNRELEASED; urgency=medium
     - BSOD Solaris improved. DVD added.
     - If the xscreensaver daemon is setuid, then we can implore the
       kernel's out-of-memory killer to not unlock the screen.
+  * debian/patches/14_upstream_cpp_comments.patch: Avoid // comment
 
  -- Tormod Volden <debian.tormod@gmail.com>  Mon, 31 Dec 2018 12:48:47 +0100
 
