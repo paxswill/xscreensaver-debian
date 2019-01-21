@@ -138,7 +138,7 @@ Description: GL(Mesa) screen saver modules for screensaver frontends
  dymaxionmap, endgame, energystream, engine, esper, flipflop,
  flipscreen3d, flyingtoasters, gears, geodesic, geodesicgears, gflux,
  glblur, glcells, gleidescope, glknots, glmatrix, glschool,
- glslideshow, glsnake, gltext, handsy, hexstrut, hydrostat, hypertorus,
+ glslideshow, glsnake, gltext, hexstrut, hydrostat, hypertorus,
  jigglypuff, kaleidocycle, lavalite, lockward, maze3d, mirrorblob,
  moebius, moebiusgears, molecule, morph3d, peepers, pipes, polyhedra,
  polytopes, projectiveplane, pulsar, quasicrystal, queens, raverhoop,
@@ -164,7 +164,7 @@ Description: Extra GL(Mesa) screen saver modules for screensaver frontends
  xscreensaver-gl:
  antmaze, atlantis, blocktube, boing, bouncingcow, boxed, cage,
  carousel, companioncube, crackberg, cube21, cubenetic, cubicgrid,
- dangerball, extrusion, fliptext, flurry, glhanoi, glplanet,
+ dangerball, extrusion, fliptext, flurry, glhanoi, glplanet, handsy,
  hilbert, hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof,
  photopile, pinion, providence, rubik, rubikblocks, sballs, skytentacles,
  sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit,
