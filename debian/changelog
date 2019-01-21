@@ -1,4 +1,4 @@
-xscreensaver (5.42-1) UNRELEASED; urgency=medium
+xscreensaver (5.42-1) unstable; urgency=medium
 
   * New upstream release 5.42, changes since 5.40:
     - New hack, `handsy'.
@@ -10,7 +10,7 @@ xscreensaver (5.42-1) UNRELEASED; urgency=medium
       kernel's out-of-memory killer to not unlock the screen.
   * debian/patches/14_upstream_cpp_comments.patch: Avoid // comment
 
- -- Tormod Volden <debian.tormod@gmail.com>  Mon, 31 Dec 2018 12:48:47 +0100
+ -- Tormod Volden <debian.tormod@gmail.com>  Mon, 21 Jan 2019 21:59:56 +0100
 
 xscreensaver (5.40-1) unstable; urgency=medium
 
