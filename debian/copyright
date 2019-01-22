@@ -2,6 +2,10 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: XScreenSaver
 Upstream-Contact: Jamie Zawinski <jwz@jwz.org>
 Source: https://www.jwz.org/xscreensaver/
+ The pristine upstream source tarball contains build trees for OSX and
+ Android, including build tool binaries without sources, so these build
+ trees are removed.
+Files-Excluded: OSX android
 
 Files: *
        hacks/noseguy.*

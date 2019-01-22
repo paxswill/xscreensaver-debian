@@ -1,3 +1,6 @@
-version=3
-#https://www.jwz.org/xscreensaver/xscreensaver-(.*)\.tar\.gz
+version=4
+opts="dversionmangle=s/\+dfsg\d*$//, \
+ compression=gzip, \
+ repacksuffix=+dfsg1" \
 https://www.jwz.org/xscreensaver/download.html xscreensaver-(.*)\.tar\.gz
+#https://www.jwz.org/xscreensaver/xscreensaver-(.*)\.tar\.gz
