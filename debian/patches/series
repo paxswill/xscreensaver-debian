@@ -1,6 +1,5 @@
 10_upstream_skip_retired_hacks.patch
 12_upstream_hurd-no-pthread_stack_min.patch
-14_upstream_cpp_comments.patch
 20_hacks_man_section.patch
 20_skip_install-pam.patch
 21_driver_xscreensaver-getimage-video
