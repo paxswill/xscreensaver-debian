@@ -1,0 +1,6 @@
+
+[Desktop Entry]
+Name=DeepStars
+Exec=/usr/lib/xscreensaver/deepstars -root
+TryExec=/usr/lib/xscreensaver/deepstars
+Comment=A long exposure of the night sky, showing star paths as vapor trails.

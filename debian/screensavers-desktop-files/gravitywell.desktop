@@ -1,0 +1,6 @@
+
+[Desktop Entry]
+Name=GravityWell
+Exec=/usr/lib/xscreensaver/gravitywell -root
+TryExec=/usr/lib/xscreensaver/gravitywell
+Comment=Massive objects distort space in a two dimensional universe.
