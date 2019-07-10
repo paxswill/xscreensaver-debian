@@ -2,10 +2,8 @@
 # Don't enter the subdirs of two platforms that we don't care about
 # anyway.
 #
-Index: xscreensaver-git/Makefile.in
-===================================================================
---- xscreensaver-git.orig/Makefile.in	2016-12-11 15:04:10.000000000 +0100
-+++ xscreensaver-git/Makefile.in	2016-12-11 15:05:25.734072018 +0100
+--- a/Makefile.in
++++ b/Makefile.in
 @@ -7,7 +7,7 @@
  
  SHELL		= /bin/sh

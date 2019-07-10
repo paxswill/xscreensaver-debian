@@ -1,10 +1,8 @@
 #
 # "Branding", show Planet Debian posts instead of Wikipedia pages
 #
-Index: xscreensaver/driver/XScreenSaver.ad.in
-===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2014-10-07 22:48:41.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2014-10-07 22:48:41.000000000 +0200
+--- a/driver/XScreenSaver.ad.in
++++ b/driver/XScreenSaver.ad.in
 @@ -59,11 +59,11 @@
  *ignoreUninstalledPrograms: False
  *authWarningSlack:	20
@@ -17,5 +15,5 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
 -*textURL:		https://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
 +*textURL:		https://planet.debian.org/rss20.xml
  
- *overlayTextForeground:	#FFFF00
- *overlayTextBackground:	#000000
+ ! When a saver writes an error message to stdout/stderr, it can be printed
+ ! on the screen.

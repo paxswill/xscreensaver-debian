@@ -5,11 +5,9 @@
 # We also offer the intermediate band-aid solution of
 # /usr/share/xscreensaver/xscreensaver-wrapper.sh
 #
-Index: xscreensaver/driver/XScreenSaver.ad.in
-===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2015-07-19 11:29:34.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2015-07-19 11:29:34.000000000 +0200
-@@ -144,7 +144,9 @@
+--- a/driver/XScreenSaver.ad.in
++++ b/driver/XScreenSaver.ad.in
+@@ -147,7 +147,9 @@
  ! Or maybe yet another wheel-reinvention, "lxdm -c USER_SWITCH".
  ! Oh wait, this wheel just keeps getting better: "dm-tool switch-to-greeter".
  !
@@ -19,4 +17,4 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
 +*newLoginCommand:	gdmflexiserver -ls
  
  
- ! Turning on "installColormap" on 8-bit systems interacts erratically with
+ ! Change these at your peril:

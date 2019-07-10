@@ -1,11 +1,9 @@
 #
 # Use yelp or any installed terminal to display man pages
 #
-Index: xscreensaver/driver/XScreenSaver.ad.in
-===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2014-10-07 22:48:46.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2014-10-07 22:48:46.000000000 +0200
-@@ -99,9 +99,13 @@
+--- a/driver/XScreenSaver.ad.in
++++ b/driver/XScreenSaver.ad.in
+@@ -100,9 +100,13 @@
  !
  !   Gnome 2.4, 2.6: (yelp can't display man pages, as of 2.6.3)
  !
@@ -22,7 +20,7 @@ Index: xscreensaver/driver/XScreenSaver.ad.in
  !
  !   Gnome 2.2:
  !
-@@ -116,9 +120,11 @@
+@@ -117,9 +121,11 @@
  !
  !   non-Gnome systems:
  !

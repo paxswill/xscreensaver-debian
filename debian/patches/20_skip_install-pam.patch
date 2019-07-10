@@ -1,11 +1,9 @@
 #
 # We use dh_installpam so we don't need to run this target
 #
-Index: xscreensaver-git/driver/Makefile.in
-===================================================================
---- xscreensaver-git.orig/driver/Makefile.in
-+++ xscreensaver-git/driver/Makefile.in
-@@ -259,7 +259,7 @@ all: $(EXES) $(EXES2)
+--- a/driver/Makefile.in
++++ b/driver/Makefile.in
+@@ -265,7 +265,7 @@
  tests: $(TEST_EXES)
  
  install:   install-program   install-ad    install-scripts \

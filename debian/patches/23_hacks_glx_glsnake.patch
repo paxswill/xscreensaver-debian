@@ -1,11 +1,9 @@
 # Parental Advisory :)
 # Make the titles more innocent, for the small children using Debian
 
-Index: xscreensaver-git/hacks/glx/glsnake.c
-===================================================================
---- xscreensaver-git.orig/hacks/glx/glsnake.c
-+++ xscreensaver-git/hacks/glx/glsnake.c
-@@ -539,7 +539,7 @@ static const struct model_s model[] = {
+--- a/hacks/glx/glsnake.c
++++ b/hacks/glx/glsnake.c
+@@ -539,7 +539,7 @@
  	PIN, ZERO, RIGHT, RIGHT, ZERO, PIN, PIN, ZERO, PIN, PIN, ZERO,
  	RIGHT, ZERO }
      },
@@ -14,7 +12,7 @@ Index: xscreensaver-git/hacks/glx/glsnake.c
        { RIGHT, RIGHT, PIN, RIGHT, LEFT, RIGHT, PIN, RIGHT, LEFT,
  	RIGHT, PIN, RIGHT, LEFT, RIGHT, PIN, RIGHT, LEFT, RIGHT, PIN,
  	RIGHT, LEFT, RIGHT, PIN, ZERO }
-@@ -564,22 +564,22 @@ static const struct model_s model[] = {
+@@ -564,22 +564,22 @@
  	ZERO, PIN, ZERO, ZERO, ZERO, ZERO, PIN, ZERO, ZERO, ZERO, ZERO,
  	ZERO, ZERO, ZERO }
      },
@@ -41,7 +39,7 @@ Index: xscreensaver-git/hacks/glx/glsnake.c
        { RIGHT, ZERO, ZERO, ZERO, RIGHT, ZERO, ZERO, PIN, ZERO, ZERO,
  	LEFT, ZERO, ZERO, ZERO, LEFT, ZERO, LEFT, PIN, LEFT, PIN, RIGHT,
  	PIN, RIGHT, ZERO }
-@@ -999,7 +999,7 @@ static const struct model_s model[] = {
+@@ -999,7 +999,7 @@
      { "Parrot",
          { ZERO, ZERO, ZERO, ZERO, RIGHT, RIGHT, ZERO, LEFT, PIN, RIGHT, ZERO, RIGHT, ZERO, RIGHT, ZERO, RIGHT, PIN, LEFT, ZERO, RIGHT, LEFT, ZERO, PIN, ZERO }
      },

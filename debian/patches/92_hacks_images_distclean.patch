@@ -1,11 +1,9 @@
 #
 # Missing distclean in this Makefile breaks rebuilding.
 #
-Index: xscreensaver-git/hacks/images/Makefile
-===================================================================
---- xscreensaver-git.orig/hacks/images/Makefile
-+++ xscreensaver-git/hacks/images/Makefile
-@@ -52,3 +52,4 @@ uninstall-man:
+--- a/hacks/images/Makefile
++++ b/hacks/images/Makefile
+@@ -52,3 +52,4 @@
  depend:
  distdepend:
  tags:

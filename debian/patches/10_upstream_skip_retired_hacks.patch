@@ -1,11 +1,9 @@
 #
 # Sent upstream (jwz) 2009-06-16
 #
-Index: xscreensaver-git/hacks/Makefile.in
-===================================================================
---- xscreensaver-git.orig/hacks/Makefile.in
-+++ xscreensaver-git/hacks/Makefile.in
-@@ -269,7 +269,7 @@ TARFILES	= $(SRCS) $(HDRS) $(SCRIPTS) $(
+--- a/hacks/Makefile.in
++++ b/hacks/Makefile.in
+@@ -269,7 +269,7 @@
  
  
  default: all
@@ -14,11 +12,9 @@ Index: xscreensaver-git/hacks/Makefile.in
  
  install:   install-program   install-scripts install-xml install-man
  uninstall: uninstall-program uninstall-xml uninstall-man
-Index: xscreensaver-git/hacks/glx/Makefile.in
-===================================================================
---- xscreensaver-git.orig/hacks/glx/Makefile.in
-+++ xscreensaver-git/hacks/glx/Makefile.in
-@@ -276,7 +276,7 @@ TARFILES	= $(SRCS) $(HDRS) $(GL_MEN) $(R
+--- a/hacks/glx/Makefile.in
++++ b/hacks/glx/Makefile.in
+@@ -283,7 +283,7 @@
  
  
  default: all

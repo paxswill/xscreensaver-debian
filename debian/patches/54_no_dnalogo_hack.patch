@@ -1,11 +1,9 @@
 #
 # This hack is not built by default, and we are not shipping it either
 #
-Index: xscreensaver/driver/XScreenSaver.ad.in
-===================================================================
---- xscreensaver.orig/driver/XScreenSaver.ad.in	2015-07-19 11:29:38.000000000 +0200
-+++ xscreensaver/driver/XScreenSaver.ad.in	2015-07-19 11:29:38.000000000 +0200
-@@ -263,7 +263,6 @@
+--- a/driver/XScreenSaver.ad.in
++++ b/driver/XScreenSaver.ad.in
+@@ -448,7 +448,6 @@
  				xspirograph -root			    \n\
  @GL_KLUDGE@ GL: 				circuit -root				    \n\
  @GL_KLUDGE@ GL: 				dangerball -root			    \n\

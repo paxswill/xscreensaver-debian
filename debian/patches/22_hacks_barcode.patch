@@ -1,10 +1,8 @@
 # Parental Advisory :)
 # Make the titles more innocent, for the small children using Debian
 
-Index: xscreensaver-git/hacks/barcode.c
-===================================================================
---- xscreensaver-git.orig/hacks/barcode.c	2016-05-28 19:05:42.729678148 +0200
-+++ xscreensaver-git/hacks/barcode.c	2016-05-28 19:05:42.729678148 +0200
+--- a/hacks/barcode.c
++++ b/hacks/barcode.c
 @@ -118,8 +118,6 @@
    "belly",
    "bliss",

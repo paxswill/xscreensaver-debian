@@ -1,5 +1,4 @@
 10_upstream_skip_retired_hacks.patch
-12_upstream_hurd-no-pthread_stack_min.patch
 20_hacks_man_section.patch
 20_skip_install-pam.patch
 21_driver_xscreensaver-getimage-video
@@ -25,6 +24,5 @@
 80_Makefile_in-clean-fix.patch
 81_hacks_deterministic_file_order.patch
 90_remove_Easter_egg_about_version.patch
-91_allow_cross_compilation.patch
 92_hacks_images_distclean.patch
 93_driver_distclean.patch
