@@ -1,3 +1,20 @@
+xscreensaver (5.43+dfsg1-1) UNRELEASED; urgency=medium
+
+  * New upstream release 5.43, changes since 5.42:
+    - New hacks, `GravityWell', `DeepStars'.
+    - GLPlanet now supports the Mercator projection.
+    - Bouncing Cow has mathematically ideal cows (spherical, frictionless).
+    - Foggy toasters.
+    - Unknown Pleasures can now use an image file as a clip mask.
+    - Updated `webcollage' for recent changes.
+    - X11: Added some sample unlock dialog color schemes to the .ad file.
+    - X11: On systemd systems, closing your laptop lid might actually lock
+      your screen now, maybe.
+    - X11: 'sonar' can ping without being setuid by using setcap.
+  * debian/patches/14_upstream_cpp_comments.patch: Deleted (obsolete)
+
+ -- Will Ross <paxswill@paxswill.com>  Wed, 10 Jul 2019 14:54:04 -0400
+
 xscreensaver (5.42+dfsg1-1) unstable; urgency=medium
 
   * New upstream release 5.42, changes since 5.40:
