@@ -1,0 +1,14 @@
+#
+# Sent upstream (jwz) 2019-07-11
+#
+--- a/driver/Makefile.in
++++ b/driver/Makefile.in
+@@ -301,7 +301,7 @@
+ 	echo $$inst xscreensaver $(install_prefix)$(bindir)/xscreensaver ;    \
+ 	$$inst xscreensaver $(install_prefix)$(bindir)/xscreensaver
+ 	@for exe in xscreensaver-command xscreensaver-demo	           \
+-		    xscreensaver-getimage @EXES_OSX@ ; do	           \
++		    xscreensaver-getimage @EXES_OSX@ @EXES_SYSTEMD@ ; do   \
+ 	  echo $(INSTALL_PROGRAM) $$exe $(install_prefix)$(bindir)/$$exe ; \
+ 	       $(INSTALL_PROGRAM) $$exe $(install_prefix)$(bindir)/$$exe ; \
+ 	 done

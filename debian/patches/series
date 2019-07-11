@@ -4,6 +4,7 @@
 21_driver_xscreensaver-getimage-video
 22_hacks_barcode.patch
 23_hacks_glx_glsnake.patch
+24_install_systemd_helper.patch
 
 # These two go together
 # ... but don't apply to 5.40 so: skipped.
