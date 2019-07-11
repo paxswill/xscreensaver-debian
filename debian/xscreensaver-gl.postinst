@@ -17,4 +17,7 @@ if [ ! -e XScreenSaver ]; then
     fi
 fi
 
+# Apply capabilities to sonar hack so it doesnt need to be setuid root
+/sbin/setcap cap_net_raw=p /usr/lib/xscreensaver/sonar
+
 #DEBHELPER#
