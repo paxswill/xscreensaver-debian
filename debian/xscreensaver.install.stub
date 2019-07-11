@@ -1,6 +1,7 @@
 usr/bin/xscreensaver
 usr/bin/xscreensaver-command
 usr/bin/xscreensaver-demo
+usr/bin/xscreensaver-systemd
 usr/share/applications/xscreensaver-properties.desktop
 usr/share/locale/da/LC_MESSAGES/xscreensaver.mo
 usr/share/locale/de/LC_MESSAGES/xscreensaver.mo
@@ -28,6 +29,7 @@ usr/share/locale/nb/LC_MESSAGES/xscreensaver.mo
 usr/share/man/man1/xscreensaver.1
 usr/share/man/man1/xscreensaver-command.1
 usr/share/man/man1/xscreensaver-demo.1
+usr/share/man/man1/xscreensaver-systemd.1
 usr/share/pixmaps/xscreensaver.xpm
 usr/share/xscreensaver/glade/screensaver-cmndln.png
 usr/share/xscreensaver/glade/screensaver-colorselector.png
